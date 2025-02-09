@@ -1,0 +1,1358 @@
+[
+    {
+        "name": "A Swift Message",
+        "href": "?quest=6181",
+        "category": "Westfall",
+        "level": "10",
+        "required_level": "10",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Quartermaster Lewis",
+            "href": "?npc=491"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Thor",
+            "href": "?npc=523"
+        },
+        "rewards": [],
+        "objective": "Bring Lewis' Note to Thor the gryphon master.",
+        "description": "Although we don't get much aid from Stormwind directly, I do have a contact in the city who helps supply us with armor.  His name is Osric Strang.  His shop, Limited Immunity, is in the Old Town of Stormwind.",
+        "completion": "You have to get this note to Stormwind? That's not a problem, you can take one of my gryphons!",
+        "comments": []
+    },
+    {
+        "name": "Captain Sander's Hidden Treasure",
+        "href": "?quest=136",
+        "category": "Westfall",
+        "level": "16",
+        "required_level": "10",
+        "side": "Both",
+        "start": {
+            "type": "item",
+            "name": "Captain Sander's Treasure Map",
+            "href": "?item=1357"
+        },
+        "end": {
+            "type": "object",
+            "name": "Captain's Footlocker",
+            "href": "?object=35"
+        },
+        "rewards": [],
+        "objective": "Find Captain Sanders' footlocker and search it for the next clue.",
+        "description": "If ye be readin' this, it means that Ol' Captain Sanders is in a watery grave.  So my treasure is yours now, ye jest need to follow the clues.",
+        "completion": "The footlocker slowly creaks open. Sand and water seem to be its only contents. But wait! A small crab scurries out with a clue to the treasure in his claws!",
+        "comments": [
+            {
+                "text": "Drops from any Murloc at the Westfall coast/beach.The Cordinates:1) 26,49.2) 40,47.3) 40,17.4) 25,16.Final Reward:1xSilver Bar.8 Slot Bag called \"Captain Sander's Booty Bag\".Captain Sander's shirt.Captain Sander's sash (cloth waist - 16ac  2sta, 2spi).- Merowlin",
+                "sentiment": "positive"
+            },
+            {
+                "text": "first go to 26, 49second&nbsp 40, 47third 40, 17fourth 25, 16",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Horde can also get this quest along with every other captain sander's quests.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "<done as mage, lvl 19)TO GET CAPTAIN SANDER'S MAP:Kill Old Murk-eye (highest drop rate), or murlocs in general. the harder the murloc, the better chance of drop. 4 PLACES:(in this order)1) FOOTLOCKER (26, 49) Go west of Gold Coast Mine. Find the Anchor near the sunken ship on beach.2) OLD BARREL: (40, 47) Go east of footlocker. Location is Northeast of Alexston Farm.3) OLD JUG: (40,17) Go directly north. Location Northwest of Jangolode Mine, look for solitary windmill by coast.4) LOCKED CHEST (25, 16). Directly west, past the sunken ship is an island with a small out-house thingy. it's there. enjoy.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Well worth the walk for the xp! Make sure to grab the murloc quest (https://classicdb.ch/?quest=152) from Captain Grayson before you go hunting for the treasure map to start the quest.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Of course the quest doesn't mention the murloc hunters on the shore clustered around the chest. So annoying murlocs invented the \"cluster pull,\" where you start to pull one and end up with enough murlocs to fill the Cleveland Symphony Orchestra. But worse - why is it that their pets don't die when they do? Vampire crabs? Undead muloc sidekicks cheating the grave? And of course after you've killed all 273 of them, your reward is: Slimy Murloc Scale! Yahoo! Put me down for seconds.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "If you look on your map where it says Gold Coast Quary, and you are standing on the \"G\".&nbsp You can see the shipwreck on the shore.&nbsp There are two chests amoung the Murlocs.&nbsp One is a box of parts, the other is the captains chest, which is just NE of the shipwreck.As with most Murloc groups, be careful with your pulls.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "If you got this, then congratulations. It took me forever to get it. I found the Footlocker at 25, 47.  I also submitted a screenshot of the immediate surroundings. The Footlocker is out in the open, in front of some log structure. The Footlocker is also in front of a shipwreck. It (the Footlocker) is half- buried in the sand. The wrecked ship is in the ocean.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Captain Sander's Hidden Treasure (Part 2)",
+        "href": "?quest=138",
+        "category": "Westfall",
+        "level": "16",
+        "required_level": "10",
+        "side": "Both",
+        "start": {
+            "type": null,
+            "name": "Captain's Footlocker",
+            "href": "?object=35"
+        },
+        "end": {
+            "type": "object",
+            "name": "Broken Barrel",
+            "href": "?object=36"
+        },
+        "rewards": [],
+        "objective": "Find the old barrel near the ruined chimney and search it for your next clue.",
+        "description": "The clue to the treasure reads: Good work, matey!  Now ye need to head due east.  East up the bluffs, east to the road.  Look for the ol' chimney ruins near the side of the road.  There you'll find an old barrel with your next clue.",
+        "completion": "Good work, treasure hunter!",
+        "comments": [
+            {
+                "text": "Location: (40,47)Its a broken-looking barrel on the side of the road. Its northeast of the Alexston Farmste\u0001C by the ruins of a home or something similar.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "The barrel is at 40,47 right along the road.Edited, Tue Dec  7 03:35:37 2004",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Captain Sander's Hidden Treasure (Part 3)",
+        "href": "?quest=139",
+        "category": "Westfall",
+        "level": "16",
+        "required_level": "10",
+        "side": "Both",
+        "start": {
+            "type": null,
+            "name": "Broken Barrel",
+            "href": "?object=36"
+        },
+        "end": {
+            "type": "object",
+            "name": "Old Jug",
+            "href": "?object=34"
+        },
+        "rewards": [],
+        "objective": "Search the empty jug next to the windmill for the next clue.",
+        "description": "Searching through the barrel you discover another piece of parchment.  This one reads:  Now from this here barrel, face ye North.  Straight as the crow flies, keep ye walkin' till you see the empty jug next to the lone windmill on the sea bluffs.  If ye poke around that jug, ye just might find what you're lookin' for.",
+        "completion": "You're on your way to the jackpot, treasure seeker!",
+        "comments": [
+            {
+                "text": "Location is 40, 17 by the log.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Location: (40,17)As stated in previous posts, it is next to a log. Head northwest past Jangolode Mine, and you'll see a tattered windmill. Behind the windmill is the log, which the jug rests next to.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Almost due north from the broken barrel. The windmill is just northwest of the Jangolode Mine and the jug is blue and next to a log.For those of you with coordinate addons, you can find it at 40,17",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Captain Sander's Hidden Treasure (Part 4)",
+        "href": "?quest=140",
+        "category": "Westfall",
+        "level": "16",
+        "required_level": "10",
+        "side": "Both",
+        "start": {
+            "type": null,
+            "name": "Old Jug",
+            "href": "?object=34"
+        },
+        "end": {
+            "type": "object",
+            "name": "Locked Chest",
+            "href": "?object=33"
+        },
+        "rewards": [
+            "?item=2842",
+            "?item=2842",
+            "?item=3342",
+            "?item=3344",
+            "?item=3343"
+        ],
+        "objective": "Locate Captain Sanders' chest and open it for your reward.",
+        "description": "Sure enough, deep within the Old Jug there is another clue to Sander's treasure.  The ink has run in some places and the paper smells like whiskey but you can make out some of the text:  Now that ye found me ol' whiskey jug, you're almost to the treasure!  Just face West from the bottle and walk down to the shore.  Once ye get to the water, keep going!  Swim straight west till you find the island with me treasure chest!",
+        "completion": "The hinges on the old chest are rusty but they still work. You force the chest open and take the booty.Congratulations!",
+        "comments": [
+            {
+                "text": "This may sound a little bit silly, but hang on to Captain Sander's Shirt (https://classicdb.ch/?item=3342) if you're into fishing. Why? Because it's one of the most styling shirts you can wear while fishing.What? You don't have a fishing outfit yet? -)This all started with Draznar's Fishing FAQ (http://wow.toshimo.com/viewtopic.php?t=272). In the FAQ, he highlights some of the more fashionable fishing items you can wear. When the addon \"Fishing Buddy\" (http://ui.worldofwar.net/ui.php?id=1095) came out, he gave style points based on Draznar's Fishing FAQ. So if you want to maximize your \"style points\", then you'll want to hang onto this shirt.Does this really DO anything for your fishing? No, but it is fun and makes fishing a little more interesting. :-)Here's a link to my fishing outfit - https://classicdb.ch/?screenshot=view&3.8749#17373",
+                "sentiment": "positive"
+            },
+            {
+                "text": "The chest can be found on the biggest island of three just west of the whiskey jug.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "The horde can get this quest chain.I picked the shirt just because it is one of a kind, you dont see many people with it.The others can be replaced with ease",
+                "sentiment": "positive"
+            },
+            {
+                "text": "You can throw away all the clue items you get with each part of the chain after you're done, these are of no value other then RP.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Continue to Stormwind",
+        "href": "?quest=6281",
+        "category": "Westfall",
+        "level": "10",
+        "required_level": "10",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Thor",
+            "href": "?npc=523"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Osric Strang",
+            "href": "?npc=1323"
+        },
+        "rewards": [],
+        "objective": "Buy a gryphon ride from the gryphon master Thor, then bring Lewis' Note to Osric Strang, in the shop Limited Immunity, in the Old Town of Stormwind.",
+        "description": "For a small fee, you can take a gryphon to Stormwind, so you can deliver Lewis' note to Osric.  You won't get there faster any other way.",
+        "completion": "Ah, a note from Quartermaster Lewis? I'm not surprised he needs more gear. Sentinel Hill is far away, in a land Stormwind has all but forgotten.Well thank you, <name>. Here's some money to cover your travel costs.",
+        "comments": [
+            {
+                "text": "As has been stated in the comments of the other part of this quest chain, just take the Gryphon since you'll earn more than the fee to fly it.&nbsp You could spend that walking time killing stuff for XP and gold anyways.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "74,47",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Dungar Longdrink",
+        "href": "?quest=6261",
+        "category": "Westfall",
+        "level": "10",
+        "required_level": "10",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Osric Strang",
+            "href": "?npc=1323"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Dungar Longdrink",
+            "href": "?npc=352"
+        },
+        "rewards": [],
+        "objective": "Bring Osric's Crate to Dungar Longdrink the gryphon master.",
+        "description": "<name>, I gathered into this crate everything Lewis asked for.  Can you take it to him?",
+        "completion": "A crate for Westfall, eh? Have you been to Westall before? If so, then it's no problem, my friend. I have plenty of gryphons trained to fly that route!",
+        "comments": []
+    },
+    {
+        "name": "Furlbrow's Deed",
+        "href": "?quest=184",
+        "category": "Westfall",
+        "level": "9",
+        "required_level": "8",
+        "side": null,
+        "start": {
+            "type": "item",
+            "name": "Westfall Deed",
+            "href": "?item=1972"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Farmer Furlbrow",
+            "href": "?npc=237"
+        },
+        "rewards": [
+            "?item=5057",
+            "?item=5057",
+            "?item=4656"
+        ],
+        "objective": "Bring Furlbrow's Deed to Farmer Furlbrow.",
+        "description": "This is the deed to an expanse of farmlands within Westfall.  It is signed by a Theodore Furlbrow and cosigned by his wife, Verna.  And on the back of the deed are hastily scrawled words:",
+        "completion": "Loads of thanks, <name>! As I was saying, these parts aren't fit for honest folk anymore, but if things get better, then this deed will let us reclaim our land.I don't have much to offer you, but here -- take this.",
+        "comments": [
+            {
+                "text": "You turn this in at 59.19 in Westfalls.&nbsp This is where you enter Westfalls from Elwynn forest",
+                "sentiment": "positive"
+            },
+            {
+                "text": "This is a pretty easy quest. The hardest part is catching the random drop of Furlbrow's Deed (https://classicdb.ch/?item=1972) in the first place. Kill enough Defias and you're sure to get one eventually however.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Goretusk Liver Pie",
+        "href": "?quest=22",
+        "category": "Westfall",
+        "level": "12",
+        "required_level": "9",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Salma Saldean",
+            "href": "?npc=235"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Salma Saldean",
+            "href": "?npc=235"
+        },
+        "rewards": [
+            "?item=724",
+            "?item=724",
+            "?item=2697"
+        ],
+        "objective": "Salma Saldean needs 8 Goretusk livers to make a Goretusk Liver Pie.",
+        "description": "The onions are peeled.  The garlic is minced.  The rosemary is crushed.  The crust has been baked.  The dill weed is chopped.  The gravy is simmering.  Now all I need for my famous meat pie are 8 Goretusk Livers!",
+        "completion": "These are just perfect, <name>! Thank you so much. Farmer Saldean and I are going to feast tonight. And here is a little something for you, for the hard work. You didn't think I was going to let a <class> like you go hungry, did you?",
+        "comments": [
+            {
+                "text": "ok ive done this quets so many times but im wondering.....how do the frickin things survive without a liver! can any1 tell me it took me like 20 mins just to get one so i just said 4get it plz help tyvm",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Perhaps the most annoying Alliance quest ever concieved, you have to kill the goretusks in the area to get their livers despite them having a small chance of dropping.Pretty easy though, just expect to spend some time on it.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "The Goretusks around Stendel's Pond drop it like 70% of the time. It took me 5 minutes to get all 8!!",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Keeper of the Flame",
+        "href": "?quest=103",
+        "category": "Westfall",
+        "level": "16",
+        "required_level": "10",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Captain Grayson",
+            "href": "?npc=392"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Captain Grayson",
+            "href": "?npc=392"
+        },
+        "rewards": [
+            "?item=2455",
+            "?item=2455",
+            "?item=118",
+            "?item=955",
+            "?item=955",
+            "?item=1180"
+        ],
+        "objective": "Bring 5 Flasks of Oil to Captain Grayson at the Westfall Lighthouse.",
+        "description": "The night the Lighthouse Keeper's family died was horrible.  I watched, helpless, as Old Murk-Eye led the attack.  But what's done is done and now my concern is for the lives of the sailors on The Great Sea whose ships come close to the perilous rocks of the coastline.  With no one to keep watch on the flame the responsibility has fallen upon me.",
+        "completion": "Praise you, brave <class>. The rocks of the Westfall Coast shall be lit thanks to your hard work. Many lives will be spared so long as the torch is kept lit.I died needlessly on this very shore. My afterlife plight is to see that no others follow my destiny.",
+        "comments": [
+            {
+                "text": "The Harvest monsters can be found on the fields of the farmyards.&nbsp They are the mechanical monsters with Harvest in their name.&nbsp",
+                "sentiment": "positive"
+            },
+            {
+                "text": "You can get the flask of oil off of the Harvest watchers you kill in the earlyer quest \"The Killing Feilds\".",
+                "sentiment": "positive"
+            },
+            {
+                "text": "this quest is horde and alliance i did it with my tauren hunter",
+                "sentiment": "positive"
+            },
+            {
+                "text": "I found the lighthouse at 31.87",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Patrolling Westfall",
+        "href": "?quest=102",
+        "category": "Westfall",
+        "level": "14",
+        "required_level": "8",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Captain Danuvin",
+            "href": "?npc=821"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Captain Danuvin",
+            "href": "?npc=821"
+        },
+        "rewards": [
+            "?item=1154",
+            "?item=1154",
+            "?item=710"
+        ],
+        "objective": "Bring 8 Gnoll Paws to Captain Danuvin on Sentinel Hill.",
+        "description": "Stormwind has abandoned us.  A foul wind of depravity rustles through the plains of Westfall.  This was my homeland and I will not turn my back on the citizens who choose to remain here.  We, the former farmers, shall make our stand.",
+        "completion": "Well done, <name>. With valiant adventurers such as yourself fighting alongside The People's Militia, Westfall just might return to the prosperous breadbasket it once was. Please accept this in recognition of your tireless efforts.",
+        "comments": [
+            {
+                "text": "Found a nice camp of Gnoll levels 11 and 12 at 43,14 a little north of Jangolode Mine.They seemed to drop the Paws about 25% of the time!Good luck! :D",
+                "sentiment": "positive"
+            },
+            {
+                "text": "it's at 57,14 above The Jensen Stead",
+                "sentiment": "positive"
+            },
+            {
+                "text": "this quest is not too hard to complete IF YOU TAKE YOUR TIME! the gnolls are at the south end of the zone (right by the bridge to Duskwood) If you wait about 1 minute you'll see that one of the gnolls will leave the rest of the pack. Wait for this and attack the one gnoll, making sure not to link the others. Pull the one away from the pack and kill them one at a time. You'll probably go through about 20 gnolls to get the 8 gnoll paws.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Poor Old Blanchy",
+        "href": "?quest=151",
+        "category": "Westfall",
+        "level": "14",
+        "required_level": "9",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Verna Furlbrow",
+            "href": "?npc=238"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Verna Furlbrow",
+            "href": "?npc=238"
+        },
+        "rewards": [
+            "?item=2165",
+            "?item=2165",
+            "?item=1537"
+        ],
+        "objective": "Verna Furlbrow in Westfall wants you to bring her 8 Handfuls of Oats.",
+        "description": "Poor Old Blanchy!  Such a tired beast after all the work we put her through. I fed her before we left the farm, but we weren't expecting the wagon to break on us. If you could bring her a few handfuls of oats from the fields, I'd be grateful.",
+        "completion": "Thank you so much, <name>! Poor Old Blanchy will be so happy!",
+        "comments": [
+            {
+                "text": "It takes fairly more than 5 minutes for a handful to respawn. For me it took over 10 minutes and I just moved out to find other spots.As he said, there are 3 around Saldean's Farm, at (56,31)  (52,34)  (52,32)There are more all around the map, on farms and camps. Here are some more coords.The Molsen Farm(46,38)  (45,35)Fullbrow's Pumpking Farm(49,21)  (50,18)",
+                "sentiment": "positive"
+            },
+            {
+                "text": "There is a sack of oats on the SW side of the Alexton homestead behind a burnt up house at location 36, 54.  And a spawn point just a tad SE of the previous one at the tower on the alexton homestead next to the anvil at the base at location 36, 56There is a sack of oats on the Molsen farm that is guarded by a Watcher.  Its in a little bin/trough int he middle of the field at location 43,35There is an oatsack inbetween the barn and the house of the pocketwatch quest at location 49, 20There is an oat sack next to a shed on the SW side of Saldean's farm at location 52, 34There is a gnoll camp at 33, 26 that has a spawn of 2 oat sacks.  The camp is at approx loc 34, 26.  I split the camp as a level 15 warrior but it was very tough.  Have to like, run in, burn a mob and run out before you die.  The 3 spawn in the camp spawns at the exact same time, so ist not practical to try to hold the camp.  Go in there and get the two sacks then go do something else.  Maybe come back later when the oats are there againEdited, Sat Dec 18 17:27:21 2004",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Can't believe how much crying there is about this quest.  Takes 10 min...go south to Saldean's Farm the oats are everywhere./cry",
+                "sentiment": "positive"
+            },
+            {
+                "text": "The oats are found on the farms in Westfall Saldean's, Furlbrow's and Molsen's Farm. Some are on the fields and some are inside (farm)houses.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Red Leather Bandanas",
+        "href": "?quest=153",
+        "category": "Westfall",
+        "level": "15",
+        "required_level": "10",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Scout Galiaan",
+            "href": "?npc=878"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Scout Galiaan",
+            "href": "?npc=878"
+        },
+        "rewards": [
+            "?item=3511",
+            "?item=3511",
+            "?item=5944",
+            "?item=12295"
+        ],
+        "objective": "Bring 15 Red Leather Bandanas to Scout Galiaan at Sentinel Hill.",
+        "description": "The Defias Front is constantly shifting.  I've been following their movements for quite some time now.  On a side note, I've ascertained that many members of the gang can be tracked by the Red Leather Bandanas they wear.",
+        "completion": "Nice work, <race>. Please accept one of these items as payment for all your hard work.",
+        "comments": [
+            {
+                "text": "I found more at The Molsen Farm (lvl 11-12) than anywhere else...and they are easier to kill.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Make sure that you get this quest as soon as you can after getting the set of People's Militia quests. While you're killing all of the different Defias members for the PM quests, you'll get a lot of these red bandanas as loot.This quest does itself if you do it that way. I probably sold a good half-dozen+ red bandanas that I picked up from Defias mobs before I got this quest and realized I should have been saving them!",
+                "sentiment": "positive"
+            },
+            {
+                "text": "The red bandanas are handed in at 54.52 in Sentinel Hill.&nbsp It is slightly southwest of Thor the Gryphon Master.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Return to Lewis",
+        "href": "?quest=6285",
+        "category": "Westfall",
+        "level": "10",
+        "required_level": "10",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Dungar Longdrink",
+            "href": "?npc=352"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Quartermaster Lewis",
+            "href": "?npc=491"
+        },
+        "rewards": [],
+        "objective": "Buy a gryphon ride to Sentinel Hill from the gryphon master Dungar Longdrink, then take Osric's Crate to Lewis at Sentinel Hill.",
+        "description": "The gryphon master in Westfall is Thor.  If you've spoken to him before, then you can take one of my gryphons to him.",
+        "completion": "Great, you brought the armor! We'll get this divvied to those who need it immediately.Thank you, <name>. Your efforts have been a great help to us. And now that you're no stranger to gryphons, I hope you'll come and lend your aid to Sentinel Hill often!",
+        "comments": [
+            {
+                "text": "quartermaster lewis is at 57,47",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Sweet Amber",
+        "href": "?quest=48",
+        "category": "Westfall",
+        "level": "44",
+        "required_level": "40",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Grimbooze Thunderbrew",
+            "href": "?npc=239"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Grimbooze Thunderbrew",
+            "href": "?npc=239"
+        },
+        "rewards": [],
+        "objective": "Bring Holy Spring Water to Grimbooze Thunderbrew.",
+        "description": "In the land to the south where vines twist and creep",
+        "completion": "Hiccup! Ho Ho!",
+        "comments": [
+            {
+                "text": "The Holy Water is found in Stranglethorn at the top of the Naga camp just north of Booty Bay.&nbsp Most the mobs in the area are level 43-45.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "No, this quest giver is not found in the Deadmines.&nbsp On the map, you will see a large mountain range.&nbsp If you notice in the middle there is a large gap, separating one mountain from another.&nbsp Follow that gap up to the top and head to your right.&nbsp The quest giver is at an emcampment there.&nbsp You can also get to him by walking up the hillside from the coast.&nbsp I do not have cosmos so I cannot give coordinates nor can I be more specific about it than that, nonetheless, this giver is not too difficult to find once you get to the correct area.He is also the quest giver for:https://classicdb.ch/quest=13886Hope that helps.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "The location of the fountain in STV is a bit obscure.Climb up the ridge starting at 26,64, then through the entrance at 27,63, cross the bridge and you're there.Right click on the fountain and you'll have your holy water.You'll encounter a few naga, lvl 44 or so, along the way. Myself, I didn't run across any elites.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Sweet Amber",
+        "href": "?quest=49",
+        "category": "Westfall",
+        "level": "44",
+        "required_level": "40",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Grimbooze Thunderbrew",
+            "href": "?npc=239"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Grimbooze Thunderbrew",
+            "href": "?npc=239"
+        },
+        "rewards": [],
+        "objective": "Grimbooze Thunderbrew wants a Sack of Barley, a Sack of Rye and a Sack of Corn.",
+        "description": "Amber is the hue of my life's longest love",
+        "completion": "Hiccup! Ho ho!",
+        "comments": [
+            {
+                "text": "Sack of Barley is in Swamp of Sorrows in the Fallow Sanctuary (where the Draenei Lost Ones are), next to the Lost One Chef.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Sack of Corn is in Tanaris at the Wastewander camp that is near the coast.&nbsp It has 3 tents and a campfire in the middle of it.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "The Hinterlands33 69Swamp62 23Tarnaris66 36",
+                "sentiment": "positive"
+            },
+            {
+                "text": "BarleyThere's more than one chef spawn and that threw me off, it is not the spawn that is closest to the guy in the locked cage, but it is the one that is just slightly East-Southeast of where the path stops.RyeThe troll area that contains this is south of Quel'Danil Lodge.&nbsp When you get inside the gate of the troll outpost. turn left and you'll come to a little pass to find the sack.&nbsp 4 trolls guard it, easily single pulled.CornI had a rough time in particular finding this one, due to the fact i don't know tanaris all that well and the thottbot map is all screwy, but it's just north of the cove you enter to fight pirates. 1 mob was guarding it when i was there.Hope this helps.&nbsp ~Ministro",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Just describing the locations given by the coordinates above:The barley is next to a campfire in the middle of the Fallow Sanctuary. It is guarded by lvl 36-37ish Lost Ones.The rye is next to the entrance of a hut in the NE corner of Shadra'Alor. It is guarded by lvl 45-47 trolls.The corn is in one of the easternmost Wastewander camps, almost up to the coast with all of the turtles. Nearby aggro mobs are 43-45ish.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "While getting the Rye in The Hinterlands, inside the tent (next to the bag of rye) is a chest. One of the items it contains is a bar of Truesilver. Grab this - as you'll need it for part 3 of the quest chain. (Doing so will save a trip to the AH and back.)btw:Barley - Swamp of Sorrows - 62.5,23.2Corn - Tanaris - 65.7,36.6Rye - The Hinterlands - 39.9,66.2",
+                "sentiment": "positive"
+            },
+            {
+                "text": "The sack of barley can be found in the Swamp of Sorrows in the Fallow Sanctuary.The sack of corn can be found in Tanaris south of Steamwheedle port along the coast.The sack of rye can be found in the Hinterlands somewhat west of the Altar of Zul.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "I heard that the items for this quest drop in the Hinterlands, probably at the various troll camps. This quest obviously needs more info in the description as it would be almost impossible to figure out where these items are obtained.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Bring a Truesilver Bar when you go hand in this part of the quest. You'll see why when you hand it in.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Rye - HinterlandsIt's not in the Alter of Zul but in the far North-East of Shadra'Alor.You don't need to go through the whole temple to get there, you can climb over the ridge on the far north-east of the hills as you look at the mini-map.From there casters and sadists can be pulled one by one.The Rye is beside the tent on the outside. Chest inside.****ADDED****Swamp of Sorrows it's worth mentioning the (at least) two chests than can be found in the camps.Tanaris - it's the second stretch of beach south of the north port on the east coast. I followed a mob in so didn't have to make one kill..... Edited, Fri Jul 29 12:23:53 2005",
+                "sentiment": "positive"
+            },
+            {
+                "text": "The sack of corn in Tanaris is located 65, 36",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Here are the locations of the 3 sacks, have fun =)Yes you need CosmosHinterlands - 40,65Swamp of Sorrows - 62,23Tanaris - 64,33They are on the ground laying in small campsAndreas",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Sweet Amber",
+        "href": "?quest=50",
+        "category": "Westfall",
+        "level": "44",
+        "required_level": "40",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Grimbooze Thunderbrew",
+            "href": "?npc=239"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Grimbooze Thunderbrew",
+            "href": "?npc=239"
+        },
+        "rewards": [],
+        "objective": "Grimbooze Thunderbrew wants Truesilver.",
+        "description": "I'll mix and mix till we have a mash",
+        "completion": "Hiccup! Ho ho!",
+        "comments": [
+            {
+                "text": "4650 XP, no reputation adjustment. I completed this at level 45.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Sweet Amber",
+        "href": "?quest=51",
+        "category": "Westfall",
+        "level": "44",
+        "required_level": "40",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Grimbooze Thunderbrew",
+            "href": "?npc=239"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Grimbooze Thunderbrew",
+            "href": "?npc=239"
+        },
+        "rewards": [],
+        "objective": "Bring a Sycamore Branch to Grimbooze Thunderbrew.",
+        "description": "Not yet filtered but freshly distilled",
+        "completion": "Hiccup! Ho ho!",
+        "comments": [
+            {
+                "text": "while you're here, if you look above the pool in the south west corner of the map, you'll find the egg that you need for the egg-o-matic machine thingy in Gadgetzan.You can't tell if its a good one till you get to Gadgetzan, and you can only carry one at a time...save yourself a trek and get one while you do this q.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "i found him(the cursed sycamore) at 54,69",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Cursed Sycamore in Feralashttps://classicdb.ch/?npc=5881",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Sycamore Branch is dropped off a Cursed Sycamore Tree in Feralas, at Cosmos location 54,74Andreas",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Drops off a treant in Feralas called Cursed Sycamore.&nbsp In the south-middle of the zone.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "When you get to the 4th part of this quest chain, where you have to collect a sycamore branch, Go to Feralas and look for cursed sycamore to the west of the ruin of Isildien. Keep in mind your looking for a treant critter, and not a bush/tree.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Sweet Amber",
+        "href": "?quest=53",
+        "category": "Westfall",
+        "level": "44",
+        "required_level": "40",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Grimbooze Thunderbrew",
+            "href": "?npc=239"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Grimbooze Thunderbrew",
+            "href": "?npc=239"
+        },
+        "rewards": [
+            "?item=744",
+            "?item=744"
+        ],
+        "objective": "Bring Grimbooze Thunderbrew a bundle of Charred Oak.",
+        "description": "Mellifluous liquid clear as a baby's tears",
+        "completion": "Aged in the barrel, filtered through coalIt passes your lips and right through your soul.So lets us drink now, a toast to youAnd me while we're at it, Grimbooze Thunderbrew!",
+        "comments": [
+            {
+                "text": "I would like to add that the tree is found not in the canyon, but on top overlooking the canyon on the eastern side.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "5600 XP and no reputation adjustments. I completed this at level 47.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Check in Searing Gorge. On the eastern side of the actual gorge/deep canyon like area there is a tree you can click on.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Bundle of Charred Oak is found in Searing Gorge, I got mine at 54,51 on a edge looking over into CauldronAndreas",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Don't go down into the pit but go around itcheck http://classicdb.ch/?object=50982\u00a0for the map",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "The Coast Isn't Clear",
+        "href": "?quest=152",
+        "category": "Westfall",
+        "level": "19",
+        "required_level": "10",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Captain Grayson",
+            "href": "?npc=392"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Captain Grayson",
+            "href": "?npc=392"
+        },
+        "rewards": [],
+        "objective": "Kill 7 Tidehunters, 7 Warriors, 7 Oracles and 7 Coastrunners and return to Captain Grayson at the Westfall Lighthouse.",
+        "description": "You probably noticed all of the shipwrecks along the coast.  The Great Sea is treacherous indeed.  The coast of Westfall needs to be kept clear, so that if sailors find their way to our beaches, they are safe.  The Murlocs are trouble though.",
+        "completion": "Well done, <name>. You have quite a knack for combat. Thanks to you the Coast of Westfall is a safer place.",
+        "comments": [
+            {
+                "text": "Starting location:Next to the lighthouse Southern Westfall coastline (30.86)Oracles:Right at the coast near the lighthouse (33.83)Warriors:Head North along the coast after taking out Oracles and you will encounter the Warriors. (36.22)Coastrunners:After Warriors keep going North and you will finally find the Coastrunners. (54.10)",
+                "sentiment": "positive"
+            },
+            {
+                "text": "When you get the quest, the Oracles and the Tidehunters are nearby. The other two (Coast Runner & Warrior) are a little more elusive.Go North up the coast and you will eventually run into the Warriors. (level 14-15) Kill 7, and keep going!&nbsp All the way up towards the North-most part of the coast you'll finally find the Coast Runners.&nbsp They're level 11-12.Why do they send someone on a level 19 quest to kill level 11's?&nbsp I don't know... But it's worth about 1450exp at level 19.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Once you get this quest, head up North to the very top of the coast, North of the pumpkin farm.&nbsp Coastrunners are up there.Then just work your way down the beach you'll run into Warriors, then Oracles, & finally Tidehunters.And then you can turn in at the Lighthouse.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "The Horde can do this quest",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "The Coastal Menace",
+        "href": "?quest=104",
+        "category": "Westfall",
+        "level": "20",
+        "required_level": "15",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Captain Grayson",
+            "href": "?npc=392"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Captain Grayson",
+            "href": "?npc=392"
+        },
+        "rewards": [
+            "?item=1172",
+            "?item=1172",
+            "?item=1557",
+            "?item=5240"
+        ],
+        "objective": "Bring a scale of Old Murk-Eye to Captain Grayson at the Westfall Lighthouse.",
+        "description": "When my life was ended upon the rocks, I had no clue what the afterlife held for me.  The Lighthouse was black that night because Old Murk-Eye had scared the keeper's family off.  They returned and re-lit the flame but Old Murk-Eye coerced the weaker minded murlocs to raid the Lighthouse with him once again.  The second time the family was not so lucky and before my eyes they perished helplessly.",
+        "completion": "So the foul heathen, Murk-Eye is dead. Well done, <name>. By your hands one life was laid to rest but perhaps many more were saved. The Great Sea, wrought with danger as it is, shall be a wee bit safer this night thanks to your heroics.",
+        "comments": []
+    },
+    {
+        "name": "The Defias Brotherhood",
+        "href": "?quest=65",
+        "category": "Westfall",
+        "level": "18",
+        "required_level": "14",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Gryan Stoutmantle",
+            "href": "?npc=234"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Wiley the Black",
+            "href": "?npc=266"
+        },
+        "rewards": [],
+        "objective": "Gryan Stoutmantle wants you to talk to Wiley in Lakeshire.",
+        "description": "The band of wretches responsible for driving the good people of Westfall from the land call themselves The Defias Brotherhood.  I need you to infiltrate this clan of thugs.  We need to know who heads up the cartel and where they are hiding out.  In Lakeshire, in the inn, there is a rogue by the name of Wiley who owes me a favor.",
+        "completion": "So, Stoutmantle sent you? Well, I owe him.",
+        "comments": [
+            {
+                "text": "I guess I must be bored. So I figure I'll put together this whole Defias brotherhood quest chain. When I first pick up this quest at level 14, little did I know this huge defias brotherhood quest will span all the way to low level 30s. So here it goes:chapter 1 - The Defias BrotherhoodURL: https://classicdb.ch/quest=65comments: This is the first 5 steps of the series. Most of quests are delivery type. Nevertheless, you'll need to take out a messenger in this chapter. Very easy overall. At the end of 5th step, you need to escort a defias traitor through moonbrook (see chapter 2). The traitor is found at the bottom of the tower where Stoutmantle stands. The traitor should have a yellow exclaimation mark on top of his head by now. If you don't see an exclaimation mark, someone is probably escorting him so just wait patiently for your turn. Traitor respawns pretty fast. Chapter 2 - The Defias BrotherhoodURL: https://classicdb.ch/quest=155comments: This chain with the same quest name has only 2 parts. The 2nd part is to kill Edwin VanCleef, the end boss of Deadmines. Once killed VC, you can loot from his body an unsent letter, which begins the chapter 3 of this series. Both quests of this charpter require challenging fights. So bring some friends.Chapter 3 - Unsent Letter URL: https://classicdb.ch/quest=373comments: pretty straightforward. By the end of this chain, you'll begin chapter 4. You'll also need to go to stockades during this charpter. No doubt, stockades is the highlight of this chapter.Chapter 4 - The Attack!URL: https://classicdb.ch/quest=434comments: also straightforward. This is the last chapter of the whole defias brotherhood series. You'll need to take out 2 lv30-31 together. 19 quests, 2 instances. not bad huh? :) By my count, only 5 quests require killing, 14 delivery quests? o_0",
+                "sentiment": "positive"
+            },
+            {
+                "text": "If you are a new player, please remember to get the flight path which will be to your left before you get to the bridge into the town. This is a very long walk from Westfall and you don't want to ever have to make it again.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "26.45 @ redridge mountains, upstairs at the inn",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "The Defias Brotherhood",
+        "href": "?quest=132",
+        "category": "Westfall",
+        "level": "18",
+        "required_level": "14",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Wiley the Black",
+            "href": "?npc=266"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Gryan Stoutmantle",
+            "href": "?npc=234"
+        },
+        "rewards": [],
+        "objective": "Take Wiley's Note to Gryan Stoutmantle in Westfall.",
+        "description": "What I am about to tell you could cost me my life.  The Defias gang is up to something big.  Last I heard they were working in conjunction with various gnolls, kobolds and even goblins.",
+        "completion": "Bah! I should have let that scoundrel rot when I had the chance. But this information is crucial. Good work.",
+        "comments": [
+            {
+                "text": "If you are a new player, there is a flight path here that you can take back to Westfall.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "The Defias Brotherhood",
+        "href": "?quest=135",
+        "category": "Westfall",
+        "level": "18",
+        "required_level": "14",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Gryan Stoutmantle",
+            "href": "?npc=234"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Master Mathias Shaw",
+            "href": "?npc=332"
+        },
+        "rewards": [],
+        "objective": "Take Wiley's Note to Mathias Shaw in Stormwind.",
+        "description": "I wonder what Wiley meant when he mentioned the Stonemasons.  Perhaps that was a slip of tongue.  Could the Defias gang be related to the Stonemasons?  Only one man would know for sure:  Mathias Shaw, head of SI:7. Show him Wiley's Note and see if he has anything to add to this growing mystery. If you have trouble finding Shaw, check the Barracks in Old Town.",
+        "completion": "This matter might be more complex than Stoutmantle realizes.",
+        "comments": [
+            {
+                "text": "75, 59",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "The Defias Brotherhood",
+        "href": "?quest=141",
+        "category": "Westfall",
+        "level": "18",
+        "required_level": "14",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Master Mathias Shaw",
+            "href": "?npc=332"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Gryan Stoutmantle",
+            "href": "?npc=234"
+        },
+        "rewards": [],
+        "objective": "Take Shaw's report to Gryan Stoutmantle in Westfall.",
+        "description": "The Stonemasons' Guild was run by a man named Edwin VanCleef.  VanCleef was responsible for rebuilding Stormwind after the orcs razed it in the First War.  Apparently, VanCleef and his men were unhappy with their treatment by the King after the reconstruction was complete.  That just might explain a thing or two.",
+        "completion": "Edwin VanCleef. . .I know the name well. To think that a man so industrious and talented could turn into such a scoundrel unnerves me. I'll need further proof before I believe this.",
+        "comments": []
+    },
+    {
+        "name": "The Defias Brotherhood",
+        "href": "?quest=142",
+        "category": "Westfall",
+        "level": "18",
+        "required_level": "14",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Gryan Stoutmantle",
+            "href": "?npc=234"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Gryan Stoutmantle",
+            "href": "?npc=234"
+        },
+        "rewards": [],
+        "objective": "Track down the Defias Messenger in Westfall and bring his message to Stoutmantle.",
+        "description": "We need to discover the location of the Defias hideout.  <name>, my scout reports that a Defias Messenger has been seen on the roads between Moonbrook, the Gold Coast Quarry and the Jangolode Mine.  I want you to capture him.  If he resists, kill him and bring me whatever he is carrying.",
+        "completion": "This is indeed firm proof that VanCleef is in charge. Now all we need to know is where the Defias gang is hiding out.We've had a stroke of luck while you were gone. We captured a thief trying to steal Saldean's wagon. He has promised to lead us to the hideout in exchange for his life. I want you to defend the traitor so he can reveal the hideout. Return to me once you have uncovered the location.",
+        "comments": [
+            {
+                "text": "The messenger travels from the Jangelode Mine (44, 25), goes into Gold Coast Quarry cave (30, 45) and then goes down to Moonbrook (43, 69)You have to kill him to get the follow up quests from Sentinel Hill",
+                "sentiment": "positive"
+            },
+            {
+                "text": "As has been noted, he spawns in Moonbrook, east of the fountain, just before the road turns north. He then walks along the Old Coast Road until he gets near the Gold Coast Quarry, then runs down the ravine into the Quarry to a spot fairly far in, but not the very back. This is one of the two times he runs, the other being when low on health. And yes, he hauls butt, even when critical.Anyways, after that he walks back out and up the road to the Jangolode mine, and into the back of there and back out. Time spent in the Quarry is less than 2 minutes, in the Mine a bit upwards of 3. Assuming he hasn't died yet, he then ambles back south down the same route he took up, until a point somewhere between Moonbrook and the Quarry. At this point he seemed to just be travelling back and forth over a small section of road, until someone came up and killed him. I'd been tracking him for more spawns than I care to recall, so I stopped at that point. Oh, the respawn time is about 4 and a half minutes, usually.He's fairly easy to kill, nothing special about him. But feel free to group with anyone else with the quest, everyone in the group that kills him will be able to loot the message. The respawn is short, but why waste the time?Edit: Just occured to me, he won't attack you on sight. You can walk right next to him, and he'll ignore you. I'm pretty sure he won't even assist other Defias, but I could be wrong.Edited, Sun Feb 27 22:06:22 2005",
+                "sentiment": "positive"
+            },
+            {
+                "text": "He spawns at 44,69.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "He spawns at 44,69 next to this barrel or jug on the ground.. but he like to run once you hit him, so make sure you clear the area, hes spawn time is pretty fast",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "The Defias Brotherhood",
+        "href": "?quest=155",
+        "category": "Westfall",
+        "level": "18",
+        "required_level": "14",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "The Defias Traitor",
+            "href": "?npc=467"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Gryan Stoutmantle",
+            "href": "?npc=234"
+        },
+        "rewards": [],
+        "objective": "Escort the Defias Traitor to the secret hideout of the Defias Brotherhood.  Once the Defias Traitor shows you where VanCleef and his men are hiding out, return to Gryan Stoutmantle with the information.",
+        "description": "So Stoutmantle sends a scrawny <race> like you to protect me?  Guess you'll have to do.  Better bring some friends too.",
+        "completion": "Most excellent, <name>! VanCleef is as good as ours now that we know where he is hiding.",
+        "comments": [
+            {
+                "text": "It begins here https://classicdb.ch/quest=65",
+                "sentiment": "positive"
+            },
+            {
+                "text": "you get this quest after you finish with the messenger. you talk to the traitor at the bottom of the ramp at sentenial hill. if hes not there than someones escorting the traitor already..just wait for him to come back.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "There's really only one tricky bit with this quest, and it's at the fountain in Moonbrook.  Assuming no one else has cleared the area for you you'll see a mob at the cart and a mage at the fountain.  Because the traitor won't stop unless he's engaged in combat, the first mob aggros and runs after him but doesn't stop him until he's in aggro range of the fountain mage.  As soon as the mage hits the traitor, he runs to the fountain and aggros another mage on the other side.  Be ready with poly, sap, a pet, or a friend to stem the tide.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "After completing the killing quests from Stoutmantle, he sends you to a guy named Wiley the Black in Redridge. He then sends you back to Stoutmantle, who sends you to SI:7, then back to Stoutmantle. This might be the part of the chain missing.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "There are NO elites what-so-ever on the escortquest... However as you enter the mine itself you will run into elites..",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "The Forgotten Heirloom",
+        "href": "?quest=64",
+        "category": "Westfall",
+        "level": "12",
+        "required_level": "9",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Farmer Furlbrow",
+            "href": "?npc=237"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Farmer Furlbrow",
+            "href": "?npc=237"
+        },
+        "rewards": [
+            "?item=4541",
+            "?item=4541",
+            "?item=1179"
+        ],
+        "objective": "Farmer Furlbrow wants you to retrieve his pocket watch from the wardrobe in his farmhouse at the pumpkin farm to the West.",
+        "description": "It was horrible!  Verna woke me when she heard a ruckus in the fields.  The fields were full of hooligans.  We left in a rush and I forgot to pack my pocket watch.  Verna's pa gave me that watch on our wedding day and I feel just sick knowing those thieves have it.  I left the pocket watch in the wardrobe at the farmhouse.  Look for the field of pumpkins to the West -- you can't miss it.  If you bring it back to me, I'd sure be grateful!",
+        "completion": "My watch! Thank you so much, kind sir! We are but poor farmers and we have lost our land but please accept this reward as a token of our appreciation.",
+        "comments": [
+            {
+                "text": "Hey thanks for the awesomely useless picture",
+                "sentiment": "positive"
+            },
+            {
+                "text": "the correct location of the watch is 49,19",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Coordinate: 49,19The pocket watch is inside a cupboard that you can interact with. The cupboard itself is inside a small house that has 2 guards. One is a level 12 and another is a level 15 named. They are connected to each other, meaning that if you pull either of them, you will pull both. Be extra careful especially if you are below level 15. My advice would be to kill the lower level first and then run away and heal up. And then come again to kill the other one.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "You can find the watch at:49,19[If you run on the road south away from the man you took the quest from, keep right.&nbsp It's the first farm to your right named Furlbrow's Pumpkin Patch.&nbsp You'll see a barn to the left and a house on the right, in front of all that is a large field.&nbsp The watch is inside the house, inside a dresser.]There are two guards inside the building--level 12ish humanoids.Rewards: 10x Freshly Baked Bread10x Ice Cold MilkTurn in (or take) the quest at:60,19[Without coords: Running from Elwynn Forest into Westfall, the guy greets you just after the bridge when you first enter Westfall.]",
+                "sentiment": "positive"
+            },
+            {
+                "text": "this quest is fairly easy, you can complete it without even killing anything, just go to the outside of the house and find where the pointer turns to gear. you should be able to pick the watch from the outside.(its the right wall as you face the door)",
+                "sentiment": "positive"
+            },
+            {
+                "text": "you do not have to get in the house to finish the quest. when you're looking at the front door go to the left side of the building. get very close to the wall and you can open the locker through the wall.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "You dont actually have to enter the house, just go to the left side of it (Side closest tot he barn) and approach the window.  You can target the wardrobe from outside and get the watch",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "The Killing Fields",
+        "href": "?quest=9",
+        "category": "Westfall",
+        "level": "15",
+        "required_level": "8",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Farmer Saldean",
+            "href": "?npc=233"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Farmer Saldean",
+            "href": "?npc=233"
+        },
+        "rewards": [
+            "?item=3578",
+            "?item=3578",
+            "?item=1561"
+        ],
+        "objective": "Farmer Saldean wants you to kill 20 Harvest Watchers.",
+        "description": "Look at what has happened to this place!  These lands were once occupied by good farm folk.  But the damned thieves have driven them all off.  Not me, though!  But it seems some Harvest Watchers have taken over the fields.",
+        "completion": "Good work, friend. You have earned your pay well. Who knows, perhaps Westfall will prosper once again.",
+        "comments": [
+            {
+                "text": "This quest also grants 1050 xp. So definitely not a bad quest",
+                "sentiment": "positive"
+            },
+            {
+                "text": "There seemed to be plenty for me on every farm infact.Most at 40,49(Alexston Farmstead for those without cosmos)",
+                "sentiment": "positive"
+            },
+            {
+                "text": "You should keep at least 5 flasks of oil that you get as drops from these harvest watchers as you can use them later for this quest:\"Keeper of the Flame\"http://classicdb.ch/?quest=103",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "The People's Militia",
+        "href": "?quest=12",
+        "category": "Westfall",
+        "level": "12",
+        "required_level": "9",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Gryan Stoutmantle",
+            "href": "?npc=234"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Gryan Stoutmantle",
+            "href": "?npc=234"
+        },
+        "rewards": [],
+        "objective": "Gryan Stoutmantle wants you to kill 15 Defias Trappers and 15 Defias Smugglers then return to him on Sentinel Hill.",
+        "description": "The People's Militia has but one goal:  To defend the lands of Westfall and return peace to our surroundings.  Unfortunately, the price of peace is often blood.",
+        "completion": "Well done, <name>. My scout witnessed your valiant acts. You are proving yourself quite well so far.",
+        "comments": [
+            {
+                "text": "all trappers and smugglers are at 44,25. right near the enrance to the jangolode mine.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Did this one at level 11 and got 900 exp and the 5 silver as reward",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "The People's Militia",
+        "href": "?quest=13",
+        "category": "Westfall",
+        "level": "14",
+        "required_level": "9",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Gryan Stoutmantle",
+            "href": "?npc=234"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Gryan Stoutmantle",
+            "href": "?npc=234"
+        },
+        "rewards": [],
+        "objective": "Gryan Stoutmantle wants you to kill 15 Defias Pillagers and 15 Defias Looters and return to him on Sentinel Hill.",
+        "description": "A band of vicious Defias Pillagers has been seen plundering the Gold Coast Quarry, Moonbrook and the Alexston Farmstead.  The People's Militia will not stand for such behavior.  Dispatch immediately, <name>, and make the Light's presence known in Westfall.",
+        "completion": "Your worth to The People's Militia has been validated by your brave acts thus far.",
+        "comments": [
+            {
+                "text": "all around 44,65 near moonbrook",
+                "sentiment": "positive"
+            },
+            {
+                "text": "there is also a camp at 32, 55 West of Alexston Farmstead.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Moonbrook is the easiest place to find pillagers and looters. At the quarry, you can aggro more Defias members and get yourself killed. Also, many people are at Moonbrook most of the time so if your about to die, someone can rescue you.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "(low levels go with a partner they like to aggro and double team)",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Difficult quest for my lvl 17 pally.&nbsp the mages have frost armor, so all your attacks are slowed, plus you will be doubled by a pillager who hits crits quite a bit. This quest will probably be lots easier for other mages/warlocks",
+                "sentiment": "positive"
+            },
+            {
+                "text": "loc 45,65",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "The People's Militia",
+        "href": "?quest=14",
+        "category": "Westfall",
+        "level": "17",
+        "required_level": "9",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Gryan Stoutmantle",
+            "href": "?npc=234"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Gryan Stoutmantle",
+            "href": "?npc=234"
+        },
+        "rewards": [
+            "?item=1566",
+            "?item=1566",
+            "?item=1480",
+            "?item=12296"
+        ],
+        "objective": "Gryan Stoutmantle wants you to kill 15 Defias Highwaymen, 5 Defias Pathstalkers and 5 Defias Knuckledusters then return to him on Sentinel Hill.",
+        "description": "Some Defias have eluded us.  My most trusted scout reports that these Defias have been looting and pillaging the countryside, all the way into Southern Westfall.  We believe they are hiding out in the Dagger Hills, plotting their next move.   Slay the wretches in the name of The People's Militia.",
+        "completion": "When I left the tainted lands of Lordaeron I returned to a grim state of affairs here in my homeland. But there is hope for Westfall yet. As proven by your valor in battle, it is obvious to me that you serve our cause with honor. It is with great pride that I induct thee into The People's Militia. May the Light shine upon you.",
+        "comments": [
+            {
+                "text": "The location is SE of Moonbrook, back in a small valley in the hills.Take along some hops, there's a questgiver there that will ask you to collect 5 hops.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "From moonbrook go South East and you can find them on a path in the hills",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Yes, the hills are called The Dagger Hills.Cords are AROUND 46,78.Did this quest easy with my 16 Human Priest.Good luck.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "The dagger hills is a perfect place for this quest. You almost get them one by one every time and theres a lot of everyone. Pretty quick respawn if you should need more. Cords are 52,71",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Thunderbrew Lager",
+        "href": "?quest=117",
+        "category": "Westfall",
+        "level": "15",
+        "required_level": "1",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Grimbooze Thunderbrew",
+            "href": "?npc=239"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Grimbooze Thunderbrew",
+            "href": "?npc=239"
+        },
+        "rewards": [
+            "?item=1262",
+            "?item=1262"
+        ],
+        "objective": "Bring Grimbooze Thunderbrew 5 hops to complete his special brew.",
+        "description": "Hurry, my friend, move with haste",
+        "completion": "Hops and Barley, yeast and malt The taste-buds feel a virtual assault, No need to plead, no need to beg For Thunderbrew Lager comes in a keg!",
+        "comments": [
+            {
+                "text": "Yes but if you are doing the Dry Times quest from Lakeshire then it is important.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "its a quest item later on. get it when you first get there or you will be flying back and forth",
+                "sentiment": "positive"
+            },
+            {
+                "text": "I did this quest three times before I realized I was wasting my time since it gave me no experience. The only reward is the Lager which is really only useful in its use as a quest item for a quest you'll get in Redridge a little later.As for the drop rate for Hops, I found the drop rate to be pretty good from Harvest Watchers which are in almost every farm field in Westfall. In my experience they will drop from any of the Harvest mechanical dudes though.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Westfall Stew",
+        "href": "?quest=36",
+        "category": "Westfall",
+        "level": "10",
+        "required_level": "9",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Verna Furlbrow",
+            "href": "?npc=238"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Salma Saldean",
+            "href": "?npc=235"
+        },
+        "rewards": [],
+        "objective": "Verna Furlbrow wants you to deliver her recipe for Westfall Stew to Salma Saldean.",
+        "description": "I never thought the day would come when I'd leave the farm.  But the fields are overrun with thieves and it's far too dangerous for us here now.  As soon as Farmer Furlbrow gets the wagon fixed, we'll be on our way.",
+        "completion": "That Verna was always such a sweet lass. We'll miss her here in Westfall but between you and me, she's a city girl at heart and Stormwind will suit her just fine. But enough gossip! Now we can make Westfall Stew!",
+        "comments": [
+            {
+                "text": "The stringy vulture meat will drop off Fleshrippers (any kind) that are all over the place in Westfall.The Goretusk Snout will drop off any of the animals with Goretusk in their name.The Murloc eyes will drop off any Murlocs which can be found along the entire beach in Westfall, though since you'll probably be doing this quest at a lowish level, go to the northern most part of the beach (near the border to Elwynn Forest), where there are level 11-12 Murlocs to kill.Also, if you are a higher level when you get this quest, I'd recommend killing the higher level beasts as they seem to have a higher drop rate for needed quest items (this could be my imagination though).",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Salma's at 56,31",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Westfall Stew",
+        "href": "?quest=38",
+        "category": "Westfall",
+        "level": "13",
+        "required_level": "9",
+        "side": null,
+        "start": {
+            "type": "npc",
+            "name": "Salma Saldean",
+            "href": "?npc=235"
+        },
+        "end": {
+            "type": "npc",
+            "name": "Salma Saldean",
+            "href": "?npc=235"
+        },
+        "rewards": [
+            "?item=733",
+            "?item=733",
+            "?item=728",
+            "?item=1479",
+            "?item=2225"
+        ],
+        "objective": "Salma Saldean wants 3 Stringy Vulture Meat, 3 Goretusk Snouts, 3 Murloc Eyes, 3 Okra.",
+        "description": "Help me make some Westfall Stew!  Come back with the following ingredients:",
+        "completion": "That Okra will thicken up this broth nicely! Now we just add the Stringy Vulture Meat, a few Murloc Eyes and those delicious Goretusk Snouts. And we're done! For all your help, <name>, I want you to take today's first batch of Westfall Stew!",
+        "comments": [
+            {
+                "text": "You have to admit that Murky is pretty cute. And really, who doesn't enjoy the visceral pleasure of wading through a murloc village, killing everything that moves, and stealing all that pitiful junk they so carefully ensconce in their treasure chests? I love the murloc treasure chests. Sometimes you get a pearl or something but usually its the WoW equivalent of the crap your six-year-old brother keeps in a shoebox under his bed.Anyway, the Westfall Stew quest is pretty cool and recipe alone is worth the time it takes to complete the quest.&nbsp",
+                "sentiment": "positive"
+            },
+            {
+                "text": "It is highly recommended that the player accept all of the Westfall zone quests that they can once they have this quest, as there are a number of quests which can be completed at the same time as this one either through killing the same mobs or by killing mobs in between the various locations.The murloc eyes are arguably the most difficult part to get - any murlocs along the coast can drop them, with drop rates increasing as you head south along the coast.  Bear in mind that as the drop rate increases, so does the level of the mobs you're going to have to kill.If you run out of bag space mid-quest and return to sell off some junk, SELL CAREFULLY.  Every item here WILL sell to a vendor and if you're not careful, you'll end up having to re-farm everything for it.**Important!**  While farming the Okra from the reapers, save the hops for a quest turn-in at Grimbooze Thunderbrew!  He'll give you a Keg of Thunderbrew Lager, which is a quest item for Dry Times, a quest in Darkshire.  This is a great way to save time later, just remember - don't sell it or drink (all) of it!",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Stringy Vulture Meat: from any fleshrippers flying around Westfall.&nbsp Not a common drop.Murloc Eyes: from murlocs along the coast.&nbsp That means you much go to the beach!&nbsp Murloc levels vary.&nbsp It's also nice to grab the quests given at the lighthouse since you're gonna be killing murlocs anyway.Goretusk Snouts: From piggies in Westfall.Okra: From Harvest Watchers & Golems in the farms.",
+                "sentiment": "positive"
+            }
+        ]
+    }
+]

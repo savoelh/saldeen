@@ -1,0 +1,1945 @@
+[
+    {
+        "name": "Agent Kearnen",
+        "level": "22",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=7024",
+        "class": "Normal",
+        "faction": "Stormwind",
+        "damage": "41 - 48 (Physical)",
+        "model": "5783",
+        "comments": [
+            {
+                "text": "She's pretty well hidden.&nbsp Walk south along the river bordering Duskwood.&nbsp She's by the trees close to the tower far to the south.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Which tree is she next to? I have been by all of them and did not see her...",
+                "sentiment": "positive"
+            },
+            {
+                "text": "she is at 68,70",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Just sap the elite. loot the chest. run out as hell, use sprint. turn in. too easy :) soloed it at lvl 21",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Co_ordiantes for the agen 68, 70.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Location 68,70",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Unless you're a rogue, and on the quest to speak to her, she ignores you.",
+                "sentiment": "positive"
+            }
+        ]
+    },    
+    {
+        "name": "Benny Blaanco",
+        "level": "15",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=502",
+        "class": "Normal",
+        "faction": "Defias Brotherhood",
+        "damage": "47 - 54 (Physical)",
+        "model": "4422",
+        "comments": [
+            {
+                "text": "-this is reference to the movie Carlito's Way \ufffd \"In Westfall, there is a Defias NPC called Benny Blanco, the same name as the John Leguizamo character in the film.\"",
+                "sentiment": "positive"
+            },
+            {
+                "text": "found this guy on my mage the other day, made me laugh because ive watched that movie countless times, lol. . Remember me?&nbsp Benny Blanco, from the bronx?",
+                "sentiment": "positive"
+            },
+            {
+                "text": "I suspect this guy's only purpose is to make this quest impossible to solo at the proper level.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Brack",
+        "level": "19Rare",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=520",
+        "class": "Rare",
+        "faction": "Murloc",
+        "damage": "59 - 68 (Physical)",
+        "model": "652",
+        "comments": [
+            {
+                "text": "He spawned right in front of me today on the beach right next to the light house. It was about 4:30 PM for me. He dropped the Brackclaw dagger.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Both Brack and Slark walk along the entire length of Longshore in Westfall. Slark spawns every 1.5-2.5 hours at the very top of Longshore in the north. Brack spawns every 2-3 hours at the very bottom of Longshore, near the lighthouse.. . If anyone has any questions about rare spawns or anything else, you can email me at macvec@optonline.net",
+                "sentiment": "positive"
+            },
+            {
+                "text": "This guy runs. And runs. And runs.... and runs.... ><. . I chased him about from the Gold Coast Quarry to just north of the Pumpkin Farm, always just out of reach from my Priest's SW:P. He only stopped when he ran into a level 13 player and proceeded to eat her face off. I killed him afterwards, though, ressed the player and gave her the cloak it dropped as it was an upgrade for her (Shaman) but useless for me.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "This rare spawn drops 2 great just starting rogue things like the dagger http://classicdb.ch/?item=2235 +1 str +1 agi which is great for rogue and the cloak http://classicdb.ch/?item=6179 is great to so just hope you will run into him (or he will run into you with all of that running :P) and get 1 of those good items! or check your local AH",
+                "sentiment": "positive"
+            },
+            {
+                "text": "I bumped into this guy twice in one hour when working on \"The Coast Isn't Clear\" and \"Captain Sander's Hidden Treasure\" quests.. . His lower spawn timer range must be really low.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Interesting, he's got a really slow and hard attack compared to most mobs.. . Never had any trouble tagging him, just threw a Thick Bronze Dart when he ran by.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Captain Danuvin",
+        "level": "33",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=821",
+        "class": "Normal",
+        "faction": "Stormwind",
+        "damage": "70 - 82 (Physical)",
+        "model": "2372",
+        "comments": []
+    },
+    {
+        "name": "Captain Grayson",
+        "level": "30",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Undead",
+        "href": "?npc=392",
+        "class": "Normal",
+        "faction": "Friendly",
+        "damage": "64 - 75 (Physical)",
+        "model": "1279",
+        "comments": [
+            {
+                "text": "You can find him in the south-west of Westfall standing at the base of the Lighthouse.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "can horde talk to this dude?",
+                "sentiment": "positive"
+            },
+            {
+                "text": "30,86",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Chicken",
+        "level": "1",
+        "location": "Duskwood, Elwynn Forest, Dustwallow Marsh, The Barrens, Westfall",
+        "react": "A H",
+        "type": "Critter",
+        "href": "?npc=620",
+        "class": "Normal",
+        "faction": "Prey",
+        "damage": "3 - 3 (Physical)",
+        "model": "304",
+        "comments": [
+            {
+                "text": "You could get a special chicken pet from one of these chickens in Westfall. You can do this \"secret\" quest as follows... . . Head to Sal-deans' Farm in Westfall and find a chicken. Begin by doing the \"Chicken Dance\" emote by targeting the chicken and typing \"/chicken\". Be patient as it could take 100 times or more. Soon you'll see the message, 'Chicken looks at you quizzically. Maybe you should inspect it'. Accept the quest and purchase the special chicken feed from Farmer Saldean. Return to the chicken and type \"/cheer\" before feeding the chicken. Do this right and the chicken will lay an egg. This egg is your new pet, a prairie chicken. . . Note: This quest can also be found here - https://classicdb.ch/?quest=3861",
+                "sentiment": "positive"
+            },
+            {
+                "text": "if you do /chicken around 50-75 times the chicken will have a \"!\" above his head then you receieve a quest saying to get the \"Special Chicken Feed\". you get that from farmer saldean in westfall. then be sure to target the chicken and type /cheer. then the \"?\" will you'll receieve your chicken egg!",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Chickens in Shattrath respawn in 6:20mins :p. . No, I'm not bored",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Eggs are not bound to the quest doer, and therefore can be ninjaed if you're too lazy to do the quest :]",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Do the chickens have large talons?",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Christopher Hewen",
+        "level": "30",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=8934",
+        "class": "Normal",
+        "faction": "Stormwind",
+        "damage": "64 - 75 (Physical)",
+        "model": "8186",
+        "comments": []
+    },
+    {
+        "name": "Cow",
+        "level": "1",
+        "location": "Elwynn Forest, Westfall, Redridge Mountains, Arathi Highlands, Hillsbrad Foothills",
+        "react": "A H",
+        "type": "Critter",
+        "href": "?npc=2442",
+        "class": "Normal",
+        "faction": "Ambient",
+        "damage": "3 - 3 (Physical)",
+        "model": "1060",
+        "comments": [
+            {
+                "text": "Right-click for free beef. I hear the venison is often infected :-)",
+                "sentiment": "positive"
+            },
+            {
+                "text": "57 cow...NERF.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "cows dont go moo, ducks go moo. cows go into your stomach, unless its against your religion, then they go into your photo album.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "definetly need a 40 man raid for this boss",
+                "sentiment": "positive"
+            },
+            {
+                "text": "There is no cow level.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Coyote",
+        "level": "10 - 11",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Beast",
+        "href": "?npc=834",
+        "class": "Normal",
+        "faction": "Beast - Wolf",
+        "damage": "22 - 27 (Physical)",
+        "model": "643",
+        "comments": []
+    },
+    {
+        "name": "Coyote Packleader",
+        "level": "11 - 12",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Beast",
+        "href": "?npc=833",
+        "class": "Normal",
+        "faction": "Beast - Wolf",
+        "damage": "26 - 31 (Physical)",
+        "model": "161",
+        "comments": []
+    },
+    {
+        "name": "Daphne Stilwell",
+        "level": "20",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=6182",
+        "class": "Normal",
+        "faction": "Escortee",
+        "damage": "37 - 44 (Physical)",
+        "model": "4894",
+        "comments": [
+            {
+                "text": "She begins the quest line for [url=https://classicdb.ch/?item=6953]Verigan's Fist[/url], the amazing paladin weapon available at level 20.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Has anyone seen her on Bleeding Hollow yet?&nbsp We've checked numerous times, and she hasn't been there.&nbsp Is the Horde killing her or is there a problem with her spawn?&nbsp Please help, I'm desperate to do this quest.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Looks like some failure let her die, as I havent seen her, ever.&nbsp Just FYI, this quest isn't neccessary, and you can get a better shield from completing a black fathom deep quest, called the arctic buckler.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Solo'ed this easy. Just let her have 1 aggro, and have the rest yourself. Kill hers always and it will be quick, remember to heal her )",
+                "sentiment": "positive"
+            },
+            {
+                "text": "To get there the entrance to where she is at is around 38,86...i was confused at first, but the only way to get to her is along the shore.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Basically to get to here you goto the exit of deadmines, as you leave the deadmines exit you head left, or south and you come to a little farm. Easy as pie.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Deer",
+        "level": "1",
+        "location": "Elwynn Forest, Western Plaguelands, Alterac Mountains, Westfall, Silverpine Forest",
+        "react": "A H",
+        "type": "Critter",
+        "href": "?npc=883",
+        "class": "Normal",
+        "faction": "Prey",
+        "damage": "3 - 3 (Physical)",
+        "model": "347",
+        "comments": [
+            {
+                "text": "These are found in forested areas and are a quick way to gain skinning skill.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Oddly enough, the fawns that are grouped with these deer can often have more health than the deer itself.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Defias Footpad",
+        "level": "10 - 11",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=481",
+        "class": "Normal",
+        "faction": "Defias Brotherhood",
+        "damage": "22 - 27 (Physical)",
+        "model": "2333",
+        "comments": []
+    },
+    {
+        "name": "Defias Highwayman",
+        "level": "13 - 18",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=122",
+        "class": "Normal",
+        "faction": "Defias Brotherhood",
+        "damage": "41 - 48 (Physical)",
+        "model": "2342",
+        "comments": []
+    },
+    {
+        "name": "Defias Knuckleduster",
+        "level": "15 - 17",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=449",
+        "class": "Normal",
+        "faction": "Defias Brotherhood",
+        "damage": "37 - 44 (Physical)",
+        "model": "2344",
+        "comments": []
+    },
+    {
+        "name": "Defias Looter",
+        "level": "13 - 14",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=590",
+        "class": "Normal",
+        "faction": "Defias Brotherhood",
+        "damage": "26 - 31 (Physical)",
+        "model": "2340",
+        "comments": []
+    },
+    {
+        "name": "Defias Messenger",
+        "level": "14 - 15",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=550",
+        "class": "Normal",
+        "faction": "Defias Brotherhood",
+        "damage": "32 - 38 (Physical)",
+        "model": "2312",
+        "comments": [
+            {
+                "text": "He spawns at (44, 69) right in front of the Blacksmith building in Moonbrook, perhaps every five minutes.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "He respawns after someone has killed him, the respawn rate isn't time based.. . I always find him by starting at Jangolode Mine, follow the road south, take a quick look at the entrance to the cave at the Gold Coast Quarry and then back to the road again down to Moonbrook.. If you haven't found him by then he's probably dead and will respawn in front of the Blacksmith.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "in case you're competing with others for him when he spawns, the exact coordinates of his spawn point are 44, 69.&nbsp That's right in front of the blacksmith for those without a coordinate mod installed.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "He Spawns in Moonbrook, just outside the blacksmith.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Moonbrook seems to be constantly camped... so is is hard to grab him when he first spawns. I have better luck catching him right outside the Gold Coast Quarry.Just go inside from the East and he will run and out of the Quarry.. Loc 31, 42.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "If you want to kill him, at about 30% hp slow him, he runs faster then rogue in sprint. Watch out for that!",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Defias Pathstalker",
+        "level": "15 - 16",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=121",
+        "class": "Normal",
+        "faction": "Defias Brotherhood",
+        "damage": "35 - 42 (Physical)",
+        "model": "2336",
+        "comments": []
+    },
+    {
+        "name": "Defias Pillager",
+        "level": "14 - 15",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=589",
+        "class": "Normal",
+        "faction": "Defias Brotherhood",
+        "damage": "23 - 29 (Physical)",
+        "model": "2338",
+        "comments": [
+            {
+                "text": "Be really careful fighting these guys, their fireballs hit hard for their level. And if you get another add you are in for a ride.. My tip is to try and pull them back away from the the other NPCs so they dont run and aggro, if you need help pulling them back, try running behind a building and waiting for them to come to you.. . Hope that helped.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Basically the deadliest low level creature of them all. For their level their fireballs will take a decent chunk out of your life that is basically unresistable by any class, and they usually have a habit of coming in packs of 2 or spawning right behind you while fighting another mob in Westfall. Fighting these with caution will make everyone better players :D",
+                "sentiment": "positive"
+            },
+            {
+                "text": "These mobs have always been at least in the top 20 of the 'Most Dangerous Creatures' list, having killed so many players.. Deadliness confirmed. ). . http://www.wow-europe.com/en/info/gamestats/gamestats.html?en",
+                "sentiment": "positive"
+            },
+            {
+                "text": "According to Blizzard, this mob kills more players than any other mob in the game.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "I can understand why....70+ fireballs at that level are deadly",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Yes, the Defias Pillagers probably are the most dangerous mob for anyone who is around it's level, because it can slay many 14s and 15s with 4 or 5 of their deadly Fireballs. Like Onnissia said, trying to take two or more of these when you're around their level is suicide.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "In the upcoming patch 2.3, the amount of damage that their fireballs can do are now reduced. Once that patch is released, this mob will no longer become one of the most dangerous mobs in the game.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Defias Profiteer",
+        "level": "20",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=1669",
+        "class": "Normal",
+        "faction": "Friendly",
+        "damage": "32 - 37 (Physical)",
+        "model": "4423",
+        "comments": [
+            {
+                "text": "Located upstairs in the inn in the back bedroom.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Both Hordes and Allies can repair here.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Defias Smuggler",
+        "level": "11 - 12",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=95",
+        "class": "Normal",
+        "faction": "Defias Brotherhood",
+        "damage": "26 - 31 (Physical)",
+        "model": "4418",
+        "comments": [
+            {
+                "text": "they throw daggers at range, and melee when close to you. Mostly found with Defias Trappers, if the defias trappers net you any Defias Smugglers at melee range will run to range and start throwing daggers again.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "A fair amount of Defias Trappers and Smugglers are located at Molsen Farm @ 45, 40 in Westfall.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Defias Tower Patroller",
+        "level": "23",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=7052",
+        "class": "Normal",
+        "faction": "Defias Brotherhood",
+        "damage": "53 - 60 (Physical)",
+        "model": "5811",
+        "comments": [
+            {
+                "text": "I just killed one of these and it was unlootable, is that right?",
+                "sentiment": "positive"
+            },
+            {
+                "text": "I doubt anyone will read this, what with these being non-quest and run of the mill mobs, but I'll recount it anyway. As I was running my rogue to the top of the tower to practice lock picking, the two Defias Tower Patrollers started having a conversation. It turns out that they're called Raven and Jill.. . J: Hey, Raven.... (Other patroller comes running to stand in front of the speaker). R: Yea?. J: Can we take a break? My feet are killing me and those ... those things down there are creeping me out.. R: Klaven doesn't pay me enough to deal with zombies, drones, or whatever he calls 'em. I don't know Jill. If Klaven comes down while we're slacking, we might end up as one of those things!. J: *Sigh* You're probably right, Raven. I'm going back on patrol.... . I thought it was a nice little scene, giving a life to non-entity NPC. Nearly made me feel bad about killing them.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Defias Tower Sentry",
+        "level": "24",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=7056",
+        "class": "Normal",
+        "faction": "Defias Brotherhood",
+        "damage": "53 - 61 (Physical)",
+        "model": "5806",
+        "comments": []
+    },
+    {
+        "name": "Defias Trapper",
+        "level": "12 - 13",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=504",
+        "class": "Normal",
+        "faction": "Defias Brotherhood",
+        "damage": "26 - 31 (Physical)",
+        "model": "2331",
+        "comments": [
+            {
+                "text": "A fair amount of Defias Trappers and Smugglers are located at Molsen Farm . @ 45, 40 in Westfall. There is also a small camp of them located over a hill behind the farm at 48, 46.. . [i][small]Edited, Mar 17th 2007 5:53pm by Sorvendall[/small][/i]",
+                "sentiment": "positive"
+            },
+            {
+                "text": "this mob is proof that npc's cheat, these can backstab you from the front!!",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Dust Devil",
+        "level": "18 - 19",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Elemental",
+        "href": "?npc=832",
+        "class": "Normal",
+        "faction": "Monster",
+        "damage": "41 - 48 (Physical)",
+        "model": "5327",
+        "comments": [
+            {
+                "text": "I've been using these alot recently on my Twink BE Hunter, made a path that I run to farm em and just thought I'd share it.&nbsp Black line is the path you follow and the green dot's are where the elementals are spawned.&nbsp You can get 10-12 elemental kills per path around, each path takes about 6-7 minutes on an epic mount.. [url=http://img404.imageshack.us/img404/3571/magicdustxe7.jpg]http://img404.imageshack.us/img404/3571/magicdustxe7.jpg[/url]",
+                "sentiment": "positive"
+            },
+            {
+                "text": "There are precisely 12 of these mobs in the zone. The clusters on the map are due solely to the fact that they wander around a bit more than the average mob.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "These are immune to all nature spells and effects; Shamans and Druids be mindful of this.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "If you are only starting to explore Westfall, please be aware that these mobs have a HUGE pat range, and can be hard to spot if you're not paying attention. So be aware of these guys at all times if you're not around level 18 or 19. (I found these guys the hard way).",
+                "sentiment": "positive"
+            },
+            {
+                "text": "[url=http://classicdb.ch/?maps=40:687733658726632718604712573706544702515702487699463697448667427598401646392669435629411623367671345662343605340545340495366489397493433497461506452467432433341333370349392370413400406215391238371267360295424246540403449279468314490343514374608339579361566374615386620434624475634522642563655621667660677693503700475700457683446646345642345623343582340566341526340510353487357667380671419609379489408493422495446500459485444450426419404384384359358341351314366281383254415231436260463297480328503357529384555386593349613361619409624456628500638543647586652601661640673677681712673728646720619712591710560702533704]map for farming magic dust[/url]",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Elder Skychaser",
+        "level": "60",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=15577",
+        "class": "Normal",
+        "faction": "Friendly",
+        "damage": "266 - 316 (Physical)",
+        "model": "15633",
+        "comments": [
+            {
+                "text": "She's at the top of the tower at Sentinel Hill.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Westfall, Sentinell Hill, [b]56,47[/b]",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Farmer Furlbrow",
+        "level": "20",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=237",
+        "class": "Normal",
+        "faction": "Stormwind",
+        "damage": "37 - 44 (Physical)",
+        "model": "1944",
+        "comments": []
+    },
+    {
+        "name": "Farmer Saldean",
+        "level": "20",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=233",
+        "class": "Normal",
+        "faction": "Stormwind",
+        "damage": "37 - 44 (Physical)",
+        "model": "1943",
+        "comments": []
+    },
+    {
+        "name": "Fleshripper",
+        "level": "13 - 14",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Beast",
+        "href": "?npc=1109",
+        "class": "Normal",
+        "faction": "Beast - Carrion Bird",
+        "damage": "29 - 35 (Physical)",
+        "model": "2305",
+        "comments": []
+    },
+    {
+        "name": "Foe Reaper 4000",
+        "level": "20Rare Elite",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Mechanical",
+        "href": "?npc=573",
+        "class": "Rare-Elite",
+        "faction": "Monster",
+        "damage": "148 - 175 (Physical)",
+        "model": "548",
+        "comments": [
+            {
+                "text": "I found him in the little farm field east of Moonbrook, between Moonbrook and the Dagger Hills where the Defias Highwaymen/Pathstalkers/Knuckledusters are. (50,67 as indicated in the map above.) He was a level 20, and dropped a nice 10 slot bag (large rucksack) for me :)",
+                "sentiment": "positive"
+            },
+            {
+                "text": "I've seen him when i was lvl 18 on the road east from Moonbrook, he was easy and he had the rucksack, it was only lvl 20",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Yeah I'm a lvl 18 warlock. Wasted him in 5 sec. Just Immolate, Corruption, Curse of Agony, and then just Searing Pain. Went down pretty easy. (Imp was out. NOTE: Voidwalkers are useless to machines!) Ohhh, and I got the Rutsack too (10 slot).",
+                "sentiment": "positive"
+            },
+            {
+                "text": "According to WoW Atlas he's a semi-rare.&nbsp Spawn points are Alexston Farmstead, The Dead Acre, Fulbrow's Pumpkin Farm, The Molsen Farm, and Moonbrook.&nbsp Respawn time is 4-6 hours.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "[url=http://i86.photobucket.com/albums/k86/billthebody/foereaper.jpg]http://i86.photobucket.com/albums/k86/billthebody/foereaper.jpg[/url]",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Gina MacGregor",
+        "level": "15",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=843",
+        "class": "Normal",
+        "faction": "Stormwind",
+        "damage": "26 - 31 (Physical)",
+        "model": "3260",
+        "comments": []
+    },
+    {
+        "name": "Goretusk",
+        "level": "14 - 15",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Beast",
+        "href": "?npc=157",
+        "class": "Normal",
+        "faction": "Creature",
+        "damage": "32 - 38 (Physical)",
+        "model": "3027",
+        "comments": [
+            {
+                "text": "double post ><. . Edited, Mon Feb 28 08:32:02 2005",
+                "sentiment": "positive"
+            },
+            {
+                "text": "skins ruined leather up to lite leather",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Great Goretusk",
+        "level": "16 - 17",
+        "location": "Westfall, Redridge Mountains",
+        "react": "A H",
+        "type": "Beast",
+        "href": "?npc=547",
+        "class": "Normal",
+        "faction": "Creature",
+        "damage": "37 - 44 (Physical)",
+        "model": "3035",
+        "comments": [
+            {
+                "text": "This is the greates lvl 10-19 PvP Boar U can get, I learns charge lvl 2 and Gore lvl 3. Other pigies only learn charge lvl 1 gore lvl 1. . . Im gonna get it myself some time and kite everyone in wsg until they Alt-F4 and deleting account.! xD",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Also found in Westfall south of (around) The Dead Acre along the southern road (which runs east and west) from Duskwood and Moonbrook.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Also skins lite leather through to lite hide",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Greater Fleshripper",
+        "level": "16 - 17",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Beast",
+        "href": "?npc=154",
+        "class": "Normal",
+        "faction": "Beast - Carrion Bird",
+        "damage": "37 - 44 (Physical)",
+        "model": "1105",
+        "comments": [
+            {
+                "text": "According to http://www.bookofwarcraft.com/guides/class/hunter/pet-skill-screech.htm this is lowest level hunter pet with Screech ability to learn.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Grimbooze Thunderbrew",
+        "level": "20",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=239",
+        "class": "Normal",
+        "faction": "Ironforge",
+        "damage": "37 - 44 (Physical)",
+        "model": "3265",
+        "comments": [
+            {
+                "text": "He's located in Dagger Hills (45,80) directly behind Moonbrook over the hill.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Kill the harvesters before you get to him. He requires 5 Hops before he gives you the keg. That quest is repeatable. Also receive slight stormwind faction on 1st turn in.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "When you go to him, bring 5 hops with you to complete his quest. The hops come from the various harvest machines found around westfall. The reward, Keg of Thunderbrew, is an item needed in the Redridge Mountains quest: http://classicdb.ch/?quest=116",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Brother of Ragnar Thunderbrew.. . Wandered off one drunken night, now found in Westfall",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Gryan Stoutmantle",
+        "level": "35Elite",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=234",
+        "class": "Elite",
+        "faction": "Stormwind",
+        "damage": "244 - 289 (Physical)",
+        "model": "1690",
+        "comments": [
+            {
+                "text": "hes at 56, 47",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Hes at the entrance to the tower",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Harvest Golem",
+        "level": "11 - 12",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Mechanical",
+        "href": "?npc=36",
+        "class": "Normal",
+        "faction": "Monster",
+        "damage": "26 - 31 (Physical)",
+        "model": "367",
+        "comments": []
+    },
+    {
+        "name": "Harvest Reaper",
+        "level": "17 - 18",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Mechanical",
+        "href": "?npc=115",
+        "class": "Normal",
+        "faction": "Monster",
+        "damage": "41 - 48 (Physical)",
+        "model": "379",
+        "comments": []
+    },
+    {
+        "name": "Harvest Watcher",
+        "level": "14 - 15",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Mechanical",
+        "href": "?npc=114",
+        "class": "Normal",
+        "faction": "Monster",
+        "damage": "32 - 38 (Physical)",
+        "model": "378",
+        "comments": [
+            {
+                "text": "Should be noted that these mechanical scarecrows maintain a few properties that separate them from the general NPC population of Westfall.. . First, they have an increased aggro range. Somewhere in the vicinity of 1.5x to 2x the regular radius. This also applies to stealth, while they do not have true sight, the range that they will detect you is increased. They're not called \"Watcher\"s for nothing.. . Rogues should also note that, since they are mechanical, they are immune to Gouge. Sinister Strike spam is your only practical option.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Innkeeper Heather",
+        "level": "30",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=8931",
+        "class": "Normal",
+        "faction": "Stormwind",
+        "damage": "64 - 75 (Physical)",
+        "model": "8185",
+        "comments": []
+    },
+    {
+        "name": "Kirk Maxwell",
+        "level": "30",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=10045",
+        "class": "Normal",
+        "faction": "Stormwind",
+        "damage": "64 - 75 (Physical)",
+        "model": "9265",
+        "comments": []
+    },
+    {
+        "name": "Klaven Mortwake",
+        "level": "26Elite",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=7053",
+        "class": "Elite",
+        "faction": "Defias Brotherhood",
+        "damage": "179 - 213 (Physical)",
+        "model": "5805",
+        "comments": [
+            {
+                "text": "He says this when he spawns: . . *Klaven Mortwake wildly flips through the pages of a large tome.* . \"The sweet irony -- Stormwind forces cut down in defense of their city, only to rise and fight alongside the Brotherhood as instruments of destruction.\" . \"And should one die, two shall rise!\" . *Klaven Mortwake shuffles through the books.* . \"Now where did I put the Venture Company formulations?\" . . and that's it. lol I think it's neat to see what all the NPC's say and what they add to the storyline.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "He certainly does still exist he's at the top of a tower (hint hint) and the guys lower down in the tower drop NOTHING.&nbsp He is level 23 elite now.&nbsp I havent found what he dropped because he killed me just before I killed him....",
+                "sentiment": "positive"
+            },
+            {
+                "text": "He dropped a Blue BoE item and a green BoE item for me, Thorbia's Gauntlets was the blue item.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Klaven Mort is still there, I kill him alot. He normally drops silk cloth and one or two silver. But sometimes I get some really nice stuff. I sold a 2h axe I got from him for 10g. so ya he's cool",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Playing a 60 Druid, I was grinding out some Stormwind rep by doing low level quests and I found this guy down in a tower (coords: 70, 74) in a place I'd never been before, even on a human character. So I went up into the tower to do some exploring and came across this NPC. He dropped about 3 silver and nothing else so I looked him up here to see what he's all about. Given that the loot on the list above has a journal that's a quest item, I'm assuming he's for a quest. Lovely deduction there, right? But where does the quest start? Hm....",
+                "sentiment": "positive"
+            },
+            {
+                "text": "He appears to be for a rogue quest. Similar to the tower near Sludge Fen in the Barrens.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Correctomundo.. . The journal you get from the Rogue Quest implies that he has some sort of weakness, possible making him soloable by lower-level rogues.&nbsp I'll try out a few things.. . A lucky [b]ambush[/b] got him down to about 80% (@ 22).&nbsp I got him down below half health before vanishing so he didn't splat me.&nbsp With his counterpart in the Barrens ambush does something like 50% damage, so I'm assuming this isn't his weakness.. . After the vanish CD had expires, I tried opening with a garrote to see if that had any special effects.&nbsp It didn't.&nbsp After that I tried a couple of finishing moves with SS, none of which helped get him back down to half health.&nbsp I'll see what effects Feint and Rupture have (if any) before calling it a day.. . [b]EDIT:[/b]&nbsp He's bugged up right now, refusing to take any damage while continuing to dish it out.&nbsp If anyone has any info on the effects of rogue-specific abilities on him then it's be great.. . It's worth noting that apart from both blades being poisoned my gear isn't great at this point, but I could probably take him down if I felt particularly like breaking out a potion, blowing a couple of CDs and trusting a large part to luck.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Kobold Digger",
+        "level": "12 - 13",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=1236",
+        "class": "Normal",
+        "faction": "Kobold",
+        "damage": "26 - 31 (Physical)",
+        "model": "373",
+        "comments": [
+            {
+                "text": "These guys can be annoying at low lvls, they run away at 30% health and run much faster then you can, try and really get them killed fast when their health gets low or you can end up agroing 1/2 the cave trying to get them as they run away. . . Edit: and it really isn't worth chasing them if they start to get away, they only agro other kobolds and not the defias members.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Kriggon Talsone",
+        "level": "25",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=4305",
+        "class": "Normal",
+        "faction": "Stormwind",
+        "damage": "47 - 56 (Physical)",
+        "model": "4417",
+        "comments": [
+            {
+                "text": "located on the shore south of lightshouse loc 36, 90",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Worth a trip to this dude once ... there are quests from the lighthouse keeper nearby which are good for the level, can be done while doing other qs, and this bloke sells useful recipes",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Leprithus",
+        "level": "19Rare",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Undead",
+        "href": "?npc=572",
+        "class": "Rare",
+        "faction": "Undead, Scourge",
+        "damage": "39 - 44 (Physical)",
+        "model": "1065",
+        "comments": [
+            {
+                "text": "He spawns with two adds. . Forgot to check the level on those, but they are prolly one or two levels below him.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "I've only seen him at night",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Leprithus spawns once every 2-3 hours in the following spots,\"near coffin/tombstones under tree\". [url=http://i31.photobucket.com/albums/c364/macvec/650e7af0.png]http://i31.photobucket.com/albums/c364/macvec/650e7af0.png[/url]",
+                "sentiment": "positive"
+            },
+            {
+                "text": "i saw him once at the bridge that goes to duskwood, with 2 lvl 15 gouls.he is not elite but a rare boss.dropped me the ghoul fingers.. saw him 1 week later near jangolode mine with my alt.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "i was on my way to do the poison quest for rogues when i saw him. he was a little north of the southeastern tower.&nbsp i did this about a month ago though. he had two guards with him though i think but i killed him easy. i as between lvl 24 and 30 though i dont remember.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "I had just entered Westfall and saw him, flanked by two Rotten Ghouls, just south of the road along The Dead Acre.&nbsp Rare elite 19, the Ghouls were 14 and 15 non-elites.&nbsp He dropped 55 copper, 3 linen cloth, and, appealingly enough, a Chunk of Flesh and Ghoul Fingers.. . *gag*",
+                "sentiment": "positive"
+            },
+            {
+                "text": "He does not spawn on certain conditions, its more of a random spawn since blizzard doesnt promote camping not sure on time though. I found him right before Jangalo Mines (Sp?) in Westfall He was there in a small grave yard, It had 3 tombstones a small fence around it and a single tree. He is a Silver Elite mob, and the other 2 are just regular Undead mobs i scanned 1 lvl 14 and 1 lvl 15. I got lucky on the drop ^_^ nice sword btw gave it to my paly to use hehe.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "When he spawns, the vultures in the Moonbrook graveyard spawn as ghouls instead, so you know he's around somewhere, if he hasn't already been killed yet.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "This is rumour control. Here are the facts: . . Leprithus and his two Rotten Ghoul companions spawn at the same time every day: approximately 8:00 pm server time. Do not confuse his spawn time with that of the ghouls in the Moonbrook graveyard - those ghouls spawn in place of the normal buzzards at 9:00 pm daily, when game \"day\" turns to game \"night\". Since Leprithus spawns an hour earlier, it's safe to assume that these two incidents are not connected or dependent upon one another.. . With the coming of Deathwing, this particular rare spawn lost the quality that once made him so unusual - the fact that he was a \"double spawn\". Pre-Cataclysm, [i]another[/i] copy of Leprithus and his pals would also spawn at the same time in a small defile in the hills south of the Dust Plains, at 56,80 (also in a small three-grave cemetery). . . Unlike their stationary northern twins, the southern Leprithus and his ghouls would path northeast across the Dust Plain, towards the covered bridge that leads from Westfall to Duskwood. If they made it to the bridge unopposed by the old People's Militia patrol, they would stop for a few moments, then commence wandering about in the area between the road and the mage tower, and through some of the nearby knoll camps.. . [u]Leprithus now only spawns at the northern location - 42,29 in the small graveyard.[/u] His two unique green drops, the Ghoulfang sword and the Ghoul Fingers gloves, are still on his loot table, but I've yet to see either item drop since the launch of Cataclysm (or appear in the auction house).",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Lumberjack",
+        "level": "5",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=842",
+        "class": "Normal",
+        "faction": "Stormwind",
+        "damage": "9 - 11 (Physical)",
+        "model": "308",
+        "comments": [
+            {
+                "text": "Yesh?",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Hes a Lumberjack, and he's ok!",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Malformed Defias Drone",
+        "level": "23 - 24",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=7051",
+        "class": "Normal",
+        "faction": "Defias Brotherhood",
+        "damage": "46 - 55 (Physical)",
+        "model": "5813",
+        "comments": [
+            {
+                "text": "i tryed to kill it at lvl 23 and it killed me in like 5 hits it does like 125 damge to me every time",
+                "sentiment": "positive"
+            },
+            {
+                "text": "if he doesn't have the key on him, you have to wait for him to despawn/respawn...usually happens after he does a few rounds around the tower. I've done the quest a few times and it seems like he resists pickpocketing more often when he doesn't have the key on him. It's been said that mobs have a line-of-sight in their programming, so if you keep behind him after he respawns...the odds of a successful snatch are in your favor.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "if he doesn't have the key on him, you have to wait for him to despawn/respawn...usually happens after he does a few rounds around the tower. I've done the quest a few times and it seems like he resists pickpocketing more often when he doesn't have the key on him. It's been said that mobs have a line-of-sight in their programming, so if you keep behind him after he respawns...the odds of a successful snatch are in your favor.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "If he doesn't have the key on him, you have to wait for him to despawn/respawn...usually happens after he does a few rounds around the tower. I've done the quest a few times and it seems like he resists pickpocketing more often when he doesn't have the key on him. It's been said that mobs have a line-of-sight in their programming, so if you keep behind him after he respawns...the odds of a successful snatch are in your favor.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Still trying to pickpocket him at level 21. It helps if you hit \"slash\" key to walk slow. Still, I got close enough, and it kept saying \"nothing to loot\" until he detected me. . . Will try again tomorrow... I HATE THIS QUEST! ARGH!. . :)",
+                "sentiment": "positive"
+            },
+            {
+                "text": "These guys hit like trucks!. . Pick Pocket FTW!",
+                "sentiment": "positive"
+            },
+            {
+                "text": "LOL!! i killed the guy twice and wondered why he doesnt drop it... thx for the tip",
+                "sentiment": "positive"
+            },
+            {
+                "text": "WOW, was i surprised. . i pick pocketed him, then was gonna kill him afterward... and 10 seconds into the fight my health was drastically low. had to activate vanish. truely does hit like a truck",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Master Digger",
+        "level": "15Rare",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=1424",
+        "class": "Rare",
+        "faction": "Kobold",
+        "damage": "95 - 114 (Physical)",
+        "model": "774",
+        "comments": [
+            {
+                "text": "I want my bloody green shovel and he wont bloody respawn.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "no less than one hour and no more than 24 hours.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Inside the mine.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "He is at the end of the Jangelode mine. There are some mobs around him but he's easy to pull.. . I got the shovel, funny item, isn't it? good luck ;)",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Midsummer Bonfire",
+        "level": "1",
+        "location": "Dun Morogh, Badlands, Blasted Lands, Swamp of Sorrows, Duskwood",
+        "react": "A H",
+        "type": "Uncategorized",
+        "href": "?npc=16592",
+        "class": "Normal",
+        "faction": "Friendly",
+        "damage": "3 - 3 (Physical)",
+        "model": "1126",
+        "comments": []
+    },
+    {
+        "name": "Midsummer Celebrant",
+        "level": "2 - 4",
+        "location": "Dun Morogh, Badlands, Blasted Lands, Swamp of Sorrows, Duskwood",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=16781",
+        "class": "Normal",
+        "faction": "Friendly",
+        "damage": "5 - 8 (Physical)",
+        "model": "16412",
+        "comments": []
+    },
+    {
+        "name": "Mike Miller",
+        "level": "20",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=1670",
+        "class": "Normal",
+        "faction": "Stormwind",
+        "damage": "37 - 44 (Physical)",
+        "model": "3262",
+        "comments": []
+    },
+    {
+        "name": "Mouse",
+        "level": "1",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Critter",
+        "href": "?npc=6271",
+        "class": "Normal",
+        "faction": "Prey",
+        "damage": "3 - 3 (Physical)",
+        "model": "4959",
+        "comments": []
+    },
+    {
+        "name": "Murloc Coastrunner",
+        "level": "11 - 13",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=126",
+        "class": "Normal",
+        "faction": "Murloc",
+        "damage": "26 - 31 (Physical)",
+        "model": "983",
+        "comments": []
+    },
+    {
+        "name": "Murloc Hunter",
+        "level": "16 - 17",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=458",
+        "class": "Normal",
+        "faction": "Murloc",
+        "damage": "37 - 44 (Physical)",
+        "model": "757",
+        "comments": []
+    },
+    {
+        "name": "Murloc Minor Oracle",
+        "level": "12 - 14",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=456",
+        "class": "Normal",
+        "faction": "Murloc",
+        "damage": "28 - 34 (Physical)",
+        "model": "486",
+        "comments": []
+    },
+    {
+        "name": "Murloc Netter",
+        "level": "14 - 15",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=513",
+        "class": "Normal",
+        "faction": "Murloc",
+        "damage": "32 - 38 (Physical)",
+        "model": "1994",
+        "comments": []
+    },
+    {
+        "name": "Murloc Oracle",
+        "level": "16 - 18",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=517",
+        "class": "Normal",
+        "faction": "Murloc",
+        "damage": "35 - 42 (Physical)",
+        "model": "1079",
+        "comments": []
+    },
+    {
+        "name": "Murloc Raider",
+        "level": "11 - 12",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=515",
+        "class": "Normal",
+        "faction": "Murloc",
+        "damage": "26 - 31 (Physical)",
+        "model": "441",
+        "comments": []
+    },
+    {
+        "name": "Murloc Tidehunter",
+        "level": "18 - 19",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=127",
+        "class": "Normal",
+        "faction": "Murloc",
+        "damage": "38 - 45 (Physical)",
+        "model": "1995",
+        "comments": []
+    },
+    {
+        "name": "Murloc Warrior",
+        "level": "15 - 16",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=171",
+        "class": "Normal",
+        "faction": "Murloc",
+        "damage": "72 - 85 (Physical)",
+        "model": "1305",
+        "comments": []
+    },
+    {
+        "name": "Old Blanchy",
+        "level": "2",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Critter",
+        "href": "?npc=582",
+        "class": "Normal",
+        "faction": "Friendly",
+        "damage": "39 - 44 (Physical)",
+        "model": "236",
+        "comments": [
+            {
+                "text": "Verna Furlbrow asks you to gather oats for \"Poor Old Blanchy\" . https://classicdb.ch/?quest=151",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Young Blanchy found at Old Hillsbrad, wonder how he ventured to Westfall",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Way too overpowered",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Old Murk-Eye",
+        "level": "20",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=391",
+        "class": "Normal",
+        "faction": "Murloc",
+        "damage": "56 - 64 (Physical)",
+        "model": "5243",
+        "comments": [
+            {
+                "text": "this guy is level 20 and is found at the shores of westfall and hes not elite",
+                "sentiment": "positive"
+            },
+            {
+                "text": "35, 85. . . It's a camp right outside of the lighthouse. He spawns right in the middle.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "He was bugged when i wanted to kill him. He was a corpse all the time...",
+                "sentiment": "positive"
+            },
+            {
+                "text": "There is another murloc, tho I can't recall his name, that spawns in the same area that is rare & fights rather well tho, but no Murk-Eye is a 20 REGULAR mob....plz let's be done with this silly debate!",
+                "sentiment": "positive"
+            },
+            {
+                "text": "He spawns at the south near the fisherman vendor. Patrols up and down, watch out for him if you're lower than 15. He can kill ya pretty easy.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Prairie Dog",
+        "level": "1",
+        "location": "The Barrens, Westfall, Arathi Highlands, Mulgore",
+        "react": "A H",
+        "type": "Critter",
+        "href": "?npc=2620",
+        "class": "Normal",
+        "faction": "Prey",
+        "damage": "3 - 3 (Physical)",
+        "model": "1072",
+        "comments": [
+            {
+                "text": "I like prarie dogs....",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Protector Bialon",
+        "level": "30",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=487",
+        "class": "Normal",
+        "faction": "Stormwind",
+        "damage": "64 - 75 (Physical)",
+        "model": "2368",
+        "comments": []
+    },
+    {
+        "name": "Protector Deni",
+        "level": "30",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=870",
+        "class": "Normal",
+        "faction": "Stormwind",
+        "damage": "64 - 75 (Physical)",
+        "model": "2365",
+        "comments": []
+    },
+    {
+        "name": "Protector Dorana",
+        "level": "30",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=869",
+        "class": "Normal",
+        "faction": "Stormwind",
+        "damage": "64 - 75 (Physical)",
+        "model": "2366",
+        "comments": []
+    },
+    {
+        "name": "Protector Dutfield",
+        "level": "30",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=489",
+        "class": "Normal",
+        "faction": "Stormwind",
+        "damage": "64 - 75 (Physical)",
+        "model": "2364",
+        "comments": []
+    },
+    {
+        "name": "Protector Gariel",
+        "level": "30",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=490",
+        "class": "Normal",
+        "faction": "Stormwind",
+        "damage": "64 - 75 (Physical)",
+        "model": "2367",
+        "comments": []
+    },
+    {
+        "name": "Protector Korelor",
+        "level": "30",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=874",
+        "class": "Normal",
+        "faction": "Stormwind",
+        "damage": "64 - 75 (Physical)",
+        "model": "2369",
+        "comments": []
+    },
+    {
+        "name": "Protector Leick",
+        "level": "30",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=876",
+        "class": "Normal",
+        "faction": "Stormwind",
+        "damage": "64 - 75 (Physical)",
+        "model": "2370",
+        "comments": []
+    },
+    {
+        "name": "Protector Weaver",
+        "level": "30",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=488",
+        "class": "Normal",
+        "faction": "Stormwind",
+        "damage": "64 - 75 (Physical)",
+        "model": "2371",
+        "comments": []
+    },
+    {
+        "name": "Protector of the People",
+        "level": "40",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=8096",
+        "class": "Normal",
+        "faction": "Stormwind",
+        "damage": "93 - 110 (Physical)",
+        "model": "7308",
+        "comments": []
+    },
+    {
+        "name": "Quartermaster Lewis",
+        "level": "20",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=491",
+        "class": "Normal",
+        "faction": "Stormwind",
+        "damage": "37 - 44 (Physical)",
+        "model": "3342",
+        "comments": [
+            {
+                "text": "56,47",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Why this guy was never turned into a real Quartermaster I'll never know.... . If u ask me and u did!.. Every town Including Major Cities should Have a rep system in place soo u can buy items and get new quests depending on rep... . Example Tranquillien the Bloodelf area.. the town there has Tranquillien rep and u can buy items from the town depending on the lvl of your rep... now just add unique items too all towns and quests u can only get after a certin rep and I think that would be awesome",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Ribbon Pole Debug Target",
+        "level": "1",
+        "location": "Dun Morogh, Badlands, Blasted Lands, Swamp of Sorrows, Duskwood",
+        "react": "A H",
+        "type": "Uncategorized",
+        "href": "?npc=17066",
+        "class": "Normal",
+        "faction": "Friendly",
+        "damage": "3 - 3 (Physical)",
+        "model": "11686",
+        "comments": []
+    },
+    {
+        "name": "Riverpaw Bandit",
+        "level": "16 - 17",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=452",
+        "class": "Normal",
+        "faction": "Gnoll - Riverpaw",
+        "damage": "37 - 44 (Physical)",
+        "model": "383",
+        "comments": []
+    },
+    {
+        "name": "Riverpaw Brute",
+        "level": "15 - 16",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=124",
+        "class": "Normal",
+        "faction": "Gnoll - Riverpaw",
+        "damage": "47 - 55 (Physical)",
+        "model": "384",
+        "comments": [
+            {
+                "text": "These brutes are awesome to kill. They respawn fast, they drop LOTS of low level green weapons (AH money), and are a low level!...go to SW Westfall for the level 14-16s and kill them like crazy... i killed them for 5 minutes and found 3 green weps.... . -X\ufffd\ufffds\ufffdn (Skywall)",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Riverpaw Gnoll",
+        "level": "11 - 12",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=117",
+        "class": "Normal",
+        "faction": "Gnoll - Riverpaw",
+        "damage": "26 - 31 (Physical)",
+        "model": "175",
+        "comments": []
+    },
+    {
+        "name": "Riverpaw Herbalist",
+        "level": "14 - 15",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=501",
+        "class": "Normal",
+        "faction": "Gnoll - Riverpaw",
+        "damage": "32 - 38 (Physical)",
+        "model": "413",
+        "comments": []
+    },
+    {
+        "name": "Riverpaw Miner",
+        "level": "14 - 15",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=1426",
+        "class": "Normal",
+        "faction": "Gnoll - Riverpaw",
+        "damage": "32 - 38 (Physical)",
+        "model": "374",
+        "comments": []
+    },
+    {
+        "name": "Riverpaw Mongrel",
+        "level": "13 - 14",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=123",
+        "class": "Normal",
+        "faction": "Gnoll - Riverpaw",
+        "damage": "29 - 35 (Physical)",
+        "model": "383",
+        "comments": []
+    },
+    {
+        "name": "Riverpaw Mystic",
+        "level": "18 - 19",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=453",
+        "class": "Normal",
+        "faction": "Gnoll - Riverpaw",
+        "damage": "38 - 45 (Physical)",
+        "model": "502",
+        "comments": []
+    },
+    {
+        "name": "Riverpaw Overseer",
+        "level": "19",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=125",
+        "class": "Normal",
+        "faction": "Gnoll - Riverpaw",
+        "damage": "43 - 51 (Physical)",
+        "model": "10790",
+        "comments": []
+    },
+    {
+        "name": "Riverpaw Scout",
+        "level": "12 - 13",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=500",
+        "class": "Normal",
+        "faction": "Gnoll - Riverpaw",
+        "damage": "26 - 31 (Physical)",
+        "model": "374",
+        "comments": []
+    },
+    {
+        "name": "Riverpaw Shaman",
+        "level": "13",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=1065",
+        "class": "Normal",
+        "faction": "Gnoll - Riverpaw",
+        "damage": "26 - 31 (Physical)",
+        "model": "204",
+        "comments": []
+    },
+    {
+        "name": "Riverpaw Taskmaster",
+        "level": "17 - 18",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=98",
+        "class": "Normal",
+        "faction": "Gnoll - Riverpaw",
+        "damage": "41 - 48 (Physical)",
+        "model": "376",
+        "comments": []
+    },
+    {
+        "name": "Rusty Harvest Golem",
+        "level": "9 - 10",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Mechanical",
+        "href": "?npc=480",
+        "class": "Normal",
+        "faction": "Monster",
+        "damage": "20 - 24 (Physical)",
+        "model": "514",
+        "comments": []
+    },
+    {
+        "name": "Salma Saldean",
+        "level": "20",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=235",
+        "class": "Normal",
+        "faction": "Stormwind",
+        "damage": "37 - 44 (Physical)",
+        "model": "1691",
+        "comments": []
+    },
+    {
+        "name": "Sand Crawler",
+        "level": "13 - 14",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Beast",
+        "href": "?npc=830",
+        "class": "Normal",
+        "faction": "Creature",
+        "damage": "29 - 35 (Physical)",
+        "model": "342",
+        "comments": []
+    },
+    {
+        "name": "Scout Galiaan",
+        "level": "30",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=878",
+        "class": "Normal",
+        "faction": "Stormwind",
+        "damage": "64 - 75 (Physical)",
+        "model": "2373",
+        "comments": [
+            {
+                "text": "53-52 down towards the inn",
+                "sentiment": "positive"
+            },
+            {
+                "text": "I found him at 54, 52, next to the mill.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Scout Riell",
+        "level": "30",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=820",
+        "class": "Normal",
+        "faction": "Stormwind",
+        "damage": "64 - 75 (Physical)",
+        "model": "2374",
+        "comments": [
+            {
+                "text": "She is on top of the Sentinel Tower.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "I think u get it after the Defias Traitor lead you to the hideout. NPC is on top of Sentinel Hill Tower",
+                "sentiment": "positive"
+            },
+            {
+                "text": "This Quest opens up once you complete step 6 of the Defias Brotherhood.. . http://classicdb.ch/?quest=155",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Sea Crawler",
+        "level": "15 - 16",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Beast",
+        "href": "?npc=831",
+        "class": "Normal",
+        "faction": "Creature",
+        "damage": "35 - 42 (Physical)",
+        "model": "979",
+        "comments": [
+            {
+                "text": "These guys are excellent for grinding cooking in the low 100s, as they drop at least three items that can be used for simple, good recipes, are neutral, and have an astonishingly fast respawn rate. I was able to stand at approximately 32, 23 and just kill endlessly until my bags filled with cooking stuff.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Sergeant Brashclaw",
+        "level": "18Rare",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=506",
+        "class": "Rare",
+        "faction": "Gnoll - Riverpaw",
+        "damage": "41 - 48 (Physical)",
+        "model": "383",
+        "comments": [
+            {
+                "text": "Just killed him.&nbsp Spit out the sword.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "It says up there \"NPC has not been seen in some time and may no longer exist\".&nbsp Well he still exists, I just killed him on an alt, 17 mage.&nbsp I sheep pulled parts of the camp, usually only 2 or 3 gnolls each pull, just use AoE.&nbsp I was left with Brashclaw and one add.&nbsp C-A-K-E.. . I also got the sword.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "I got the axe! :D. . I asked a 44 hunter to help me though... -_- :)",
+                "sentiment": "positive"
+            },
+            {
+                "text": "I decided to see if I could find it after reading about it on Anonymous.&nbsp It's definitely still there and surrounded by about 8 gnolls.&nbsp I just rushed in there and hit retaliation.&nbsp The rest is history.&nbsp Of course, I do duel-wield Crescent of the Forlorn and Cruel Barb!",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Shore Crawler",
+        "level": "17 - 18",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Beast",
+        "href": "?npc=1216",
+        "class": "Normal",
+        "faction": "Creature",
+        "damage": "41 - 48 (Physical)",
+        "model": "9570",
+        "comments": [
+            {
+                "text": "Tamed lvl 18 Shore Crawler, at lvl 18. Tauren Hunter.. . Comes with special ability \"Claw: Rank 3\". . Claw. 25 Focus. Instant, automatic. \"Claw the enemy. Causing 12 to 16 damage.\". . Stats:. Strength: 42. Agility: 36. Stamina: 63 (Endurance Training: 5/5). Intellect: 25. Spirit: 30. . Attack: 90. Power: 64. Damage: 17-22. Attack Speed (seconds): 2.00. DPS: 9.8. Armor: 1149 (Thick Hide: 3/3)",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Slark",
+        "level": "15Rare",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=519",
+        "class": "Rare",
+        "faction": "Murloc",
+        "damage": "32 - 37 (Physical)",
+        "model": "540",
+        "comments": [
+            {
+                "text": "he is fast runner like his parter Brack",
+                "sentiment": "positive"
+            },
+            {
+                "text": "This slarker ambushed me once, but the second time I was ready for him. I waited amidst the tall reads with my gnomish war paint clutching my staff in my teeth and when the sucker game, there arupted an epic battle that lasted three days and tree nights until finally my mage cast down his foe. and slark was smote! Now and forever more, they Murlocs will remeber the badass gnome what pwned Slark and call him [i]Killer[/i] while they cower in fear!",
+                "sentiment": "positive"
+            },
+            {
+                "text": "I think he's is an easy kill.. . I fight him as 12 Hunter with no problems at all, he droped [url=https://classicdb.ch/item=3188]Coral Claymore[/url]",
+                "sentiment": "positive"
+            },
+            {
+                "text": "I was a lvl 20 warrior and chased this guy all over beach.. . Finally, I let him come to me!&nbsp Found a quiet spot between groups of bad guys on north side of the beach and waited.&nbsp First Brack showed and after killing him, I got brackclaw.. . Slark showed up suddenly, and I got slarkskin and on second meeting I got the Coral Claymore.. . Easy fight when isolated from others.&nbsp Let him get the first hits in and then killed him.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Snake",
+        "level": "1",
+        "location": "Dustwallow Marsh, Westfall, Silverpine Forest, Feralas, Desolace",
+        "react": "A H",
+        "type": "Critter",
+        "href": "?npc=2914",
+        "class": "Normal",
+        "faction": "Ambient",
+        "damage": "3 - 3 (Physical)",
+        "model": "1206",
+        "comments": [
+            {
+                "text": "I got a 40 man raid group to try to solo one of these. Full critter resist gear, failed. ='(",
+                "sentiment": "positive"
+            },
+            {
+                "text": "My guild has done Molten Core, defeated Ragnaros countless times now. We've just recently completed Blackwings Lair for our 5th time, fully through, then we here of this guy. &*!@ing rediculous. We are are in tier2 or better, and the damage output was just insane, but this guy just won't die. We got him to about 3%, then we lost control of the fight and wiped. He's downed us several times. Any suggestions? WOuld be much appreciated!",
+                "sentiment": "positive"
+            },
+            {
+                "text": "ON A PLANEEEE",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Yes this guy is unimaginable,killed me and alot others with me so many times,hardest guy I ever fought and that's alot of ppl...[b]:P[/b]",
+                "sentiment": "positive"
+            },
+            {
+                "text": "Must be kept away from planes.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "There's actually -Snakes on a Plane- in Nagrand, on the plane near Nesingwary's camp... . 2 of them, to make it plural.",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Spirit Healer",
+        "level": "60",
+        "location": "Dun Morogh, Badlands, Blasted Lands, Swamp of Sorrows, Duskwood",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=6491",
+        "class": "Normal",
+        "faction": "Friendly",
+        "damage": "251 - 299 (Physical)",
+        "model": "5233",
+        "comments": []
+    },
+    {
+        "name": "The Defias Traitor",
+        "level": "15",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=467",
+        "class": "Normal",
+        "faction": "Escortee",
+        "damage": "26 - 31 (Physical)",
+        "model": "2311",
+        "comments": [
+            {
+                "text": "The Defias Traitor starts the quest only from one location. He is standing at the Sentinel Hill tower, near Gryan Stoutmantle. . . If he is not there it means someone has already started the quest and you will have to wait for him to respawn. Same goes if you fail the quest. Just abandon it and start it again. . . The locations on the map above actually show the route on which you have to escort the Defias Traitor.",
+                "sentiment": "positive"
+            },
+            {
+                "text": "\"the defias traitor\" is part of a long quest series called \"the defias brotherhood\". you'll get to a point where Gryan Stoutmantle will ask you to escort the traitor, who can be found at the bottom of the ramp, to moonbrook. the earliest this quest line starts (that i could find!) is when Gryan Stoutmantle wants you to talk to Wiley in Lakeshire.. hope this helps!",
+                "sentiment": "positive"
+            },
+            {
+                "text": "He's wearing Cap'n Sander's gear! http://classicdb.ch/?item=3342",
+                "sentiment": "positive"
+            }
+        ]
+    },
+    {
+        "name": "Thor",
+        "level": "55Elite",
+        "location": "Westfall",
+        "react": "A H",
+        "type": "Humanoid",
+        "href": "?npc=523",
+        "class": "Elite",
+        "faction": "Stormwind",
+        "damage": "474 - 564 (Physical)",
+        "model": "3263",
+        "comments": []
+    },
+    {
+        "name": "Venture Co. Drone",
+        "level": "22",
+        "location": "The Barrens, Westfall",
+        "react": "A H",
+        "type": "Undead",
+        "href": "?npc=7067",
+        "class": "Normal",
+        "faction": "Defias Brotherhood",
+        "damage": "50 - 57 (Physical)",
+        "model": "5832",
+        "comments": [
+            {
+                "text": "&nbsp the 2 pairs of undead patrolling around the tower to the SE don't seem to drop any loot anymore. thought they DO have loot for a pickpocket.",
+                "sentiment": "positive"
+            }
+        ]
+    }
+]
