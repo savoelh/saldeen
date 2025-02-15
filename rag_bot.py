@@ -1,7 +1,7 @@
 import ollama
 import chromadb
 from chromadb.utils import embedding_functions
-
+from Helpers.inspect_db import inspect_db
 
 class FarmerSaldeenBot:
     def __init__(self):
@@ -50,7 +50,15 @@ class FarmerSaldeenBot:
 
     def extract_subject(self, query: str) -> str:
         """Extract the main subject/entity from a query using Ollama."""
-        prompt = f"""[INST]Analyze this query and extract the main subject or entity being referred to. Return only the subject, nothing else.
+        prompt = f"""[INST]Analyze this query and extract the main subject or entity being referred to.  
+        If the subject is an item then it should fall under one of the following categories:
+            consumable, container, weapon, armor, reagent, projectile, trade goods, item enhancement, recipe, quiver, quest item, key, miscellaneous,
+            generic, potion, elixir, scroll, food and drink, item enhancement, bandage, soul bag, herb bag, enchanting bag, engineering bag, gem bag, mining bag, leatherworking bag, inscription bag, tackle box, cooking bag,
+            one-handed axes, two-handed axes, bows, guns, one-handed maces, two-handed maces, polearms, one-handed sword, two-handed sword, warglaives, staves, bear claws, cat claws, fist weapons, miscellaneous, daggers, thrown, spears, crossbows, wands, fishing poles,
+            jewlrey, cloth, leather, mail, plate, cosmetic, shields, arrow, bullet, herbs, parts, explosives, devices, jewelry, cloth, leather, metal and stone, cooking, elemental, other, enchanting,
+            book, leatherworking recipe, tailoring recipe, engineering recipe, blacksmithing recipe, cooking recipe, alchemy recipe, first Aid, enchanting recipe, fishing,
+            quiver, ammo, quest, key, lockpick, junk, reagent, companion pet, holiday, other mount, mount equipment,
+        Return only the subject, nothing else.
         Query: {query}
         Subject: [/INST]"""
 
@@ -68,35 +76,9 @@ class FarmerSaldeenBot:
         subject = self.extract_subject(query)
         print(f"Detected topic: {topic}, Subject: {subject}")
 
-        # Configure query parameters
-        enhanced_query = subject  # Start with extracted subject
-
-        # Special handling for quest-related queries
-        if topic == "QUESTS":
-            enhanced_query += " killing fields harvest watchers"
-
-        # Base query parameters
-        query_params = {
-            "query_texts": [enhanced_query],
-            "n_results": n_results * 5,
-            "include": ["documents", "metadatas"],
-        }
-        results = self.collection.query(**query_params)
-        print(results)
-        # Only add where clause for specific topics
-        if topic:
-            try:
-                where_clause = {"source": topic.lower().rstrip("s")}
-                query_params["where"] = where_clause
-                additional_results = self.collection.query(**query_params)
-                print(
-                    "************************ADDITIONAL RESULTS*****************************"
-                )
-                print(additional_results)
-            except:
-                pass
+        documents = inspect_db(topic, subject.lower(), 20)
+        print(documents)
         # Prioritize quest-related documents
-        documents = results["documents"][0] + additional_results["documents"][0]
         quest_docs = [doc for doc in documents if "Killing Fields" in doc]
         other_docs = [doc for doc in documents if "Killing Fields" not in doc]
         ordered_docs = quest_docs + other_docs
@@ -126,8 +108,8 @@ class FarmerSaldeenBot:
 bot = FarmerSaldeenBot()
 test_questions = [
     "What kind of herbs grow in Westfall?",
-    "Tell me about the Defias Brotherhood",
-    "I want to help with something",
+    # "Tell me about the Defias Brotherhood",
+    # "I want to help with something",
 ]
 
 for question in test_questions:

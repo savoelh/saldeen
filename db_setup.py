@@ -51,28 +51,30 @@ def process_data():
     with open(os.path.join(current_dir, "data", "itemData.json"), "r") as f:
         items = json.load(f)
         for item in items:
-            percent = item.get("percent", 0)
-            if percent >= 10:
-                rarity = "common"
-            elif 1 <= percent < 10:
-                rarity = "uncommon"
-            else:
-                rarity = "rare"
-            comments = " ".join([c["text"] for c in npc.get("comments", [])])
-            doc_text = (
-                f"Item {item['name']}: Level {item.get('level', 'N/A')}. {item.get('description', '')}"
-                f"{comments}"
-            )
-            item_classes = item_class_assign(item)
-            metadata = {
-                "source": "item",
-                "name": item["name"],
-                "type": item_classes["item_type"],
-                "rarity": rarity,
-                "subType": item_classes["item_sub_type"],
-            }
-            documents.append(doc_text)
-            metadatas.append(metadata)
+            try:
+                percent = item.get("percent", 0)
+                if percent >= 10:
+                    rarity = "common"
+                elif 1 <= percent < 10:
+                    rarity = "uncommon"
+                else:
+                    rarity = "rare"
+                doc_text = (
+                    f"Item {item['name']}: Level {item.get('level', 'N/A')}. {item.get('description', '')}"
+                )
+                item_classes = item_class_assign(item)
+                metadata = {
+                    "source": "item",
+                    "name": item["name"],
+                    "type": item_classes["item_type"],
+                    "rarity": rarity,
+                    "subType": item_classes["item_sub_type"],
+                }
+                print(metadata)
+                documents.append(doc_text)
+                metadatas.append(metadata)
+            except Exception as e:
+                print(f"Skipping item {item.get('name', 'unknown')} due to error: {e}")
 
     # Process Quest Data
     with open(os.path.join(current_dir, "data", "questData.json"), "r") as f:
@@ -109,6 +111,7 @@ def process_data():
             metadatas=metadatas,
             ids=[f"id_{i}" for i in range(len(documents))],
         )
+        print("Finished processing documents")
     except Exception as e:
         print("Error adding to collection:", e)
 
