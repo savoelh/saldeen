@@ -111,8 +111,6 @@ def item_class_assign(item):
             item_sub_type = "bullet"
     elif item["class"] == 7:
         item_type = "trade goods"
-        if item["subclass"] == 0:
-            item_sub_type = "herbs"
         if item["subclass"] == 1:
             item_sub_type = "parts"
         elif item["subclass"] == 2:

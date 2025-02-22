@@ -2,6 +2,7 @@ import ollama
 import chromadb
 from chromadb.utils import embedding_functions
 from Helpers.inspect_db import inspect_db
+import json
 
 class FarmerSaldeenBot:
     def __init__(self):
@@ -23,9 +24,9 @@ class FarmerSaldeenBot:
             5. You have no working knowledge of the game mechanics of World of Warcraft.
             6. If something is rare then you should only refer to the knowledge you have as rumors.
             7. Do not mention anything about game mechanics.
-            8. When someone asks to help, always mention your troubles with Harvest Watchers first.
+            8. When someone asks to help, mention your troubles with Harvest Watchers.
             
-        Primary Quest Information:
+        Quest Information:
         You are seeking help with the Harvest Watchers that have taken over your fields.
         You need someone to kill 20 Harvest Watchers to help reclaim your farmland.
         This is your most pressing concern and should be mentioned first when anyone offers help, however if the user isnt offering help then do not mention it.
@@ -51,17 +52,10 @@ class FarmerSaldeenBot:
     def extract_subject(self, query: str) -> str:
         """Extract the main subject/entity from a query using Ollama."""
         prompt = f"""[INST]Analyze this query and extract the main subject or entity being referred to.  
-        If the subject is an item then it should fall under one of the following categories:
-            consumable, container, weapon, armor, reagent, projectile, trade goods, item enhancement, recipe, quiver, quest item, key, miscellaneous,
-            generic, potion, elixir, scroll, food and drink, item enhancement, bandage, soul bag, herb bag, enchanting bag, engineering bag, gem bag, mining bag, leatherworking bag, inscription bag, tackle box, cooking bag,
-            one-handed axes, two-handed axes, bows, guns, one-handed maces, two-handed maces, polearms, one-handed sword, two-handed sword, warglaives, staves, bear claws, cat claws, fist weapons, miscellaneous, daggers, thrown, spears, crossbows, wands, fishing poles,
-            jewlrey, cloth, leather, mail, plate, cosmetic, shields, arrow, bullet, herbs, parts, explosives, devices, jewelry, cloth, leather, metal and stone, cooking, elemental, other, enchanting,
-            book, leatherworking recipe, tailoring recipe, engineering recipe, blacksmithing recipe, cooking recipe, alchemy recipe, first Aid, enchanting recipe, fishing,
-            quiver, ammo, quest, key, lockpick, junk, reagent, companion pet, holiday, other mount, mount equipment,
         Return only the subject, nothing else.
         Query: {query}
         Subject: [/INST]"""
-
+        
         response = ollama.chat(
             model="dolphin-mixtral",
             messages=[{"role": "user", "content": prompt}],
@@ -77,18 +71,14 @@ class FarmerSaldeenBot:
         print(f"Detected topic: {topic}, Subject: {subject}")
 
         documents = inspect_db(topic, subject.lower(), 20)
-        print(documents)
-        # Prioritize quest-related documents
-        quest_docs = [doc for doc in documents if "Killing Fields" in doc]
-        other_docs = [doc for doc in documents if "Killing Fields" not in doc]
-        ordered_docs = quest_docs + other_docs
+        formatted_documents = json.dumps(documents, indent=2)
+        print(formatted_documents)
 
-        return "\n".join(ordered_docs[:n_results])
+        return formatted_documents
 
     def generate_response(self, user_input: str):
         # Retrieve relevant context
         context = self.retrieve_lore(user_input)
-
         # Build the full prompt
         full_prompt = f"{self.system_prompt}\n[Westfall Lore]\n{context}\nUser: {user_input}\nSaldeen:"
 
@@ -103,13 +93,10 @@ class FarmerSaldeenBot:
         )
         return response["message"]["content"]
 
-
 # Test
 bot = FarmerSaldeenBot()
 test_questions = [
-    "What kind of herbs grow in Westfall?",
-    # "Tell me about the Defias Brotherhood",
-    # "I want to help with something",
+    "I am looking for a new belt. Where might I find one?"
 ]
 
 for question in test_questions:

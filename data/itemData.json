@@ -1,200 +1,3 @@
-I need help reformatting this data. This function wil show you what classes and subclasses are supposed to be. However the data is incorrect in some cases. For example the trade goods items which are class 7 are all subclass 0. Please correct these mistakes and any others that you find
-def item_class_assign(item):
-    item_type = 7
-    item_sub_type = 11
-    if item["class"] == 0:
-        item_type = "consumable"
-        if item["subclass"] == 0:
-            item_sub_type = "generic"
-        elif item["subclass"] == 1:
-            item_sub_type = "potion"
-        elif item["subclass"] == 2:
-            item_sub_type = "elixir"
-        elif item["subclass"] == 3:
-            item_sub_type = "scroll"
-        elif item["subclass"] == 4:
-            item_sub_type = "food and drink"
-        elif item["subclass"] == 5:
-            item_sub_type = "item enhancement"
-        elif item["subclass"] == 6:
-            item_sub_type = "bandage"
-    elif item["class"] == 1:
-        item_type = "container"
-        if item["subclass"] == 0:
-            item_sub_type = "bag"
-        elif item["subclass"] == 1:
-            item_sub_type = "soul bag"
-        elif item["subclass"] == 2:
-            item_sub_type = "herb bag"
-        elif item["subclass"] == 3:
-            item_sub_type = "enchanting bag"
-        elif item["subclass"] == 4:
-            item_sub_type = "engineering bag"
-        elif item["subclass"] == 5:
-            item_sub_type = "gem bag"
-        elif item["subclass"] == 6:
-            item_sub_type = "mining bag"
-        elif item["subclass"] == 7:
-            item_sub_type = "leatherworking bag"
-        elif item["subclass"] == 8:
-            item_sub_type = "inscription bag"
-        elif item["subclass"] == 9:
-            item_sub_type = "tackle box"
-        elif item["subclass"] == 10:
-            item_sub_type = "cooking bag"
-    elif item["class"] == 2:
-        item_type = "weapon"
-        if item["subclass"] == 0:
-            item_sub_type = "one-handed axes"
-        elif item["subclass"] == 1:
-            item_sub_type = "two-handed axes"
-        elif item["subclass"] == 2:
-            item_sub_type = "bows"
-        elif item["subclass"] == 3:
-            item_sub_type = "guns"
-        elif item["subclass"] == 4:
-            item_sub_type = "one-handed maces"
-        elif item["subclass"] == 5:
-            item_sub_type = "two-handed maces"
-        elif item["subclass"] == 6:
-            item_sub_type = "polearms"
-        elif item["subclass"] == 7:
-            item_sub_type = "one-handed sword"
-        elif item["subclass"] == 8:
-            item_sub_type = "two-handed sword"
-        elif item["subclass"] == 9:
-            item_sub_type = "warglaives"
-        elif item["subclass"] == 10:
-            item_sub_type = "staves"
-        elif item["subclass"] == 11:
-            item_sub_type = "bear claws"
-        elif item["subclass"] == 12:
-            item_sub_type = "cat claws"
-        elif item["subclass"] == 13:
-            item_sub_type = "fist weapons"
-        elif item["subclass"] == 14:
-            item_sub_type = "miscellaneous"
-        elif item["subclass"] == 15:
-            item_sub_type = "daggers"
-        elif item["subclass"] == 16:
-            item_sub_type = "thrown"
-        elif item["subclass"] == 17:
-            item_sub_type = "spears"
-        elif item["subclass"] == 18:
-            item_sub_type = "crossbows"
-        elif item["subclass"] == 19:
-            item_sub_type = "wands"
-        elif item["subclass"] == 20:
-            item_sub_type = "fishing poles"
-    elif item["class"] == 4:
-        item_type = "armor"
-        if item["subclass"] == 0:
-            item_sub_type = "jewlrey"  # Miscellaneous Includes Spellstones, Firestones, Trinkets, Rings and Necks
-        elif item["subclass"] == 1:
-            item_sub_type = "cloth"
-        elif item["subclass"] == 2:
-            item_sub_type = "leather"
-        elif item["subclass"] == 3:
-            item_sub_type = "mail"
-        elif item["subclass"] == 4:
-            item_sub_type = "plate"
-        elif item["subclass"] == 5:
-            item_sub_type = "cosmetic"
-        elif item["subclass"] == 6:
-            item_sub_type = "shields"
-    elif item["class"] == 5:
-        item_type = "reagent"
-    elif item["class"] == 6:
-        item_type = "projectile"
-        if item["subclass"] == 2:
-            item_sub_type = "arrow"
-        elif item["subclass"] == 3:
-            item_sub_type = "bullet"
-    elif item["class"] == 7:
-        item_type = "trade goods"
-        if item["subclass"] == 1:
-            item_sub_type = "parts"
-        elif item["subclass"] == 2:
-            item_sub_type = "explosives"
-        elif item["subclass"] == 3:
-            item_sub_type = "devices"
-        elif item["subclass"] == 4:
-            item_sub_type = "jewelry"
-        elif item["subclass"] == 5:
-            item_sub_type = "cloth"
-        elif item["subclass"] == 6:
-            item_sub_type = "leather"
-        elif item["subclass"] == 7:
-            item_sub_type = "metal and stone"
-        elif item["subclass"] == 8:
-            item_sub_type = "cooking"
-        elif item["subclass"] == 9:
-            item_sub_type = "herbs"
-        elif item["subclass"] == 10:
-            item_sub_type = "elemental"
-        elif item["subclass"] == 11:
-            item_sub_type = "other"
-        elif item["subclass"] == 12:
-            item_sub_type = "enchanting"
-    elif item["class"] == 8:
-        item_type = "item enhancement"
-    elif item["class"] == 9:
-        item_type = "recipe"
-        if item["subclass"] == 0:
-            item_sub_type = "book"
-        elif item["subclass"] == 1:
-            item_sub_type = "leatherworking recipe"
-        elif item["subclass"] == 2:
-            item_sub_type = "tailoring recipe"
-        elif item["subclass"] == 3:
-            item_sub_type = "engineering recipe"
-        elif item["subclass"] == 4:
-            item_sub_type = "blacksmithing recipe"
-        elif item["subclass"] == 5:
-            item_sub_type = "cooking recipe"
-        elif item["subclass"] == 6:
-            item_sub_type = "alchemy recipe"
-        elif item["subclass"] == 7:
-            item_sub_type = "first Aid"
-        elif item["subclass"] == 8:
-            item_sub_type = "enchanting recipe"
-        elif item["subclass"] == 9:
-            item_sub_type = "fishing"
-    elif item["class"] == 11:
-        item_type = "quiver"
-        if item["subclass"] == 2:
-            item_sub_type = "quiver"
-        elif item["subclass"] == 3:
-            item_sub_type = "ammo"
-    elif item["class"] == 12:
-        item_type = "quest item"
-        item_sub_type = "quest"
-    elif item["class"] == 13:
-        item_type = "key"
-        if item["subclass"] == 0:
-            item_sub_type = "key"
-        elif item["subclass"] == 1:
-            item_sub_type = "lockpick"
-    elif item["class"] == 15:
-        item_type = "miscellaneous"
-        if item["subclass"] == 0:
-            item_sub_type = "junk"
-        elif item["subclass"] == 1:
-            item_sub_type = "reagent"
-        elif item["subclass"] == 2:
-            item_sub_type = "companion pet"
-        elif item["subclass"] == 3:
-            item_sub_type = "holiday"
-        elif item["subclass"] == 4:
-            item_sub_type = "other"
-        elif item["subclass"] == 5:
-            item_sub_type = "mount"
-        elif item["subclass"] == 6:
-            item_sub_type = "mount equipment"
-
-    return {"item_type": item_type, "item_sub_type": item_sub_type}
-
-
 [   
     {
         "name": "Dalaran Sharp",
@@ -211,7 +14,7 @@ def item_class_assign(item):
         "name": "Silverleaf",
         "level": 5,
         "class": 7,
-        "subclass": 0,
+        "subclass": 9,
         "percent": 0.02,
         "id": 765,
         "itemId": "silverleaf",
@@ -221,7 +24,7 @@ def item_class_assign(item):
         "name": "Malachite",
         "level": 7,
         "class": 7,
-        "subclass": 0,
+        "subclass": 7,
         "percent": 0.38,
         "id": 774,
         "itemId": "malachite",
@@ -231,7 +34,7 @@ def item_class_assign(item):
         "name": "Tigerseye",
         "level": 15,
         "class": 7,
-        "subclass": 0,
+        "subclass": 7,
         "percent": 0.38,
         "id": 818,
         "itemId": "tigerseye",
@@ -316,7 +119,7 @@ def item_class_assign(item):
         "name": "Shadowgem",
         "level": 20,
         "class": 7,
-        "subclass": 0,
+        "subclass": 7,
         "percent": 0.52,
         "id": 1210,
         "itemId": "shadowgem",
@@ -348,7 +151,7 @@ def item_class_assign(item):
         "name": "Linen Cloth",
         "level": 5,
         "class": 7,
-        "subclass": 0,
+        "subclass": 5,
         "stack": [
             1,
             3
@@ -394,7 +197,7 @@ def item_class_assign(item):
         "name": "Copper Ore",
         "level": 10,
         "class": 7,
-        "subclass": 0,
+        "subclass": 7,
         "percent": 0.14,
         "id": 2770,
         "itemId": "copperOre",
@@ -404,7 +207,7 @@ def item_class_assign(item):
         "name": "Rough Stone",
         "level": 5,
         "class": 7,
-        "subclass": 0,
+        "subclass": 7,
         "percent": 0.08,
         "id": 2835,
         "itemId": "roughStone",
@@ -558,7 +361,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Soldier\"s Cloak",
+        "name": "Soldier's Cloak",
         "level": 14,
         "reqLevel": 9,
         "class": 4,
@@ -566,11 +369,11 @@ def item_class_assign(item):
         "percent": 0.12,
         "phaseval": 1,
         "id": 6549,
-        "itemId": "soldier\"sCloak",
+        "itemId": "soldier'sCloak",
         "type": ""
     },
     {
-        "name": "Bard\"s Cloak",
+        "name": "Bard's Cloak",
         "level": 14,
         "reqLevel": 9,
         "class": 4,
@@ -578,7 +381,7 @@ def item_class_assign(item):
         "percent": 0.3,
         "phaseval": 1,
         "id": 6555,
-        "itemId": "bard\"sCloak",
+        "itemId": "bard'sCloak",
         "type": ""
     },
     {
@@ -772,7 +575,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Commoner\"s Sword",
+        "name": "Commoner's Sword",
         "level": 13,
         "reqLevel": 8,
         "class": 2,
@@ -781,7 +584,7 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 1511,
-        "itemId": "commoner\"sSword",
+        "itemId": "commoner'sSword",
         "type": ""
     },
     {
@@ -1042,7 +845,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Priest\"s Mace",
+        "name": "Priest's Mace",
         "level": 12,
         "reqLevel": 7,
         "class": 2,
@@ -1051,7 +854,7 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 2075,
-        "itemId": "priest\"sMace",
+        "itemId": "priest'sMace",
         "type": ""
     },
     {
@@ -1210,7 +1013,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Dargol\"s Hauberk",
+        "name": "Dargol's Hauberk",
         "level": 13,
         "reqLevel": 8,
         "class": 4,
@@ -1219,7 +1022,7 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 3330,
-        "itemId": "dargol\"sHauberk",
+        "itemId": "dargol'sHauberk",
         "type": ""
     },
     {
@@ -1301,7 +1104,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Disciple\"s Vest",
+        "name": "Disciple's Vest",
         "level": 13,
         "reqLevel": 8,
         "class": 4,
@@ -1310,11 +1113,11 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 6266,
-        "itemId": "disciple\"sVest",
+        "itemId": "disciple'sVest",
         "type": ""
     },
     {
-        "name": "Disciple\"s Pants",
+        "name": "Disciple's Pants",
         "level": 12,
         "reqLevel": 7,
         "class": 4,
@@ -1323,7 +1126,7 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 6267,
-        "itemId": "disciple\"sPants",
+        "itemId": "disciple'sPants",
         "type": ""
     },
     {
@@ -1378,7 +1181,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Disciple\"s Robe",
+        "name": "Disciple's Robe",
         "level": 13,
         "reqLevel": 8,
         "class": 4,
@@ -1387,7 +1190,7 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 6512,
-        "itemId": "disciple\"sRobe",
+        "itemId": "disciple'sRobe",
         "type": ""
     },
     {
@@ -1456,7 +1259,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Disciple\"s Stein",
+        "name": "Disciple's Stein",
         "level": 12,
         "reqLevel": 7,
         "class": 4,
@@ -1465,7 +1268,7 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 15932,
-        "itemId": "disciple\"sStein",
+        "itemId": "disciple'sStein",
         "type": ""
     },
     {
@@ -1896,7 +1699,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Adept\"s Gloves",
+        "name": "Adept's Gloves",
         "level": 15,
         "reqLevel": 10,
         "class": 4,
@@ -1905,7 +1708,7 @@ def item_class_assign(item):
         "group": "(3)",
         "phaseval": 1,
         "id": 4768,
-        "itemId": "adept\"sGloves",
+        "itemId": "adept'sGloves",
         "type": ""
     },
     {
@@ -1935,7 +1738,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Rathorian\"s Cape",
+        "name": "Rathorian's Cape",
         "level": 15,
         "reqLevel": 10,
         "class": 4,
@@ -1944,7 +1747,7 @@ def item_class_assign(item):
         "group": "(3)",
         "phaseval": 1,
         "id": 5111,
-        "itemId": "rathorian\"sCape",
+        "itemId": "rathorian'sCape",
         "type": ""
     },
     {
@@ -2039,7 +1842,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Soldier\"s Wristguards",
+        "name": "Soldier's Wristguards",
         "level": 15,
         "reqLevel": 10,
         "class": 4,
@@ -2047,11 +1850,11 @@ def item_class_assign(item):
         "percent": 0.015384615384615,
         "group": "(3)",
         "id": 6550,
-        "itemId": "soldier\"sWristguards",
+        "itemId": "soldier'sWristguards",
         "type": ""
     },
     {
-        "name": "Bard\"s Bracers",
+        "name": "Bard's Bracers",
         "level": 15,
         "reqLevel": 10,
         "class": 4,
@@ -2060,11 +1863,11 @@ def item_class_assign(item):
         "group": "(3)",
         "phaseval": 1,
         "id": 6556,
-        "itemId": "bard\"sBracers",
+        "itemId": "bard'sBracers",
         "type": ""
     },
     {
-        "name": "Bard\"s Belt",
+        "name": "Bard's Belt",
         "level": 15,
         "reqLevel": 10,
         "class": 4,
@@ -2073,7 +1876,7 @@ def item_class_assign(item):
         "group": "(3)",
         "phaseval": 1,
         "id": 6558,
-        "itemId": "bard\"sBelt",
+        "itemId": "bard'sBelt",
         "type": ""
     },
     {
@@ -2193,7 +1996,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Mystic\"s Cape",
+        "name": "Mystic's Cape",
         "level": 15,
         "reqLevel": 10,
         "class": 4,
@@ -2202,7 +2005,7 @@ def item_class_assign(item):
         "group": "(3)",
         "phaseval": 1,
         "id": 14365,
-        "itemId": "mystic\"sCape",
+        "itemId": "mystic'sCape",
         "type": ""
     },
     {
@@ -2437,7 +2240,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Sergeant\"s Warhammer",
+        "name": "Sergeant's Warhammer",
         "level": 17,
         "reqLevel": 12,
         "class": 2,
@@ -2446,11 +2249,11 @@ def item_class_assign(item):
         "group": "(4)",
         "phaseval": 1,
         "id": 2079,
-        "itemId": "sergeant\"sWarhammer",
+        "itemId": "sergeant'sWarhammer",
         "type": ""
     },
     {
-        "name": "Brashclaw\"s Skewer",
+        "name": "Brashclaw's Skewer",
         "level": 17,
         "reqLevel": 12,
         "class": 2,
@@ -2459,11 +2262,11 @@ def item_class_assign(item):
         "group": "(4)",
         "phaseval": 1,
         "id": 2204,
-        "itemId": "brashclaw\"sSkewer",
+        "itemId": "brashclaw'sSkewer",
         "type": ""
     },
     {
-        "name": "Sapper\"s Gloves",
+        "name": "Sapper's Gloves",
         "level": 17,
         "reqLevel": 12,
         "class": 4,
@@ -2472,7 +2275,7 @@ def item_class_assign(item):
         "group": "(4)",
         "phaseval": 1,
         "id": 2274,
-        "itemId": "sapper\"sGloves",
+        "itemId": "sapper'sGloves",
         "type": ""
     },
     {
@@ -2541,7 +2344,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Seer\"s Boots",
+        "name": "Seer's Boots",
         "level": 17,
         "reqLevel": 12,
         "class": 4,
@@ -2550,7 +2353,7 @@ def item_class_assign(item):
         "group": "(4)",
         "phaseval": 1,
         "id": 2983,
-        "itemId": "seer\"sBoots",
+        "itemId": "seer'sBoots",
         "type": ""
     },
     {
@@ -2605,7 +2408,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Seer\"s Cuffs",
+        "name": "Seer's Cuffs",
         "level": 17,
         "reqLevel": 12,
         "class": 4,
@@ -2614,7 +2417,7 @@ def item_class_assign(item):
         "group": "(4)",
         "phaseval": 1,
         "id": 3645,
-        "itemId": "seer\"sCuffs",
+        "itemId": "seer'sCuffs",
         "type": ""
     },
     {
@@ -2683,7 +2486,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Seer\"s Cape",
+        "name": "Seer's Cape",
         "level": 17,
         "reqLevel": 12,
         "class": 4,
@@ -2692,7 +2495,7 @@ def item_class_assign(item):
         "group": "(4)",
         "phaseval": 1,
         "id": 6378,
-        "itemId": "seer\"sCape",
+        "itemId": "seer'sCape",
         "type": ""
     },
     {
@@ -2748,7 +2551,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Soldier\"s Leggings",
+        "name": "Soldier's Leggings",
         "level": 17,
         "reqLevel": 12,
         "class": 4,
@@ -2756,11 +2559,11 @@ def item_class_assign(item):
         "percent": 0.014285714285714,
         "group": "(4)",
         "id": 6546,
-        "itemId": "soldier\"sLeggings",
+        "itemId": "soldier'sLeggings",
         "type": ""
     },
     {
-        "name": "Soldier\"s Gauntlets",
+        "name": "Soldier's Gauntlets",
         "level": 17,
         "reqLevel": 12,
         "class": 4,
@@ -2769,11 +2572,11 @@ def item_class_assign(item):
         "group": "(4)",
         "phaseval": 1,
         "id": 6547,
-        "itemId": "soldier\"sGauntlets",
+        "itemId": "soldier'sGauntlets",
         "type": ""
     },
     {
-        "name": "Soldier\"s Girdle",
+        "name": "Soldier's Girdle",
         "level": 16,
         "reqLevel": 11,
         "class": 4,
@@ -2781,11 +2584,11 @@ def item_class_assign(item):
         "percent": 0.014285714285714,
         "group": "(4)",
         "id": 6548,
-        "itemId": "soldier\"sGirdle",
+        "itemId": "soldier'sGirdle",
         "type": ""
     },
     {
-        "name": "Soldier\"s Boots",
+        "name": "Soldier's Boots",
         "level": 17,
         "reqLevel": 12,
         "class": 4,
@@ -2794,11 +2597,11 @@ def item_class_assign(item):
         "group": "(4)",
         "phaseval": 1,
         "id": 6551,
-        "itemId": "soldier\"sBoots",
+        "itemId": "soldier'sBoots",
         "type": ""
     },
     {
-        "name": "Bard\"s Gloves",
+        "name": "Bard's Gloves",
         "level": 17,
         "reqLevel": 12,
         "class": 4,
@@ -2807,11 +2610,11 @@ def item_class_assign(item):
         "group": "(4)",
         "phaseval": 1,
         "id": 6554,
-        "itemId": "bard\"sGloves",
+        "itemId": "bard'sGloves",
         "type": ""
     },
     {
-        "name": "Bard\"s Boots",
+        "name": "Bard's Boots",
         "level": 16,
         "reqLevel": 11,
         "class": 4,
@@ -2820,11 +2623,11 @@ def item_class_assign(item):
         "group": "(4)",
         "phaseval": 1,
         "id": 6557,
-        "itemId": "bard\"sBoots",
+        "itemId": "bard'sBoots",
         "type": ""
     },
     {
-        "name": "Bard\"s Buckler",
+        "name": "Bard's Buckler",
         "level": 16,
         "reqLevel": 11,
         "class": 4,
@@ -2833,11 +2636,11 @@ def item_class_assign(item):
         "group": "(4)",
         "phaseval": 1,
         "id": 6559,
-        "itemId": "bard\"sBuckler",
+        "itemId": "bard'sBuckler",
         "type": ""
     },
     {
-        "name": "Soldier\"s Shield",
+        "name": "Soldier's Shield",
         "level": 17,
         "reqLevel": 12,
         "class": 4,
@@ -2846,7 +2649,7 @@ def item_class_assign(item):
         "group": "(4)",
         "phaseval": 1,
         "id": 6560,
-        "itemId": "soldier\"sShield",
+        "itemId": "soldier'sShield",
         "type": ""
     },
     {
@@ -2863,7 +2666,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Raider\"s Bracers",
+        "name": "Raider's Bracers",
         "level": 17,
         "reqLevel": 12,
         "class": 4,
@@ -2871,11 +2674,11 @@ def item_class_assign(item):
         "percent": 0.014285714285714,
         "group": "(4)",
         "id": 9785,
-        "itemId": "raider\"sBracers",
+        "itemId": "raider'sBracers",
         "type": ""
     },
     {
-        "name": "Raider\"s Cloak",
+        "name": "Raider's Cloak",
         "level": 16,
         "reqLevel": 11,
         "class": 4,
@@ -2884,11 +2687,11 @@ def item_class_assign(item):
         "group": "(4)",
         "phaseval": 1,
         "id": 9786,
-        "itemId": "raider\"sCloak",
+        "itemId": "raider'sCloak",
         "type": ""
     },
     {
-        "name": "Mystic\"s Belt",
+        "name": "Mystic's Belt",
         "level": 17,
         "reqLevel": 12,
         "class": 4,
@@ -2897,7 +2700,7 @@ def item_class_assign(item):
         "group": "(4)",
         "phaseval": 1,
         "id": 14025,
-        "itemId": "mystic\"sBelt",
+        "itemId": "mystic'sBelt",
         "type": ""
     },
     {
@@ -2979,7 +2782,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Mystic\"s Bracelets",
+        "name": "Mystic's Bracelets",
         "level": 17,
         "reqLevel": 12,
         "class": 4,
@@ -2988,11 +2791,11 @@ def item_class_assign(item):
         "group": "(4)",
         "phaseval": 1,
         "id": 14366,
-        "itemId": "mystic\"sBracelets",
+        "itemId": "mystic'sBracelets",
         "type": ""
     },
     {
-        "name": "Prospector\"s Cuffs",
+        "name": "Prospector's Cuffs",
         "level": 17,
         "reqLevel": 12,
         "class": 4,
@@ -3001,11 +2804,11 @@ def item_class_assign(item):
         "group": "(4)",
         "phaseval": 1,
         "id": 14561,
-        "itemId": "prospector\"sCuffs",
+        "itemId": "prospector'sCuffs",
         "type": ""
     },
     {
-        "name": "Prospector\"s Cloak",
+        "name": "Prospector's Cloak",
         "level": 17,
         "reqLevel": 12,
         "class": 4,
@@ -3014,7 +2817,7 @@ def item_class_assign(item):
         "group": "(4)",
         "phaseval": 1,
         "id": 14563,
-        "itemId": "prospector\"sCloak",
+        "itemId": "prospector'sCloak",
         "type": ""
     },
     {
@@ -3198,7 +3001,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Outrunner\"s Cloak",
+        "name": "Outrunner's Cloak",
         "level": 17,
         "reqLevel": 12,
         "class": 4,
@@ -3207,7 +3010,7 @@ def item_class_assign(item):
         "group": "(4)",
         "phaseval": 1,
         "id": 15501,
-        "itemId": "outrunner\"sCloak",
+        "itemId": "outrunner'sCloak",
         "type": ""
     },
     {
@@ -3315,7 +3118,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Gnarled Hermit\"s Staff",
+        "name": "Gnarled Hermit's Staff",
         "level": 19,
         "reqLevel": 14,
         "class": 2,
@@ -3324,7 +3127,7 @@ def item_class_assign(item):
         "group": "(5)",
         "phaseval": 1,
         "id": 1539,
-        "itemId": "gnarledHermit\"sStaff",
+        "itemId": "gnarledHermit'sStaff",
         "type": ""
     },
     {
@@ -3445,7 +3248,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Brashclaw\"s Chopper",
+        "name": "Brashclaw's Chopper",
         "level": 19,
         "reqLevel": 14,
         "class": 2,
@@ -3454,7 +3257,7 @@ def item_class_assign(item):
         "group": "(5)",
         "phaseval": 1,
         "id": 2203,
-        "itemId": "brashclaw\"sChopper",
+        "itemId": "brashclaw'sChopper",
         "type": ""
     },
     {
@@ -3510,7 +3313,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Seer\"s Gloves",
+        "name": "Seer's Gloves",
         "level": 18,
         "reqLevel": 13,
         "class": 4,
@@ -3519,7 +3322,7 @@ def item_class_assign(item):
         "group": "(5)",
         "phaseval": 1,
         "id": 2984,
-        "itemId": "seer\"sGloves",
+        "itemId": "seer'sGloves",
         "type": ""
     },
     {
@@ -3549,7 +3352,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Noble\"s Robe",
+        "name": "Noble's Robe",
         "level": 18,
         "reqLevel": 13,
         "class": 4,
@@ -3558,11 +3361,11 @@ def item_class_assign(item):
         "group": "(5)",
         "phaseval": 1,
         "id": 3019,
-        "itemId": "noble\"sRobe",
+        "itemId": "noble'sRobe",
         "type": ""
     },
     {
-        "name": "Hunter\"s Muzzle Loader",
+        "name": "Hunter's Muzzle Loader",
         "level": 19,
         "reqLevel": 14,
         "class": 2,
@@ -3571,7 +3374,7 @@ def item_class_assign(item):
         "group": "(5)",
         "phaseval": 1,
         "id": 3040,
-        "itemId": "hunter\"sMuzzleLoader",
+        "itemId": "hunter'sMuzzleLoader",
         "type": ""
     },
     {
@@ -3717,7 +3520,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Seer\"s Belt",
+        "name": "Seer's Belt",
         "level": 18,
         "reqLevel": 13,
         "class": 4,
@@ -3726,7 +3529,7 @@ def item_class_assign(item):
         "group": "(5)",
         "phaseval": 1,
         "id": 4699,
-        "itemId": "seer\"sBelt",
+        "itemId": "seer'sBelt",
         "type": ""
     },
     {
@@ -3743,7 +3546,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Privateer\"s Cape",
+        "name": "Privateer's Cape",
         "level": 19,
         "reqLevel": 14,
         "class": 4,
@@ -3752,7 +3555,7 @@ def item_class_assign(item):
         "group": "(5)",
         "phaseval": 1,
         "id": 6179,
-        "itemId": "privateer\"sCape",
+        "itemId": "privateer'sCape",
         "type": ""
     },
     {
@@ -3821,7 +3624,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Soldier\"s Armor",
+        "name": "Soldier's Armor",
         "level": 18,
         "reqLevel": 13,
         "class": 4,
@@ -3830,11 +3633,11 @@ def item_class_assign(item):
         "group": "(5)",
         "phaseval": 1,
         "id": 6545,
-        "itemId": "soldier\"sArmor",
+        "itemId": "soldier'sArmor",
         "type": ""
     },
     {
-        "name": "Bard\"s Tunic",
+        "name": "Bard's Tunic",
         "level": 19,
         "reqLevel": 14,
         "class": 4,
@@ -3843,11 +3646,11 @@ def item_class_assign(item):
         "group": "(5)",
         "phaseval": 1,
         "id": 6552,
-        "itemId": "bard\"sTunic",
+        "itemId": "bard'sTunic",
         "type": ""
     },
     {
-        "name": "Bard\"s Trousers",
+        "name": "Bard's Trousers",
         "level": 18,
         "reqLevel": 13,
         "class": 4,
@@ -3856,7 +3659,7 @@ def item_class_assign(item):
         "group": "(5)",
         "phaseval": 1,
         "id": 6553,
-        "itemId": "bard\"sTrousers",
+        "itemId": "bard'sTrousers",
         "type": ""
     },
     {
@@ -3912,7 +3715,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Raider\"s Boots",
+        "name": "Raider's Boots",
         "level": 19,
         "reqLevel": 14,
         "class": 4,
@@ -3921,11 +3724,11 @@ def item_class_assign(item):
         "group": "(5)",
         "phaseval": 1,
         "id": 9784,
-        "itemId": "raider\"sBoots",
+        "itemId": "raider'sBoots",
         "type": ""
     },
     {
-        "name": "Raider\"s Gauntlets",
+        "name": "Raider's Gauntlets",
         "level": 19,
         "reqLevel": 14,
         "class": 4,
@@ -3934,11 +3737,11 @@ def item_class_assign(item):
         "group": "(5)",
         "phaseval": 1,
         "id": 9787,
-        "itemId": "raider\"sGauntlets",
+        "itemId": "raider'sGauntlets",
         "type": ""
     },
     {
-        "name": "Raider\"s Belt",
+        "name": "Raider's Belt",
         "level": 18,
         "reqLevel": 13,
         "class": 4,
@@ -3946,11 +3749,11 @@ def item_class_assign(item):
         "percent": 0.01123595505618,
         "group": "(5)",
         "id": 9788,
-        "itemId": "raider\"sBelt",
+        "itemId": "raider'sBelt",
         "type": ""
     },
     {
-        "name": "Raider\"s Legguards",
+        "name": "Raider's Legguards",
         "level": 19,
         "reqLevel": 14,
         "class": 4,
@@ -3958,11 +3761,11 @@ def item_class_assign(item):
         "percent": 0.01123595505618,
         "group": "(5)",
         "id": 9789,
-        "itemId": "raider\"sLegguards",
+        "itemId": "raider'sLegguards",
         "type": ""
     },
     {
-        "name": "Raider\"s Shield",
+        "name": "Raider's Shield",
         "level": 19,
         "reqLevel": 14,
         "class": 4,
@@ -3971,7 +3774,7 @@ def item_class_assign(item):
         "group": "(5)",
         "phaseval": 1,
         "id": 9790,
-        "itemId": "raider\"sShield",
+        "itemId": "raider'sShield",
         "type": ""
     },
     {
@@ -4066,7 +3869,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Buccaneer\"s Bracers",
+        "name": "Buccaneer's Bracers",
         "level": 19,
         "reqLevel": 14,
         "class": 4,
@@ -4075,11 +3878,11 @@ def item_class_assign(item):
         "group": "(5)",
         "phaseval": 1,
         "id": 14166,
-        "itemId": "buccaneer\"sBracers",
+        "itemId": "buccaneer'sBracers",
         "type": ""
     },
     {
-        "name": "Buccaneer\"s Cape",
+        "name": "Buccaneer's Cape",
         "level": 19,
         "reqLevel": 14,
         "class": 4,
@@ -4088,11 +3891,11 @@ def item_class_assign(item):
         "group": "(5)",
         "phaseval": 1,
         "id": 14167,
-        "itemId": "buccaneer\"sCape",
+        "itemId": "buccaneer'sCape",
         "type": ""
     },
     {
-        "name": "Buccaneer\"s Boots",
+        "name": "Buccaneer's Boots",
         "level": 19,
         "reqLevel": 14,
         "class": 4,
@@ -4101,11 +3904,11 @@ def item_class_assign(item):
         "group": "(5)",
         "phaseval": 1,
         "id": 14174,
-        "itemId": "buccaneer\"sBoots",
+        "itemId": "buccaneer'sBoots",
         "type": ""
     },
     {
-        "name": "Mystic\"s Slippers",
+        "name": "Mystic's Slippers",
         "level": 18,
         "reqLevel": 13,
         "class": 4,
@@ -4114,11 +3917,11 @@ def item_class_assign(item):
         "group": "(5)",
         "phaseval": 1,
         "id": 14364,
-        "itemId": "mystic\"sSlippers",
+        "itemId": "mystic'sSlippers",
         "type": ""
     },
     {
-        "name": "Mystic\"s Gloves",
+        "name": "Mystic's Gloves",
         "level": 19,
         "reqLevel": 14,
         "class": 4,
@@ -4127,11 +3930,11 @@ def item_class_assign(item):
         "group": "(5)",
         "phaseval": 1,
         "id": 14367,
-        "itemId": "mystic\"sGloves",
+        "itemId": "mystic'sGloves",
         "type": ""
     },
     {
-        "name": "Mystic\"s Woolies",
+        "name": "Mystic's Woolies",
         "level": 19,
         "reqLevel": 14,
         "class": 4,
@@ -4140,11 +3943,11 @@ def item_class_assign(item):
         "group": "(5)",
         "phaseval": 1,
         "id": 14370,
-        "itemId": "mystic\"sWoolies",
+        "itemId": "mystic'sWoolies",
         "type": ""
     },
     {
-        "name": "Prospector\"s Sash",
+        "name": "Prospector's Sash",
         "level": 18,
         "reqLevel": 13,
         "class": 4,
@@ -4153,11 +3956,11 @@ def item_class_assign(item):
         "group": "(5)",
         "phaseval": 1,
         "id": 14559,
-        "itemId": "prospector\"sSash",
+        "itemId": "prospector'sSash",
         "type": ""
     },
     {
-        "name": "Prospector\"s Boots",
+        "name": "Prospector's Boots",
         "level": 19,
         "reqLevel": 14,
         "class": 4,
@@ -4166,11 +3969,11 @@ def item_class_assign(item):
         "group": "(5)",
         "phaseval": 1,
         "id": 14560,
-        "itemId": "prospector\"sBoots",
+        "itemId": "prospector'sBoots",
         "type": ""
     },
     {
-        "name": "Prospector\"s Mitts",
+        "name": "Prospector's Mitts",
         "level": 19,
         "reqLevel": 14,
         "class": 4,
@@ -4179,7 +3982,7 @@ def item_class_assign(item):
         "group": "(5)",
         "phaseval": 1,
         "id": 14564,
-        "itemId": "prospector\"sMitts",
+        "itemId": "prospector'sMitts",
         "type": ""
     },
     {
@@ -4311,7 +4114,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Outrunner\"s Cord",
+        "name": "Outrunner's Cord",
         "level": 19,
         "reqLevel": 14,
         "class": 4,
@@ -4319,11 +4122,11 @@ def item_class_assign(item):
         "percent": 0.01123595505618,
         "group": "(5)",
         "id": 15497,
-        "itemId": "outrunner\"sCord",
+        "itemId": "outrunner'sCord",
         "type": ""
     },
     {
-        "name": "Outrunner\"s Cuffs",
+        "name": "Outrunner's Cuffs",
         "level": 18,
         "reqLevel": 13,
         "class": 4,
@@ -4331,11 +4134,11 @@ def item_class_assign(item):
         "percent": 0.01123595505618,
         "group": "(5)",
         "id": 15499,
-        "itemId": "outrunner\"sCuffs",
+        "itemId": "outrunner'sCuffs",
         "type": ""
     },
     {
-        "name": "Grunt\"s Bracers",
+        "name": "Grunt's Bracers",
         "level": 19,
         "reqLevel": 14,
         "class": 4,
@@ -4343,11 +4146,11 @@ def item_class_assign(item):
         "percent": 0.01123595505618,
         "group": "(5)",
         "id": 15507,
-        "itemId": "grunt\"sBracers",
+        "itemId": "grunt'sBracers",
         "type": ""
     },
     {
-        "name": "Grunt\"s Cape",
+        "name": "Grunt's Cape",
         "level": 19,
         "reqLevel": 14,
         "class": 4,
@@ -4356,7 +4159,7 @@ def item_class_assign(item):
         "group": "(5)",
         "phaseval": 1,
         "id": 15508,
-        "itemId": "grunt\"sCape",
+        "itemId": "grunt'sCape",
         "type": ""
     },
     {
@@ -4376,7 +4179,7 @@ def item_class_assign(item):
         "name": "Murloc Eye",
         "level": 11,
         "class": 7,
-        "subclass": 0,
+        "subclass": 11,
         "percent": 32.3899,
         "id": 730,
         "itemId": "murlocEye",
@@ -4397,28 +4200,28 @@ def item_class_assign(item):
         "name": "Moss Agate",
         "level": 25,
         "class": 7,
-        "subclass": 0,
+        "subclass": 7,
         "percent": 0.1,
         "id": 1206,
         "itemId": "mossAgate",
         "type": ""
     },
     {
-        "name": "Captain Sander\"s Treasure Map",
+        "name": "Captain Sander's Treasure Map",
         "level": 10,
         "reqLevel": 10,
         "class": 12,
         "subclass": 0,
         "percent": 100,
         "id": 1357,
-        "itemId": "captainSander\"sTreasureMap",
+        "itemId": "captainSander'sTreasureMap",
         "type": ""
     },
     {
         "name": "Tin Ore",
         "level": 20,
         "class": 7,
-        "subclass": 0,
+        "subclass": 7,
         "percent": 0.1,
         "id": 2771,
         "itemId": "tinOre",
@@ -4428,7 +4231,7 @@ def item_class_assign(item):
         "name": "Coarse Stone",
         "level": 15,
         "class": 7,
-        "subclass": 0,
+        "subclass": 7,
         "percent": 0.1,
         "id": 2836,
         "itemId": "coarseStone",
@@ -4460,28 +4263,28 @@ def item_class_assign(item):
         "name": "Stranglekelp",
         "level": 20,
         "class": 7,
-        "subclass": 0,
+        "subclass": 9,
         "percent": 0.03,
         "id": 3820,
         "itemId": "stranglekelp",
         "type": "herb"
     },
     {
-        "name": "Pattern: Hillman\"s Leather Vest",
+        "name": "Pattern: Hillman's Leather Vest",
         "level": 20,
         "class": 9,
         "subclass": 1,
         "percent": 0.1,
         "phaseval": 1,
         "id": 4293,
-        "itemId": "pattern:Hillman\"sLeatherVest",
+        "itemId": "pattern:Hillman'sLeatherVest",
         "type": ""
     },
     {
         "name": "Small Lustrous Pearl",
         "level": 15,
         "class": 7,
-        "subclass": 0,
+        "subclass": 7,
         "percent": 0.03,
         "id": 5498,
         "itemId": "smallLustrousPearl",
@@ -4491,7 +4294,7 @@ def item_class_assign(item):
         "name": "Clam Meat",
         "level": 14,
         "class": 7,
-        "subclass": 0,
+        "subclass": 8,
         "percent": 4.7,
         "id": 5503,
         "itemId": "clamMeat",
@@ -4511,7 +4314,7 @@ def item_class_assign(item):
         "name": "Slimy Murloc Scale",
         "level": 15,
         "class": 7,
-        "subclass": 0,
+        "subclass": 11,
         "percent": 14.4654,
         "id": 5784,
         "itemId": "slimyMurlocScale",
@@ -4685,7 +4488,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Foreman\"s Leggings",
+        "name": "Foreman's Leggings",
         "level": 20,
         "reqLevel": 15,
         "class": 4,
@@ -4693,11 +4496,11 @@ def item_class_assign(item):
         "percent": 0.012048192771084,
         "group": "(1)",
         "id": 2166,
-        "itemId": "foreman\"sLeggings",
+        "itemId": "foreman'sLeggings",
         "type": ""
     },
     {
-        "name": "Foreman\"s Gloves",
+        "name": "Foreman's Gloves",
         "level": 20,
         "reqLevel": 15,
         "class": 4,
@@ -4706,11 +4509,11 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 2167,
-        "itemId": "foreman\"sGloves",
+        "itemId": "foreman'sGloves",
         "type": ""
     },
     {
-        "name": "Foreman\"s Boots",
+        "name": "Foreman's Boots",
         "level": 21,
         "reqLevel": 16,
         "class": 4,
@@ -4719,7 +4522,7 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 2168,
-        "itemId": "foreman\"sBoots",
+        "itemId": "foreman'sBoots",
         "type": ""
     },
     {
@@ -4736,7 +4539,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Seer\"s Robe",
+        "name": "Seer's Robe",
         "level": 21,
         "reqLevel": 16,
         "class": 4,
@@ -4745,11 +4548,11 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 2981,
-        "itemId": "seer\"sRobe",
+        "itemId": "seer'sRobe",
         "type": ""
     },
     {
-        "name": "Seer\"s Pants",
+        "name": "Seer's Pants",
         "level": 20,
         "reqLevel": 15,
         "class": 4,
@@ -4758,7 +4561,7 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 2982,
-        "itemId": "seer\"sPants",
+        "itemId": "seer'sPants",
         "type": ""
     },
     {
@@ -4865,7 +4668,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Seafarer\"s Pantaloons",
+        "name": "Seafarer's Pantaloons",
         "level": 20,
         "reqLevel": 15,
         "class": 4,
@@ -4874,7 +4677,7 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 3563,
-        "itemId": "seafarer\"sPantaloons",
+        "itemId": "seafarer'sPantaloons",
         "type": ""
     },
     {
@@ -4930,7 +4733,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Channeler\"s Staff",
+        "name": "Channeler's Staff",
         "level": 20,
         "reqLevel": 15,
         "class": 2,
@@ -4939,7 +4742,7 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 4437,
-        "itemId": "channeler\"sStaff",
+        "itemId": "channeler'sStaff",
         "type": ""
     },
     {
@@ -5046,7 +4849,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Seer\"s Padded Armor",
+        "name": "Seer's Padded Armor",
         "level": 21,
         "reqLevel": 16,
         "class": 4,
@@ -5055,7 +4858,7 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 6561,
-        "itemId": "seer\"sPaddedArmor",
+        "itemId": "seer'sPaddedArmor",
         "type": ""
     },
     {
@@ -5150,7 +4953,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Seer\"s Fine Stein",
+        "name": "Seer's Fine Stein",
         "level": 21,
         "reqLevel": 16,
         "class": 4,
@@ -5159,7 +4962,7 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 7608,
-        "itemId": "seer\"sFineStein",
+        "itemId": "seer'sFineStein",
         "type": ""
     },
     {
@@ -5228,7 +5031,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Raider\"s Chestpiece",
+        "name": "Raider's Chestpiece",
         "level": 20,
         "reqLevel": 15,
         "class": 4,
@@ -5237,7 +5040,7 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 9783,
-        "itemId": "raider\"sChestpiece",
+        "itemId": "raider'sChestpiece",
         "type": ""
     },
     {
@@ -5371,7 +5174,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Buccaneer\"s Gloves",
+        "name": "Buccaneer's Gloves",
         "level": 20,
         "reqLevel": 15,
         "class": 4,
@@ -5380,11 +5183,11 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 14168,
-        "itemId": "buccaneer\"sGloves",
+        "itemId": "buccaneer'sGloves",
         "type": ""
     },
     {
-        "name": "Buccaneer\"s Cord",
+        "name": "Buccaneer's Cord",
         "level": 20,
         "reqLevel": 15,
         "class": 4,
@@ -5393,11 +5196,11 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 14173,
-        "itemId": "buccaneer\"sCord",
+        "itemId": "buccaneer'sCord",
         "type": ""
     },
     {
-        "name": "Prospector\"s Woolies",
+        "name": "Prospector's Woolies",
         "level": 21,
         "reqLevel": 16,
         "class": 4,
@@ -5406,7 +5209,7 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 14565,
-        "itemId": "prospector\"sWoolies",
+        "itemId": "prospector'sWoolies",
         "type": ""
     },
     {
@@ -5540,7 +5343,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Outrunner\"s Slippers",
+        "name": "Outrunner's Slippers",
         "level": 20,
         "reqLevel": 15,
         "class": 4,
@@ -5549,11 +5352,11 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 15498,
-        "itemId": "outrunner\"sSlippers",
+        "itemId": "outrunner'sSlippers",
         "type": ""
     },
     {
-        "name": "Outrunner\"s Gloves",
+        "name": "Outrunner's Gloves",
         "level": 20,
         "reqLevel": 15,
         "class": 4,
@@ -5562,11 +5365,11 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 15502,
-        "itemId": "outrunner\"sGloves",
+        "itemId": "outrunner'sGloves",
         "type": ""
     },
     {
-        "name": "Grunt\"s Ankle Wraps",
+        "name": "Grunt's Ankle Wraps",
         "level": 21,
         "reqLevel": 16,
         "class": 4,
@@ -5575,11 +5378,11 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 15506,
-        "itemId": "grunt\"sAnkleWraps",
+        "itemId": "grunt'sAnkleWraps",
         "type": ""
     },
     {
-        "name": "Grunt\"s Handwraps",
+        "name": "Grunt's Handwraps",
         "level": 21,
         "reqLevel": 16,
         "class": 4,
@@ -5588,11 +5391,11 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 15509,
-        "itemId": "grunt\"sHandwraps",
+        "itemId": "grunt'sHandwraps",
         "type": ""
     },
     {
-        "name": "Grunt\"s Belt",
+        "name": "Grunt's Belt",
         "level": 20,
         "reqLevel": 15,
         "class": 4,
@@ -5600,11 +5403,11 @@ def item_class_assign(item):
         "percent": 0.012048192771084,
         "group": "(1)",
         "id": 15510,
-        "itemId": "grunt\"sBelt",
+        "itemId": "grunt'sBelt",
         "type": ""
     },
     {
-        "name": "Prospector\"s Buckler",
+        "name": "Prospector's Buckler",
         "level": 21,
         "reqLevel": 16,
         "class": 4,
@@ -5613,7 +5416,7 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 15893,
-        "itemId": "prospector\"sBuckler",
+        "itemId": "prospector'sBuckler",
         "type": ""
     },
     {
@@ -5643,7 +5446,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Forester\"s Axe",
+        "name": "Forester's Axe",
         "level": 23,
         "reqLevel": 18,
         "class": 2,
@@ -5652,7 +5455,7 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 790,
-        "itemId": "forester\"sAxe",
+        "itemId": "forester'sAxe",
         "type": ""
     },
     {
@@ -5942,7 +5745,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Warchief\"s Girdle",
+        "name": "Warchief's Girdle",
         "level": 23,
         "reqLevel": 18,
         "class": 4,
@@ -5950,11 +5753,11 @@ def item_class_assign(item):
         "percent": 0.0125,
         "group": "(2)",
         "id": 5750,
-        "itemId": "warchief\"sGirdle",
+        "itemId": "warchief'sGirdle",
         "type": ""
     },
     {
-        "name": "Regent\"s Cloak",
+        "name": "Regent's Cloak",
         "level": 23,
         "reqLevel": 18,
         "class": 4,
@@ -5963,7 +5766,7 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 5969,
-        "itemId": "regent\"sCloak",
+        "itemId": "regent'sCloak",
         "type": ""
     },
     {
@@ -6185,7 +5988,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Raven\"s Claws",
+        "name": "Raven's Claws",
         "level": 22,
         "reqLevel": 17,
         "class": 4,
@@ -6194,7 +5997,7 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 6628,
-        "itemId": "raven\"sClaws",
+        "itemId": "raven'sClaws",
         "type": ""
     },
     {
@@ -6341,7 +6144,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Buccaneer\"s Pants",
+        "name": "Buccaneer's Pants",
         "level": 22,
         "reqLevel": 17,
         "class": 4,
@@ -6350,11 +6153,11 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 14171,
-        "itemId": "buccaneer\"sPants",
+        "itemId": "buccaneer'sPants",
         "type": ""
     },
     {
-        "name": "Buccaneer\"s Robes",
+        "name": "Buccaneer's Robes",
         "level": 23,
         "reqLevel": 18,
         "class": 4,
@@ -6363,11 +6166,11 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 14172,
-        "itemId": "buccaneer\"sRobes",
+        "itemId": "buccaneer'sRobes",
         "type": ""
     },
     {
-        "name": "Buccaneer\"s Vest",
+        "name": "Buccaneer's Vest",
         "level": 23,
         "reqLevel": 18,
         "class": 4,
@@ -6376,11 +6179,11 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 14175,
-        "itemId": "buccaneer\"sVest",
+        "itemId": "buccaneer'sVest",
         "type": ""
     },
     {
-        "name": "Mystic\"s Wrap",
+        "name": "Mystic's Wrap",
         "level": 23,
         "reqLevel": 18,
         "class": 4,
@@ -6389,11 +6192,11 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 14369,
-        "itemId": "mystic\"sWrap",
+        "itemId": "mystic'sWrap",
         "type": ""
     },
     {
-        "name": "Mystic\"s Robe",
+        "name": "Mystic's Robe",
         "level": 23,
         "reqLevel": 18,
         "class": 4,
@@ -6402,7 +6205,7 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 14371,
-        "itemId": "mystic\"sRobe",
+        "itemId": "mystic'sRobe",
         "type": ""
     },
     {
@@ -6419,7 +6222,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Prospector\"s Chestpiece",
+        "name": "Prospector's Chestpiece",
         "level": 23,
         "reqLevel": 18,
         "class": 4,
@@ -6428,7 +6231,7 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 14562,
-        "itemId": "prospector\"sChestpiece",
+        "itemId": "prospector'sChestpiece",
         "type": ""
     },
     {
@@ -6573,7 +6376,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Wrangler\"s Wristbands",
+        "name": "Wrangler's Wristbands",
         "level": 23,
         "reqLevel": 18,
         "class": 4,
@@ -6582,11 +6385,11 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 15331,
-        "itemId": "wrangler\"sWristbands",
+        "itemId": "wrangler'sWristbands",
         "type": ""
     },
     {
-        "name": "Wrangler\"s Cloak",
+        "name": "Wrangler's Cloak",
         "level": 22,
         "reqLevel": 17,
         "class": 4,
@@ -6595,11 +6398,11 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 15333,
-        "itemId": "wrangler\"sCloak",
+        "itemId": "wrangler'sCloak",
         "type": ""
     },
     {
-        "name": "Outrunner\"s Legguards",
+        "name": "Outrunner's Legguards",
         "level": 22,
         "reqLevel": 17,
         "class": 4,
@@ -6607,11 +6410,11 @@ def item_class_assign(item):
         "percent": 0.0125,
         "group": "(2)",
         "id": 15503,
-        "itemId": "outrunner\"sLegguards",
+        "itemId": "outrunner'sLegguards",
         "type": ""
     },
     {
-        "name": "Outrunner\"s Shield",
+        "name": "Outrunner's Shield",
         "level": 22,
         "reqLevel": 17,
         "class": 4,
@@ -6620,7 +6423,7 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 15504,
-        "itemId": "outrunner\"sShield",
+        "itemId": "outrunner'sShield",
         "type": ""
     },
     {
@@ -6637,7 +6440,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Buccaneer\"s Orb",
+        "name": "Buccaneer's Orb",
         "level": 23,
         "reqLevel": 18,
         "class": 4,
@@ -6646,11 +6449,11 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 15912,
-        "itemId": "buccaneer\"sOrb",
+        "itemId": "buccaneer'sOrb",
         "type": ""
     },
     {
-        "name": "Mystic\"s Sphere",
+        "name": "Mystic's Sphere",
         "level": 23,
         "reqLevel": 18,
         "class": 4,
@@ -6659,7 +6462,7 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 15946,
-        "itemId": "mystic\"sSphere",
+        "itemId": "mystic'sSphere",
         "type": ""
     },
     {
@@ -7143,7 +6946,7 @@ def item_class_assign(item):
         "name": "Light Leather",
         "level": 10,
         "class": 7,
-        "subclass": 0,
+        "subclass": 6,
         "percent": 9.5803,
         "group": "(1)",
         "id": 2318,
@@ -7154,7 +6957,7 @@ def item_class_assign(item):
         "name": "Ruined Leather Scraps",
         "level": 5,
         "class": 7,
-        "subclass": 0,
+        "subclass": 6,
         "percent": 90.4197,
         "group": "(1)",
         "id": 2934,
@@ -7177,7 +6980,7 @@ def item_class_assign(item):
         "name": "Mageroyal",
         "level": 10,
         "class": 7,
-        "subclass": 0,
+        "subclass": 9,
         "percent": 0.02,
         "id": 785,
         "itemId": "mageroyal",
@@ -7204,7 +7007,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Warrior\"s Shield",
+        "name": "Warrior's Shield",
         "level": 9,
         "reqLevel": 4,
         "class": 4,
@@ -7212,7 +7015,7 @@ def item_class_assign(item):
         "percent": 0.011,
         "phaseval": 1,
         "id": 1438,
-        "itemId": "warrior\"sShield",
+        "itemId": "warrior'sShield",
         "type": ""
     },
     {
@@ -7263,7 +7066,7 @@ def item_class_assign(item):
         "name": "Peacebloom",
         "level": 5,
         "class": 7,
-        "subclass": 0,
+        "subclass": 9,
         "percent": 0.03,
         "id": 2447,
         "itemId": "peacebloom",
@@ -7273,7 +7076,7 @@ def item_class_assign(item):
         "name": "Earthroot",
         "level": 5,
         "class": 7,
-        "subclass": 0,
+        "subclass": 9,
         "percent": 0.02,
         "id": 2449,
         "itemId": "earthroot",
@@ -7283,7 +7086,7 @@ def item_class_assign(item):
         "name": "Briarthorn",
         "level": 15,
         "class": 7,
-        "subclass": 0,
+        "subclass": 9,
         "percent": 0.02,
         "id": 2450,
         "itemId": "briarthorn",
@@ -7293,7 +7096,7 @@ def item_class_assign(item):
         "name": "Swiftthistle",
         "level": 15,
         "class": 7,
-        "subclass": 0,
+        "subclass": 9,
         "percent": 0.02,
         "id": 2452,
         "itemId": "swiftthistle",
@@ -7303,7 +7106,7 @@ def item_class_assign(item):
         "name": "Bruiseweed",
         "level": 20,
         "class": 7,
-        "subclass": 0,
+        "subclass": 9,
         "percent": 0.02,
         "id": 2453,
         "itemId": "bruiseweed",
@@ -7335,14 +7138,14 @@ def item_class_assign(item):
         "name": "Coyote Meat",
         "level": 10,
         "class": 7,
-        "subclass": 0,
+        "subclass": 8,
         "percent": 54.0836,
         "id": 2673,
         "itemId": "coyoteMeat",
         "type": ""
     },
     {
-        "name": "Journeyman\"s Boots",
+        "name": "Journeyman's Boots",
         "level": 9,
         "reqLevel": 4,
         "class": 4,
@@ -7350,11 +7153,11 @@ def item_class_assign(item):
         "percent": 0.072,
         "phaseval": 1,
         "id": 2959,
-        "itemId": "journeyman\"sBoots",
+        "itemId": "journeyman'sBoots",
         "type": ""
     },
     {
-        "name": "Journeyman\"s Gloves",
+        "name": "Journeyman's Gloves",
         "level": 9,
         "reqLevel": 4,
         "class": 4,
@@ -7362,7 +7165,7 @@ def item_class_assign(item):
         "percent": 0.07,
         "phaseval": 1,
         "id": 2960,
-        "itemId": "journeyman\"sGloves",
+        "itemId": "journeyman'sGloves",
         "type": ""
     },
     {
@@ -7390,7 +7193,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Warrior\"s Boots",
+        "name": "Warrior's Boots",
         "level": 10,
         "reqLevel": 5,
         "class": 4,
@@ -7398,11 +7201,11 @@ def item_class_assign(item):
         "percent": 0.103,
         "phaseval": 1,
         "id": 2967,
-        "itemId": "warrior\"sBoots",
+        "itemId": "warrior'sBoots",
         "type": ""
     },
     {
-        "name": "Warrior\"s Gloves",
+        "name": "Warrior's Gloves",
         "level": 9,
         "reqLevel": 4,
         "class": 4,
@@ -7410,14 +7213,14 @@ def item_class_assign(item):
         "percent": 0.05,
         "phaseval": 1,
         "id": 2968,
-        "itemId": "warrior\"sGloves",
+        "itemId": "warrior'sGloves",
         "type": ""
     },
     {
         "name": "Boltof Linen Cloth",
         "level": 10,
         "class": 7,
-        "subclass": 0,
+        "subclass": 5,
         "percent": 0.02,
         "id": 2996,
         "itemId": "boltofLinenCloth",
@@ -7435,14 +7238,14 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Warrior\"s Bracers",
+        "name": "Warrior's Bracers",
         "level": 9,
         "reqLevel": 4,
         "class": 4,
         "subclass": 3,
         "percent": 0.058,
         "id": 3214,
-        "itemId": "warrior\"sBracers",
+        "itemId": "warrior'sBracers",
         "type": ""
     },
     {
@@ -7456,13 +7259,13 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Rabbit\"s Foot",
+        "name": "Rabbit's Foot",
         "level": 5,
         "class": 15,
         "subclass": 0,
         "percent": 11.253,
         "id": 3300,
-        "itemId": "rabbit\"sFoot",
+        "itemId": "rabbit'sFoot",
         "type": ""
     },
     {
@@ -7565,7 +7368,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Journeyman\"s Belt",
+        "name": "Journeyman's Belt",
         "level": 9,
         "reqLevel": 4,
         "class": 4,
@@ -7573,7 +7376,7 @@ def item_class_assign(item):
         "percent": 0.06,
         "phaseval": 1,
         "id": 4663,
-        "itemId": "journeyman\"sBelt",
+        "itemId": "journeyman'sBelt",
         "type": ""
     },
     {
@@ -7672,7 +7475,7 @@ def item_class_assign(item):
         "name": "Sharp Claw",
         "level": 15,
         "class": 7,
-        "subclass": 0,
+        "subclass": 11,
         "percent": 1.6877,
         "id": 5635,
         "itemId": "sharpClaw",
@@ -7781,7 +7584,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Disciple\"s Sash",
+        "name": "Disciple's Sash",
         "level": 10,
         "reqLevel": 5,
         "class": 4,
@@ -7789,11 +7592,11 @@ def item_class_assign(item):
         "percent": 0.125,
         "phaseval": 1,
         "id": 6513,
-        "itemId": "disciple\"sSash",
+        "itemId": "disciple'sSash",
         "type": ""
     },
     {
-        "name": "Disciple\"s Cloak",
+        "name": "Disciple's Cloak",
         "level": 10,
         "reqLevel": 5,
         "class": 4,
@@ -7801,11 +7604,11 @@ def item_class_assign(item):
         "percent": 0.12,
         "phaseval": 1,
         "id": 6514,
-        "itemId": "disciple\"sCloak",
+        "itemId": "disciple'sCloak",
         "type": ""
     },
     {
-        "name": "Disciple\"s Gloves",
+        "name": "Disciple's Gloves",
         "level": 11,
         "reqLevel": 6,
         "class": 4,
@@ -7813,7 +7616,7 @@ def item_class_assign(item):
         "percent": 0.105,
         "phaseval": 1,
         "id": 6515,
-        "itemId": "disciple\"sGloves",
+        "itemId": "disciple'sGloves",
         "type": ""
     },
     {
@@ -7900,7 +7703,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Disciple\"s Bracers",
+        "name": "Disciple's Bracers",
         "level": 10,
         "reqLevel": 5,
         "class": 4,
@@ -7908,11 +7711,11 @@ def item_class_assign(item):
         "percent": 0.144,
         "phaseval": 1,
         "id": 7350,
-        "itemId": "disciple\"sBracers",
+        "itemId": "disciple'sBracers",
         "type": ""
     },
     {
-        "name": "Disciple\"s Boots",
+        "name": "Disciple's Boots",
         "level": 11,
         "reqLevel": 6,
         "class": 4,
@@ -7920,7 +7723,7 @@ def item_class_assign(item):
         "percent": 0.1,
         "phaseval": 1,
         "id": 7351,
-        "itemId": "disciple\"sBoots",
+        "itemId": "disciple'sBoots",
         "type": ""
     },
     {
@@ -8152,7 +7955,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Journeyman\"s Vest",
+        "name": "Journeyman's Vest",
         "level": 11,
         "reqLevel": 6,
         "class": 4,
@@ -8161,11 +7964,11 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 2957,
-        "itemId": "journeyman\"sVest",
+        "itemId": "journeyman'sVest",
         "type": ""
     },
     {
-        "name": "Journeyman\"s Pants",
+        "name": "Journeyman's Pants",
         "level": 10,
         "reqLevel": 5,
         "class": 4,
@@ -8174,7 +7977,7 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 2958,
-        "itemId": "journeyman\"sPants",
+        "itemId": "journeyman'sPants",
         "type": ""
     },
     {
@@ -8204,7 +8007,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Warrior\"s Tunic",
+        "name": "Warrior's Tunic",
         "level": 11,
         "reqLevel": 6,
         "class": 4,
@@ -8213,11 +8016,11 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 2965,
-        "itemId": "warrior\"sTunic",
+        "itemId": "warrior'sTunic",
         "type": ""
     },
     {
-        "name": "Warrior\"s Pants",
+        "name": "Warrior's Pants",
         "level": 10,
         "reqLevel": 5,
         "class": 4,
@@ -8225,7 +8028,7 @@ def item_class_assign(item):
         "percent": 0.043478260869565,
         "group": "(2)",
         "id": 2966,
-        "itemId": "warrior\"sPants",
+        "itemId": "warrior'sPants",
         "type": ""
     },
     {
@@ -8255,7 +8058,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Journeyman\"s Robe",
+        "name": "Journeyman's Robe",
         "level": 11,
         "reqLevel": 6,
         "class": 4,
@@ -8264,7 +8067,7 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 6511,
-        "itemId": "journeyman\"sRobe",
+        "itemId": "journeyman'sRobe",
         "type": ""
     },
     {
@@ -8372,7 +8175,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Charger\"s Pants",
+        "name": "Charger's Pants",
         "level": 11,
         "reqLevel": 6,
         "class": 4,
@@ -8380,11 +8183,11 @@ def item_class_assign(item):
         "percent": 0.043478260869565,
         "group": "(2)",
         "id": 15477,
-        "itemId": "charger\"sPants",
+        "itemId": "charger'sPants",
         "type": ""
     },
     {
-        "name": "Charger\"s Armor",
+        "name": "Charger's Armor",
         "level": 11,
         "reqLevel": 6,
         "class": 4,
@@ -8393,11 +8196,11 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 15479,
-        "itemId": "charger\"sArmor",
+        "itemId": "charger'sArmor",
         "type": ""
     },
     {
-        "name": "Journeyman\"s Stave",
+        "name": "Journeyman's Stave",
         "level": 10,
         "reqLevel": 5,
         "class": 4,
@@ -8406,7 +8209,7 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 15925,
-        "itemId": "journeyman\"sStave",
+        "itemId": "journeyman'sStave",
         "type": ""
     },
     {
@@ -8426,20 +8229,20 @@ def item_class_assign(item):
         "name": "Silver Ore",
         "level": 10,
         "class": 7,
-        "subclass": 0,
+        "subclass": 7,
         "percent": 0.02,
         "id": 2775,
         "itemId": "silverOre",
         "type": ""
     },
     {
-        "name": "Sayge\"s Fortune#4",
+        "name": "Sayge's Fortune#4",
         "level": 1,
         "class": 15,
         "subclass": 0,
         "percent": 0.02,
         "id": 19239,
-        "itemId": "sayge\"sFortune#4",
+        "itemId": "sayge'sFortune#4",
         "type": ""
     },
     {
@@ -8662,7 +8465,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Carpenter\"s Mallet",
+        "name": "Carpenter's Mallet",
         "level": 9,
         "reqLevel": 4,
         "class": 2,
@@ -8671,7 +8474,7 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 1415,
-        "itemId": "carpenter\"sMallet",
+        "itemId": "carpenter'sMallet",
         "type": ""
     },
     {
@@ -9190,7 +8993,7 @@ def item_class_assign(item):
         "name": "Jade",
         "level": 35,
         "class": 7,
-        "subclass": 0,
+        "subclass": 7,
         "percent": 0.0034,
         "id": 1529,
         "itemId": "jade",
@@ -9199,7 +9002,7 @@ def item_class_assign(item):
     {
         "name": "Wool Cloth",
         "level": 15,
-        "class": 7,
+        "class": 5,
         "subclass": 0,
         "stack": [
             1,
@@ -9266,14 +9069,14 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Pattern: Hillman\"s Belt",
+        "name": "Pattern: Hillman's Belt",
         "level": 24,
         "class": 9,
         "subclass": 1,
         "percent": 0.02,
         "phaseval": 1,
         "id": 4294,
-        "itemId": "pattern:Hillman\"sBelt",
+        "itemId": "pattern:Hillman'sBelt",
         "type": ""
     },
     {
@@ -9321,7 +9124,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Seer\"s Mantle",
+        "name": "Seer's Mantle",
         "level": 21,
         "reqLevel": 16,
         "class": 4,
@@ -9329,7 +9132,7 @@ def item_class_assign(item):
         "percent": 0.02,
         "phaseval": 1,
         "id": 4698,
-        "itemId": "seer\"sMantle",
+        "itemId": "seer'sMantle",
         "type": ""
     },
     {
@@ -9410,14 +9213,14 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Raider\"s Shoulderpads",
+        "name": "Raider's Shoulderpads",
         "level": 21,
         "reqLevel": 16,
         "class": 4,
         "subclass": 3,
         "percent": 0.02,
         "id": 10407,
-        "itemId": "raider\"sShoulderpads",
+        "itemId": "raider'sShoulderpads",
         "type": ""
     },
     {
@@ -9457,7 +9260,7 @@ def item_class_assign(item):
         "name": "Lesser Moonstone",
         "level": 30,
         "class": 7,
-        "subclass": 0,
+        "subclass": 7,
         "percent": 0.0044,
         "id": 1705,
         "itemId": "lesserMoonstone",
@@ -9529,7 +9332,7 @@ def item_class_assign(item):
         "name": "Tangy Clam Meat",
         "level": 23,
         "class": 7,
-        "subclass": 0,
+        "subclass": 8,
         "percent": 0.02,
         "id": 5504,
         "itemId": "tangyClamMeat",
@@ -9560,7 +9363,7 @@ def item_class_assign(item):
         "name": "Kingsblood",
         "level": 24,
         "class": 7,
-        "subclass": 0,
+        "subclass": 9,
         "percent": 0.02,
         "id": 3356,
         "itemId": "kingsblood",
@@ -9632,7 +9435,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Blackrock Champion\"s Axe",
+        "name": "Blackrock Champion's Axe",
         "level": 24,
         "reqLevel": 19,
         "class": 2,
@@ -9641,7 +9444,7 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 1455,
-        "itemId": "blackrockChampion\"sAxe",
+        "itemId": "blackrockChampion'sAxe",
         "type": ""
     },
     {
@@ -9658,7 +9461,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Slayer\"s Battle Axe",
+        "name": "Slayer's Battle Axe",
         "level": 25,
         "reqLevel": 20,
         "class": 2,
@@ -9667,7 +9470,7 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 1461,
-        "itemId": "slayer\"sBattleAxe",
+        "itemId": "slayer'sBattleAxe",
         "type": ""
     },
     {
@@ -10278,7 +10081,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Watcher\"s Cape",
+        "name": "Watcher's Cape",
         "level": 24,
         "reqLevel": 19,
         "class": 4,
@@ -10287,7 +10090,7 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 14179,
-        "itemId": "watcher\"sCape",
+        "itemId": "watcher'sCape",
         "type": ""
     },
     {
@@ -10330,7 +10133,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Prospector\"s Pads",
+        "name": "Prospector's Pads",
         "level": 25,
         "reqLevel": 20,
         "class": 4,
@@ -10339,7 +10142,7 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 14566,
-        "itemId": "prospector\"sPads",
+        "itemId": "prospector'sPads",
         "type": ""
     },
     {
@@ -10485,7 +10288,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Wrangler\"s Belt",
+        "name": "Wrangler's Belt",
         "level": 24,
         "reqLevel": 19,
         "class": 4,
@@ -10494,11 +10297,11 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 15329,
-        "itemId": "wrangler\"sBelt",
+        "itemId": "wrangler'sBelt",
         "type": ""
     },
     {
-        "name": "Wrangler\"s Boots",
+        "name": "Wrangler's Boots",
         "level": 25,
         "reqLevel": 20,
         "class": 4,
@@ -10507,11 +10310,11 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 15330,
-        "itemId": "wrangler\"sBoots",
+        "itemId": "wrangler'sBoots",
         "type": ""
     },
     {
-        "name": "Outrunner\"s Chestguard",
+        "name": "Outrunner's Chestguard",
         "level": 24,
         "reqLevel": 19,
         "class": 4,
@@ -10520,11 +10323,11 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 15500,
-        "itemId": "outrunner\"sChestguard",
+        "itemId": "outrunner'sChestguard",
         "type": ""
     },
     {
-        "name": "Grunt\"s Legguards",
+        "name": "Grunt's Legguards",
         "level": 24,
         "reqLevel": 19,
         "class": 4,
@@ -10532,11 +10335,11 @@ def item_class_assign(item):
         "percent": 0.01219512195122,
         "group": "(1)",
         "id": 15511,
-        "itemId": "grunt\"sLegguards",
+        "itemId": "grunt'sLegguards",
         "type": ""
     },
     {
-        "name": "Grunt\"s Shield",
+        "name": "Grunt's Shield",
         "level": 24,
         "reqLevel": 19,
         "class": 4,
@@ -10545,11 +10348,11 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 15512,
-        "itemId": "grunt\"sShield",
+        "itemId": "grunt'sShield",
         "type": ""
     },
     {
-        "name": "Grunt\"s Pauldrons",
+        "name": "Grunt's Pauldrons",
         "level": 25,
         "reqLevel": 20,
         "class": 4,
@@ -10557,7 +10360,7 @@ def item_class_assign(item):
         "percent": 0.01219512195122,
         "group": "(1)",
         "id": 15513,
-        "itemId": "grunt\"sPauldrons",
+        "itemId": "grunt'sPauldrons",
         "type": ""
     },
     {
@@ -10585,7 +10388,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Sentry\"s Cape",
+        "name": "Sentry's Cape",
         "level": 24,
         "reqLevel": 19,
         "class": 4,
@@ -10594,7 +10397,7 @@ def item_class_assign(item):
         "group": "(1)",
         "phaseval": 1,
         "id": 15526,
-        "itemId": "sentry\"sCape",
+        "itemId": "sentry'sCape",
         "type": ""
     },
     {
@@ -10702,7 +10505,7 @@ def item_class_assign(item):
         "name": "Boltof Woolen Cloth",
         "level": 25,
         "class": 7,
-        "subclass": 0,
+        "subclass": 5,
         "percent": 0.0021,
         "id": 2997,
         "itemId": "boltofWoolenCloth",
@@ -10712,7 +10515,7 @@ def item_class_assign(item):
         "name": "Goldthorn",
         "level": 34,
         "class": 7,
-        "subclass": 0,
+        "subclass": 9,
         "percent": 0.02,
         "id": 3821,
         "itemId": "goldthorn",
@@ -10722,7 +10525,7 @@ def item_class_assign(item):
         "name": "Black Pearl",
         "level": 40,
         "class": 7,
-        "subclass": 0,
+        "subclass": 7,
         "percent": 0.02,
         "id": 7971,
         "itemId": "blackPearl",
@@ -10771,7 +10574,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Buccaneer\"s Mantle",
+        "name": "Buccaneer's Mantle",
         "level": 22,
         "reqLevel": 17,
         "class": 4,
@@ -10779,7 +10582,7 @@ def item_class_assign(item):
         "percent": 0.06,
         "phaseval": 1,
         "id": 14170,
-        "itemId": "buccaneer\"sMantle",
+        "itemId": "buccaneer'sMantle",
         "type": ""
     },
     {
@@ -10796,7 +10599,7 @@ def item_class_assign(item):
         "name": "Stringy Vulture Meat",
         "level": 10,
         "class": 7,
-        "subclass": 0,
+        "subclass": 8,
         "percent": 35.1738,
         "id": 729,
         "itemId": "stringyVultureMeat",
@@ -10856,7 +10659,7 @@ def item_class_assign(item):
         "name": "Small Egg",
         "level": 5,
         "class": 7,
-        "subclass": 0,
+        "subclass": 8,
         "percent": 62.5411,
         "id": 6889,
         "itemId": "smallEgg",
@@ -10876,7 +10679,7 @@ def item_class_assign(item):
         "name": "Okra",
         "level": 9,
         "class": 7,
-        "subclass": 0,
+        "subclass": 8,
         "percent": 28.0423,
         "id": 732,
         "itemId": "okra",
@@ -10886,7 +10689,7 @@ def item_class_assign(item):
         "name": "Flaskof Oil",
         "level": 1,
         "class": 7,
-        "subclass": 0,
+        "subclass": 1,
         "percent": 33.8624,
         "id": 814,
         "itemId": "flaskofOil",
@@ -10906,7 +10709,7 @@ def item_class_assign(item):
         "name": "Hops",
         "level": 1,
         "class": 7,
-        "subclass": 0,
+        "subclass": 8,
         "percent": 35.9788,
         "id": 1274,
         "itemId": "hops",
@@ -10928,7 +10731,7 @@ def item_class_assign(item):
         "name": "Goretusk Liver",
         "level": 12,
         "class": 7,
-        "subclass": 0,
+        "subclass": 8,
         "percent": 33.0157,
         "id": 723,
         "itemId": "goretuskLiver",
@@ -10938,7 +10741,7 @@ def item_class_assign(item):
         "name": "Goretusk Snout",
         "level": 12,
         "class": 7,
-        "subclass": 0,
+        "subclass": 8,
         "percent": 39.1563,
         "id": 731,
         "itemId": "goretuskSnout",
@@ -10948,7 +10751,7 @@ def item_class_assign(item):
         "name": "Chunkof Boar Meat",
         "level": 5,
         "class": 7,
-        "subclass": 0,
+        "subclass": 8,
         "stack": [
             1,
             2
@@ -10972,7 +10775,7 @@ def item_class_assign(item):
         "name": "Boar Ribs",
         "level": 14,
         "class": 7,
-        "subclass": 0,
+        "subclass": 8,
         "percent": 28.6364,
         "id": 2677,
         "itemId": "boarRibs",
@@ -10992,7 +10795,7 @@ def item_class_assign(item):
         "name": "Boar Intestines",
         "level": 10,
         "class": 7,
-        "subclass": 0,
+        "subclass": 8,
         "percent": 34.8787,
         "id": 3172,
         "itemId": "boarIntestines",
@@ -11012,7 +10815,7 @@ def item_class_assign(item):
         "name": "Great Goretusk Snout",
         "level": 16,
         "class": 7,
-        "subclass": 0,
+        "subclass": 8,
         "percent": 36.4259,
         "id": 2296,
         "itemId": "greatGoretuskSnout",
@@ -11510,7 +11313,7 @@ def item_class_assign(item):
         "name": "Blindweed",
         "level": 47,
         "class": 7,
-        "subclass": 0,
+        "subclass": 9,
         "percent": 99.7291,
         "id": 8839,
         "itemId": "blindweed",
@@ -11529,20 +11332,20 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Khadgar\"s Whisker",
+        "name": "Khadgar's Whisker",
         "level": 37,
         "class": 7,
-        "subclass": 0,
+        "subclass": 9,
         "percent": 99.5841,
         "id": 3358,
-        "itemId": "khadgar\"sWhisker",
+        "itemId": "khadgar'sWhisker",
         "type": ""
     },
     {
         "name": "Citrine",
         "level": 40,
         "class": 7,
-        "subclass": 0,
+        "subclass": 7,
         "percent": 0.630517,
         "id": 3864,
         "itemId": "citrine",
@@ -11660,7 +11463,7 @@ def item_class_assign(item):
         "name": "Silk Cloth",
         "level": 30,
         "class": 7,
-        "subclass": 0,
+        "subclass": 5,
         "stack": [
             1,
             3
@@ -12241,7 +12044,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "4 Keller\"s Girdle",
+        "name": "4 Keller's Girdle",
         "level": 23,
         "reqLevel": 18,
         "class": 4,
@@ -12250,7 +12053,7 @@ def item_class_assign(item):
         "group": "(4)",
         "phaseval": 1,
         "id": 2911,
-        "itemId": "4Keller\"sGirdle",
+        "itemId": "4Keller'sGirdle",
         "type": ""
     },
     {
@@ -12293,7 +12096,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "4 Razor\"s Edge",
+        "name": "4 Razor's Edge",
         "level": 23,
         "reqLevel": 18,
         "class": 2,
@@ -12302,7 +12105,7 @@ def item_class_assign(item):
         "group": "(4)",
         "phaseval": 1,
         "id": 12990,
-        "itemId": "4Razor\"sEdge",
+        "itemId": "4Razor'sEdge",
         "type": ""
     },
     {
@@ -12319,7 +12122,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "4 Thorbia\"s Gauntlets",
+        "name": "4 Thorbia's Gauntlets",
         "level": 23,
         "reqLevel": 18,
         "class": 4,
@@ -12328,7 +12131,7 @@ def item_class_assign(item):
         "group": "(4)",
         "phaseval": 1,
         "id": 12994,
-        "itemId": "4Thorbia\"sGauntlets",
+        "itemId": "4Thorbia'sGauntlets",
         "type": ""
     },
     {
@@ -12345,7 +12148,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "4 Twisted Chanter\"s Staff",
+        "name": "4 Twisted Chanter's Staff",
         "level": 24,
         "reqLevel": 19,
         "class": 2,
@@ -12354,7 +12157,7 @@ def item_class_assign(item):
         "group": "(6)",
         "phaseval": 1,
         "id": 890,
-        "itemId": "4TwistedChanter\"sStaff",
+        "itemId": "4TwistedChanter'sStaff",
         "type": ""
     },
     {
@@ -12436,7 +12239,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "4 Gargoyle\"s Bite",
+        "name": "4 Gargoyle's Bite",
         "level": 22,
         "reqLevel": 20,
         "class": 2,
@@ -12445,7 +12248,7 @@ def item_class_assign(item):
         "group": "(6)",
         "phaseval": 1,
         "id": 12989,
-        "itemId": "4Gargoyle\"sBite",
+        "itemId": "4Gargoyle'sBite",
         "type": ""
     },
     {
@@ -12462,7 +12265,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "4 Magician\"s Mantle",
+        "name": "4 Magician's Mantle",
         "level": 25,
         "reqLevel": 20,
         "class": 4,
@@ -12471,7 +12274,7 @@ def item_class_assign(item):
         "group": "(6)",
         "phaseval": 1,
         "id": 12998,
-        "itemId": "4Magician\"sMantle",
+        "itemId": "4Magician'sMantle",
         "type": ""
     },
     {
@@ -12553,7 +12356,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Kazon\"s Maul",
+        "name": "Kazon's Maul",
         "level": 27,
         "reqLevel": 22,
         "class": 2,
@@ -12562,7 +12365,7 @@ def item_class_assign(item):
         "group": "(7)",
         "phaseval": 1,
         "id": 2058,
-        "itemId": "kazon\"sMaul",
+        "itemId": "kazon'sMaul",
         "type": ""
     },
     {
@@ -12785,7 +12588,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Vicar\"s Robe",
+        "name": "Vicar's Robe",
         "level": 26,
         "reqLevel": 21,
         "class": 4,
@@ -12794,7 +12597,7 @@ def item_class_assign(item):
         "group": "(7)",
         "phaseval": 1,
         "id": 3569,
-        "itemId": "vicar\"sRobe",
+        "itemId": "vicar'sRobe",
         "type": ""
     },
     {
@@ -12939,7 +12742,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Azora\"s Will",
+        "name": "Azora's Will",
         "level": 27,
         "reqLevel": 22,
         "class": 4,
@@ -12948,7 +12751,7 @@ def item_class_assign(item):
         "group": "(7)",
         "phaseval": 1,
         "id": 4999,
-        "itemId": "azora\"sWill",
+        "itemId": "azora'sWill",
         "type": ""
     },
     {
@@ -13353,7 +13156,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Watcher\"s Boots",
+        "name": "Watcher's Boots",
         "level": 26,
         "reqLevel": 21,
         "class": 4,
@@ -13362,11 +13165,11 @@ def item_class_assign(item):
         "group": "(7)",
         "phaseval": 1,
         "id": 14176,
-        "itemId": "watcher\"sBoots",
+        "itemId": "watcher'sBoots",
         "type": ""
     },
     {
-        "name": "Watcher\"s Cuffs",
+        "name": "Watcher's Cuffs",
         "level": 26,
         "reqLevel": 21,
         "class": 4,
@@ -13375,11 +13178,11 @@ def item_class_assign(item):
         "group": "(7)",
         "phaseval": 1,
         "id": 14177,
-        "itemId": "watcher\"sCuffs",
+        "itemId": "watcher'sCuffs",
         "type": ""
     },
     {
-        "name": "Watcher\"s Cinch",
+        "name": "Watcher's Cinch",
         "level": 27,
         "reqLevel": 22,
         "class": 4,
@@ -13388,7 +13191,7 @@ def item_class_assign(item):
         "group": "(7)",
         "phaseval": 1,
         "id": 14185,
-        "itemId": "watcher\"sCinch",
+        "itemId": "watcher'sCinch",
         "type": ""
     },
     {
@@ -13482,7 +13285,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Slayer\"s Cape",
+        "name": "Slayer's Cape",
         "level": 27,
         "reqLevel": 22,
         "class": 4,
@@ -13491,7 +13294,7 @@ def item_class_assign(item):
         "group": "(7)",
         "phaseval": 1,
         "id": 14752,
-        "itemId": "slayer\"sCape",
+        "itemId": "slayer'sCape",
         "type": ""
     },
     {
@@ -13573,7 +13376,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Wrangler\"s Buckler",
+        "name": "Wrangler's Buckler",
         "level": 27,
         "reqLevel": 22,
         "class": 4,
@@ -13582,11 +13385,11 @@ def item_class_assign(item):
         "group": "(7)",
         "phaseval": 1,
         "id": 15332,
-        "itemId": "wrangler\"sBuckler",
+        "itemId": "wrangler'sBuckler",
         "type": ""
     },
     {
-        "name": "Wrangler\"s Gloves",
+        "name": "Wrangler's Gloves",
         "level": 27,
         "reqLevel": 22,
         "class": 4,
@@ -13595,11 +13398,11 @@ def item_class_assign(item):
         "group": "(7)",
         "phaseval": 1,
         "id": 15334,
-        "itemId": "wrangler\"sGloves",
+        "itemId": "wrangler'sGloves",
         "type": ""
     },
     {
-        "name": "Wrangler\"s Leggings",
+        "name": "Wrangler's Leggings",
         "level": 27,
         "reqLevel": 22,
         "class": 4,
@@ -13608,7 +13411,7 @@ def item_class_assign(item):
         "group": "(7)",
         "phaseval": 1,
         "id": 15336,
-        "itemId": "wrangler\"sLeggings",
+        "itemId": "wrangler'sLeggings",
         "type": ""
     },
     {
@@ -13638,7 +13441,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Grunt\"s Chestpiece",
+        "name": "Grunt's Chestpiece",
         "level": 26,
         "reqLevel": 21,
         "class": 4,
@@ -13647,7 +13450,7 @@ def item_class_assign(item):
         "group": "(7)",
         "phaseval": 1,
         "id": 15514,
-        "itemId": "grunt\"sChestpiece",
+        "itemId": "grunt'sChestpiece",
         "type": ""
     },
     {
@@ -13701,7 +13504,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Sentry\"s Gloves",
+        "name": "Sentry's Gloves",
         "level": 27,
         "reqLevel": 22,
         "class": 4,
@@ -13710,11 +13513,11 @@ def item_class_assign(item):
         "group": "(7)",
         "phaseval": 1,
         "id": 15527,
-        "itemId": "sentry\"sGloves",
+        "itemId": "sentry'sGloves",
         "type": ""
     },
     {
-        "name": "Sentry\"s Sash",
+        "name": "Sentry's Sash",
         "level": 26,
         "reqLevel": 21,
         "class": 4,
@@ -13722,11 +13525,11 @@ def item_class_assign(item):
         "percent": 0.005,
         "group": "(7)",
         "id": 15528,
-        "itemId": "sentry\"sSash",
+        "itemId": "sentry'sSash",
         "type": ""
     },
     {
-        "name": "Sentry\"s Armsplints",
+        "name": "Sentry's Armsplints",
         "level": 26,
         "reqLevel": 21,
         "class": 4,
@@ -13734,7 +13537,7 @@ def item_class_assign(item):
         "percent": 0.005,
         "group": "(7)",
         "id": 15532,
-        "itemId": "sentry\"sArmsplints",
+        "itemId": "sentry'sArmsplints",
         "type": ""
     },
     {
@@ -13894,7 +13697,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Humbert\"s Chestpiece",
+        "name": "Humbert's Chestpiece",
         "level": 28,
         "reqLevel": 23,
         "class": 4,
@@ -13903,7 +13706,7 @@ def item_class_assign(item):
         "group": "(8)",
         "phaseval": 1,
         "id": 3053,
-        "itemId": "humbert\"sChestpiece",
+        "itemId": "humbert'sChestpiece",
         "type": ""
     },
     {
@@ -13984,7 +13787,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Humbert\"s Pants",
+        "name": "Humbert's Pants",
         "level": 29,
         "reqLevel": 24,
         "class": 4,
@@ -13993,11 +13796,11 @@ def item_class_assign(item):
         "group": "(8)",
         "phaseval": 1,
         "id": 4723,
-        "itemId": "humbert\"sPants",
+        "itemId": "humbert'sPants",
         "type": ""
     },
     {
-        "name": "Garneg\"s War Belt",
+        "name": "Garneg's War Belt",
         "level": 29,
         "reqLevel": 24,
         "class": 4,
@@ -14005,7 +13808,7 @@ def item_class_assign(item):
         "percent": 0.01123595505618,
         "group": "(8)",
         "id": 6200,
-        "itemId": "garneg\"sWarBelt",
+        "itemId": "garneg'sWarBelt",
         "type": ""
     },
     {
@@ -14200,7 +14003,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Sage\"s Sash",
+        "name": "Sage's Sash",
         "level": 29,
         "reqLevel": 24,
         "class": 4,
@@ -14209,11 +14012,11 @@ def item_class_assign(item):
         "group": "(8)",
         "phaseval": 1,
         "id": 6611,
-        "itemId": "sage\"sSash",
+        "itemId": "sage'sSash",
         "type": ""
     },
     {
-        "name": "Sage\"s Boots",
+        "name": "Sage's Boots",
         "level": 28,
         "reqLevel": 23,
         "class": 4,
@@ -14222,11 +14025,11 @@ def item_class_assign(item):
         "group": "(8)",
         "phaseval": 1,
         "id": 6612,
-        "itemId": "sage\"sBoots",
+        "itemId": "sage'sBoots",
         "type": ""
     },
     {
-        "name": "Sage\"s Bracers",
+        "name": "Sage's Bracers",
         "level": 28,
         "reqLevel": 23,
         "class": 4,
@@ -14235,11 +14038,11 @@ def item_class_assign(item):
         "group": "(8)",
         "phaseval": 1,
         "id": 6613,
-        "itemId": "sage\"sBracers",
+        "itemId": "sage'sBracers",
         "type": ""
     },
     {
-        "name": "Sage\"s Cloak",
+        "name": "Sage's Cloak",
         "level": 28,
         "reqLevel": 23,
         "class": 4,
@@ -14248,11 +14051,11 @@ def item_class_assign(item):
         "group": "(8)",
         "phaseval": 1,
         "id": 6614,
-        "itemId": "sage\"sCloak",
+        "itemId": "sage'sCloak",
         "type": ""
     },
     {
-        "name": "Sage\"s Gloves",
+        "name": "Sage's Gloves",
         "level": 29,
         "reqLevel": 24,
         "class": 4,
@@ -14261,7 +14064,7 @@ def item_class_assign(item):
         "group": "(8)",
         "phaseval": 1,
         "id": 6615,
-        "itemId": "sage\"sGloves",
+        "itemId": "sage'sGloves",
         "type": ""
     },
     {
@@ -14473,7 +14276,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Watcher\"s Handwraps",
+        "name": "Watcher's Handwraps",
         "level": 28,
         "reqLevel": 23,
         "class": 4,
@@ -14482,11 +14285,11 @@ def item_class_assign(item):
         "group": "(8)",
         "phaseval": 1,
         "id": 14181,
-        "itemId": "watcher\"sHandwraps",
+        "itemId": "watcher'sHandwraps",
         "type": ""
     },
     {
-        "name": "Watcher\"s Mantle",
+        "name": "Watcher's Mantle",
         "level": 28,
         "reqLevel": 23,
         "class": 4,
@@ -14495,7 +14298,7 @@ def item_class_assign(item):
         "group": "(8)",
         "phaseval": 1,
         "id": 14182,
-        "itemId": "watcher\"sMantle",
+        "itemId": "watcher'sMantle",
         "type": ""
     },
     {
@@ -14668,7 +14471,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Slayer\"s Cuffs",
+        "name": "Slayer's Cuffs",
         "level": 28,
         "reqLevel": 23,
         "class": 4,
@@ -14676,11 +14479,11 @@ def item_class_assign(item):
         "percent": 0.01123595505618,
         "group": "(8)",
         "id": 14750,
-        "itemId": "slayer\"sCuffs",
+        "itemId": "slayer'sCuffs",
         "type": ""
     },
     {
-        "name": "Slayer\"s Gloves",
+        "name": "Slayer's Gloves",
         "level": 29,
         "reqLevel": 24,
         "class": 4,
@@ -14689,11 +14492,11 @@ def item_class_assign(item):
         "group": "(8)",
         "phaseval": 1,
         "id": 14754,
-        "itemId": "slayer\"sGloves",
+        "itemId": "slayer'sGloves",
         "type": ""
     },
     {
-        "name": "Slayer\"s Sash",
+        "name": "Slayer's Sash",
         "level": 28,
         "reqLevel": 23,
         "class": 4,
@@ -14701,11 +14504,11 @@ def item_class_assign(item):
         "percent": 0.01123595505618,
         "group": "(8)",
         "id": 14755,
-        "itemId": "slayer\"sSash",
+        "itemId": "slayer'sSash",
         "type": ""
     },
     {
-        "name": "Slayer\"s Slippers",
+        "name": "Slayer's Slippers",
         "level": 29,
         "reqLevel": 24,
         "class": 4,
@@ -14714,7 +14517,7 @@ def item_class_assign(item):
         "group": "(8)",
         "phaseval": 1,
         "id": 14756,
-        "itemId": "slayer\"sSlippers",
+        "itemId": "slayer'sSlippers",
         "type": ""
     },
     {
@@ -14770,7 +14573,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Cutthroat\"s Armguards",
+        "name": "Cutthroat's Armguards",
         "level": 29,
         "reqLevel": 24,
         "class": 4,
@@ -14779,7 +14582,7 @@ def item_class_assign(item):
         "group": "(8)",
         "phaseval": 1,
         "id": 15132,
-        "itemId": "cutthroat\"sArmguards",
+        "itemId": "cutthroat'sArmguards",
         "type": ""
     },
     {
@@ -14796,7 +14599,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Wrangler\"s Wraps",
+        "name": "Wrangler's Wraps",
         "level": 29,
         "reqLevel": 24,
         "class": 4,
@@ -14805,11 +14608,11 @@ def item_class_assign(item):
         "group": "(8)",
         "phaseval": 1,
         "id": 15337,
-        "itemId": "wrangler\"sWraps",
+        "itemId": "wrangler'sWraps",
         "type": ""
     },
     {
-        "name": "Wrangler\"s Mantle",
+        "name": "Wrangler's Mantle",
         "level": 28,
         "reqLevel": 23,
         "class": 4,
@@ -14818,7 +14621,7 @@ def item_class_assign(item):
         "group": "(8)",
         "phaseval": 1,
         "id": 15338,
-        "itemId": "wrangler\"sMantle",
+        "itemId": "wrangler'sMantle",
         "type": ""
     },
     {
@@ -14848,7 +14651,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Sentry\"s Slippers",
+        "name": "Sentry's Slippers",
         "level": 28,
         "reqLevel": 23,
         "class": 4,
@@ -14857,11 +14660,11 @@ def item_class_assign(item):
         "group": "(8)",
         "phaseval": 1,
         "id": 15525,
-        "itemId": "sentry\"sSlippers",
+        "itemId": "sentry'sSlippers",
         "type": ""
     },
     {
-        "name": "Sentry\"s Leggings",
+        "name": "Sentry's Leggings",
         "level": 29,
         "reqLevel": 24,
         "class": 4,
@@ -14869,7 +14672,7 @@ def item_class_assign(item):
         "percent": 0.01123595505618,
         "group": "(8)",
         "id": 15529,
-        "itemId": "sentry\"sLeggings",
+        "itemId": "sentry'sLeggings",
         "type": ""
     },
     {
@@ -14967,20 +14770,20 @@ def item_class_assign(item):
         "name": "Murloc Fin",
         "level": 16,
         "class": 7,
-        "subclass": 0,
+        "subclass": 8,
         "percent": 13.201,
         "id": 1468,
         "itemId": "murlocFin",
         "type": ""
     },
     {
-        "name": "Rolfand Malakai\"s Medallions",
+        "name": "Rolfand Malakai's Medallions",
         "level": 1,
         "class": 12,
         "subclass": 0,
         "percent": 40,
         "id": 735,
-        "itemId": "rolfandMalakai\"sMedallions",
+        "itemId": "rolfandMalakai'sMedallions",
         "type": ""
     },
     {
@@ -15120,7 +14923,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "4 Lil Timmy\"s Peashooter",
+        "name": "4 Lil Timmy's Peashooter",
         "level": 21,
         "reqLevel": 16,
         "class": 2,
@@ -15129,14 +14932,14 @@ def item_class_assign(item):
         "group": "(2)",
         "phaseval": 1,
         "id": 13136,
-        "itemId": "4LilTimmy\"sPeashooter",
+        "itemId": "4LilTimmy'sPeashooter",
         "type": ""
     },
     {
         "name": "Mageweave Cloth",
         "level": 40,
         "class": 7,
-        "subclass": 0,
+        "subclass": 5,
         "percent": 6.04,
         "id": 4338,
         "itemId": "mageweaveCloth",
@@ -15645,7 +15448,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Overseer\"s Cloak",
+        "name": "Overseer's Cloak",
         "level": 20,
         "reqLevel": 15,
         "class": 4,
@@ -15653,7 +15456,7 @@ def item_class_assign(item):
         "percent": 0.23,
         "phaseval": 1,
         "id": 1190,
-        "itemId": "overseer\"sCloak",
+        "itemId": "overseer'sCloak",
         "type": ""
     },
     {
@@ -15717,7 +15520,7 @@ def item_class_assign(item):
         "type": ""
     },
     {
-        "name": "Journeyman\"s Bracers",
+        "name": "Journeyman's Bracers",
         "level": 8,
         "reqLevel": 3,
         "class": 4,
@@ -15725,11 +15528,11 @@ def item_class_assign(item):
         "percent": 0.18,
         "phaseval": 1,
         "id": 3641,
-        "itemId": "journeyman\"sBracers",
+        "itemId": "journeyman'sBracers",
         "type": ""
     },
     {
-        "name": "Warrior\"s Cloak",
+        "name": "Warrior's Cloak",
         "level": 8,
         "reqLevel": 3,
         "class": 4,
@@ -15737,22 +15540,22 @@ def item_class_assign(item):
         "percent": 0.14,
         "phaseval": 1,
         "id": 4658,
-        "itemId": "warrior\"sCloak",
+        "itemId": "warrior'sCloak",
         "type": ""
     },
     {
-        "name": "Warrior\"s Girdle",
+        "name": "Warrior's Girdle",
         "level": 8,
         "reqLevel": 3,
         "class": 4,
         "subclass": 3,
         "percent": 0.16,
         "id": 4659,
-        "itemId": "warrior\"sGirdle",
+        "itemId": "warrior'sGirdle",
         "type": ""
     },
     {
-        "name": "Journeyman\"s Cloak",
+        "name": "Journeyman's Cloak",
         "level": 8,
         "reqLevel": 3,
         "class": 4,
@@ -15760,7 +15563,7 @@ def item_class_assign(item):
         "percent": 0.22,
         "phaseval": 1,
         "id": 4662,
-        "itemId": "journeyman\"sCloak",
+        "itemId": "journeyman'sCloak",
         "type": ""
     },
     {
@@ -15779,7 +15582,7 @@ def item_class_assign(item):
         "name": "Crawler Meat",
         "level": 13,
         "class": 7,
-        "subclass": 0,
+        "subclass": 8,
         "percent": 42.5919,
         "id": 2674,
         "itemId": "crawlerMeat",
@@ -15789,7 +15592,7 @@ def item_class_assign(item):
         "name": "Crawler Claw",
         "level": 13,
         "class": 7,
-        "subclass": 0,
+        "subclass": 8,
         "percent": 44.389,
         "id": 2675,
         "itemId": "crawlerClaw",
