@@ -1,0 +1,6 @@
+source .venv/bin/activate to start the VENV
+sudo chown -R savoelh saldeen/ for permissions
+pip install chromadb
+pip install ollama-python
+pip install scikit-learn
+ollama pull nomic-embed-text

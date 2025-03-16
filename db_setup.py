@@ -11,10 +11,18 @@ def process_data():
     # Get data into chroma db
     # Initialize Chroma
     client = chromadb.PersistentClient(path="westfall_db")
-    ollama_ef = embedding_functions.OllamaEmbeddingFunction(
-        model_name="nomic-embed-text", url="http://localhost:11434/api/embeddings"
-    )
-
+    try:
+        ollama_ef = embedding_functions.OllamaEmbeddingFunction(
+            model_name="nomic-embed-text",
+            url="http://localhost:11434/api/embeddings"
+        )
+        # Test connection
+        test_result = ollama_ef(["Test connection"])
+        if not test_result:
+            raise ConnectionError("Could not connect to Ollama service")
+    except Exception as e:
+        print("Error initializing Ollama:", str(e))
+        return
     try:
         client.delete_collection(name="westfall")
     except chromadb.errors.CollectionNotFoundError:
@@ -70,7 +78,6 @@ def process_data():
                     "rarity": rarity,
                     "subType": item_classes["item_sub_type"],
                 }
-                print(metadata)
                 documents.append(doc_text)
                 metadatas.append(metadata)
             except Exception as e:
@@ -97,7 +104,7 @@ def process_data():
 
     # Check embeddings
     try:
-        embeddings = ollama_ef(documents)
+        embeddings = ollama_ef(documents)        
         if not embeddings:
             raise ValueError("Embeddings are empty")
     except Exception as e:

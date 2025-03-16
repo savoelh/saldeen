@@ -4,19 +4,7 @@ from chromadb.utils import embedding_functions
 from Helpers.inspect_db import inspect_db
 import json
 
-class FarmerSaldeenBot:
-    def __init__(self):
-        # ChromaDB setup
-        self.client = chromadb.PersistentClient(path="westfall_db")
-        self.ollama_ef = embedding_functions.OllamaEmbeddingFunction(
-            model_name="nomic-embed-text", url="http://localhost:11434/api/embeddings"
-        )
-        self.collection = self.client.get_collection(
-            "westfall", embedding_function=self.ollama_ef
-        )
-        # Enhanced system prompt remains the same
-        self.system_prompt = """[INST] <<SYS>>
-        You are Farmer Saldean from Westfall. Follow these rules:
+rule_set = """ "You are Farmer Saldean from Westfall. Follow these rules:
             1. Speak with a rough rural accent (e.g., "Darn Harvest Watchers ruinin' me melons!").
             2. You can discuss anything about Westfall.
             3. Never mention events outside Westfall.
@@ -29,10 +17,23 @@ class FarmerSaldeenBot:
         Quest Information:
         You are seeking help with the Harvest Watchers that have taken over your fields.
         You need someone to kill 20 Harvest Watchers to help reclaim your farmland.
-        This is your most pressing concern and should be mentioned first when anyone offers help, however if the user isnt offering help then do not mention it.
-        <</SYS>>[/INST]"""
+        This is your most pressing concern and should be mentioned first when anyone offers help, however if the user isnt offering help then do not mention it."""
+
+class FarmerSaldeenBot:
+    def __init__(self):
+        # ChromaDB setup
+        self.client = chromadb.PersistentClient(path="westfall_db")
+        self.ollama_ef = embedding_functions.OllamaEmbeddingFunction(
+            model_name="nomic-embed-text", url="http://localhost:11434/api/embeddings"
+        )
+        self.collection = self.client.get_collection(
+            "westfall", embedding_function=self.ollama_ef
+        )
+        # Enhanced system prompt remains the same
+        self.system_prompt = f"[INST] <<SYS>> {rule_set} <</SYS>>[/INST]"
 
     def detect_topic(self, query: str) -> str:
+        print("Started topic detection")
         """Detect the main topic of a query using Ollama."""
         prompt = f"""[INST]Analyze this query and return ONLY ONE of these topics:
         - QUESTS (if asking about tasks, help, or missions)
@@ -43,13 +44,19 @@ class FarmerSaldeenBot:
         Topic: [/INST]"""
 
         response = ollama.chat(
-            model="dolphin-mixtral",
+            # model="deepseek-r1:70b",
+            model="deepseek-r1:14b",
             messages=[{"role": "user", "content": prompt}],
             options={"temperature": 0.1},
         )
-        return response["message"]["content"].strip()
+        result = response["message"]["content"].strip()
+        result = result.replace("<think>", "").replace("</think>", "")        
+        result = result.split("\n")[-1] if "\n" in result else result
+
+        return result
 
     def extract_subject(self, query: str) -> str:
+        print("Started subject extraction")
         """Extract the main subject/entity from a query using Ollama."""
         prompt = f"""[INST]Analyze this query and extract the main subject or entity being referred to.  
         Return only the subject, nothing else.
@@ -57,19 +64,25 @@ class FarmerSaldeenBot:
         Subject: [/INST]"""
         
         response = ollama.chat(
-            model="dolphin-mixtral",
+            # model="dolphin-mixtral",
+            model="deepseek-r1:14b",
             messages=[{"role": "user", "content": prompt}],
             options={"temperature": 0.1},
         )
-        print(response)
-        return response["message"]["content"].strip()
+        # Clean up response by removing any thinking
+        result = response["message"]["content"].strip()
+        result = result.replace("<think>", "").replace("</think>", "")        
+        result = result.split("\n")[-1] if "\n" in result else result
+        
+        return result
 
     def retrieve_lore(self, query: str, n_results: int = 3):
+        print("Started retrieving lore")
         # Detect topic and extract subject
         topic = self.detect_topic(query)
         subject = self.extract_subject(query)
         print(f"Detected topic: {topic}, Subject: {subject}")
-
+    
         documents = inspect_db(topic, subject.lower(), 20)
         formatted_documents = json.dumps(documents, indent=2)
         print(formatted_documents)
@@ -77,18 +90,24 @@ class FarmerSaldeenBot:
         return formatted_documents
 
     def generate_response(self, user_input: str):
-        # Retrieve relevant context
         context = self.retrieve_lore(user_input)
-        # Build the full prompt
-        full_prompt = f"{self.system_prompt}\n[Westfall Lore]\n{context}\nUser: {user_input}\nSaldeen:"
+        full_prompt = f"""{self.system_prompt}
+        
+    [Context Information (Remember to speak in character)]\n{context}
 
-        # Generate response
+    User: {user_input}
+
+    {rule_set}
+        
+    Saldeen:"""
+
         response = ollama.chat(
-            model="dolphin-mixtral",
+            model="wizardlm2",
             messages=[{"role": "user", "content": full_prompt}],
             options={
-                "temperature": 0.3,
-                "num_ctx": 4096,
+                "temperature": 0.7,  # Increased for more creative responses
+                "num_ctx": 1000,
+                # "top_p": 0.9,
             },
         )
         return response["message"]["content"]
